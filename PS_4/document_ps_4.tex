@@ -191,7 +191,24 @@ Die Messung wurde für 3 Ordnungen der Beugungsmaxima jeweils auf beiden Seiten 
 
 
 \subsection{Spektrometrie}
+Bei der Spektrometrie [1](2.1.2) versucht man durch Untersuchungen an Absorption, Transmission und Reflexion Rückschlüsse auf die bestrahlte Materie zu machen. Materie nimmt elektromagnetische Strahlung abhängig von den vorkommenden Elementen unterschiedlich auf. \\
+Dringt Licht durch einen Körper verringert sich die Intensität nach dem Lambert-Beer'schen Gesetz wie folgt:
 
+$$I(d) = I(0) * e^{-\alpha *d}$$
+I(0)... einfallende Intensität\\
+d... Dicke der Probe\\
+$\alpha$... Absorptionskoeffizient\\
+Der exponent $A = \alpha * d$ heißt auch Absorbanz bzw. optische Dichte. Die Absorbanz kann auch über die Intensitäten beschrieben werden:
+$$A = - ln\left( \frac{I(d)}{I(0)} \right)$$
+Licht das durch die Probe hindurchtritt (also nicht absorbiert wird) heißt Transmission und ist durch folgenden Quotienten gegeben:\\
+$$T = I_{trans}/I_0$$
+Über den Zusammenhang der bisher genannten Größen kann wie in [1](p. 12) das Reflexionsvermögen definiert werden:
+$$R = \frac{(n-1)^2 + k^2}{(n+1)^2 + k^2}$$
+Mit diesen Größen lassen sich Materialspezifische Spektren errechnen. Um das Hintergrundrauschen des Sensor sowie vorhandenes Licht und Wärmestrahlung zu eliminieren werden Messungen mit leeren Proben und schwarzen Objekten vorgenommen. Diese werden dann subtrahiert um eine möglichst rauschfreie Messung zu ermöglichen.
+
+% TODO Interferenzfilter
+
+% TODO Farbfilter
 
 \subsection{Michelson-Interferometer}
 
@@ -268,7 +285,126 @@ $$a=(8.82 \pm 0.33)\mu m$$
 
 
 \subsection{Spektrometrie}
+Hier sind unsere Messergebnisse zur Spektrometrie von 3 Testflüssigkeiten. Zu vergleichen und identifizieren sind Neodym und Praseodym.
 
+\end{multicols}
+
+\textbf{Flüssigkeit A}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Absorbtion_A_DO_4.pdf}
+	\caption{Absorptionsspektrum von Flüssigkeit A}
+	\label{fig:AbsorbtionA}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Transmission_A_DO_4.pdf}
+	\caption{Transmissionsspektrum von Flüssigkeit A}
+	\label{fig:TransmissionA}
+\end{figure}
+
+\textbf{Flüssigkeit B}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Absorbtion_B_DO_4.pdf}
+	\caption{Absorptionsspektrum von Flüssigkeit B}
+	\label{fig:AbsorbtionB}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Transmission_B_DO_4.pdf}
+	\caption{Transmissionsspektrum von Flüssigkeit B}
+	\label{fig:TransmissionB}
+\end{figure}
+
+\textbf{Flüssigkeit C}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Absorbtion_CuA_DO_4.pdf}
+	\caption{Absorptionsspektrum von Flüssigkeit C über A gelegt}
+	\label{fig:AbsorbtionCuA}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Transmission_C_DO_4.pdf}
+	\caption{Transmissionsspektrum von Flüssigkeit C}
+	\label{fig:TransmissionC}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Absorbtion_CuB_DO_4.pdf}
+	\caption{Absorptionsspektrum von Flüssigkeit C über B gelegt}
+	\label{fig:AbsorbtionCuB}
+\end{figure}
+
+\textbf{Farbfilter}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Dunkel_Leer_DO_4_Kurz_Braun.pdf}
+	\caption{Leeres Spektrum ohne Filter}
+	\label{fig:FilterOhne}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Farbfilter_Absorbtion_Gruen_DO4.pdf}
+	\caption{Spektrum mit grünem Farbfilter}
+	\label{fig:FilterGruen}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Farbfilter_Absorbtion_Rot_DO4.pdf}
+	\caption{Spektrum mit rotem Farbfilter}
+	\label{fig:FilterRot}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Farbfilter_Absorbtion_Violett_Blau_DO4.pdf}
+	\caption{Spektrum mit violett-blauem Farbfilter}
+	\label{fig:FilterBlau}
+\end{figure}
+
+\textbf{Interferenzfilter}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Interferenzfilter_Leer.pdf}
+	\caption{Reflexionsspektrum ohne Interferenzfilter}
+	\label{fig:InterferenzOhne}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Interferenzfilter_Gelb.pdf}
+	\caption{Reflexionsspektrum mit Interferenzfilter gelbe Seite zugewant}
+	\label{fig:InterferenzGelb}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Interferenzfilter_Silber_480nm.pdf}
+	\caption{Reflexionsspektrum mit Interferenzfilter silber Seite zugewant}
+	\label{fig:InterferenzSilber}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5,angle = 90,trim = 20mm 20mm 20mm 20mm]{./data/Spektro/Interferenzfilter_Transmission_Gelb_Silber.pdf}
+	\caption{Transmissionsspektrum mit Interferenzfilter gelbe und silberne Seite}
+	\label{fig:InterferenzSilber}
+\end{figure}
+
+\begin{multicols}{2}
 
 \subsection{Michelson-Interferometer}
 
