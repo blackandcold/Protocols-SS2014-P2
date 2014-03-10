@@ -225,6 +225,50 @@ Mit diesen Größen lassen sich Materialspezifische Spektren errechnen. Um das H
 \subsection{Auflösungsvermögen eines Gitters}
 
 
+\begin{figure}[H]
+	\centering
+	\pgfplotstabletypeset[
+			columns={abstand_L, abstand_R, n},
+			col sep=&,
+			columns/abstand_L/.style={precision=2, zerofill, column name=\makecell{Spaltbreite L\\$(\pm 0.01)$\\$[mm]$} }, 
+			columns/abstand_R/.style={precision=2, zerofill, column name=\makecell{Spaltbreite R\\$(\pm 0.01)$\\$[mm]$} }, 
+			columns/n/.style={column name=\makecell{$n$\\$(Ordnung)$}},
+			every head row/.style={before row=\hline,after row=\hline\hline},
+			every last row/.style={after row=\hline},
+			every first column/.style={column type/.add={|}{} },
+			every last column/.style={column type/.add={}{|} }
+			]{
+			abstand_L & abstand_R & n
+			1.24 & 1.52& 2
+			0.79 & 0.87& 3
+			0.51 & 0.66 & 4
+						
+			}
+	\caption{Messwerte der Spaltbreite der Blende für linke und rechte Maxima}
+	\label{tab:blendenbreite}
+\end{figure}
+
+
+
+\textbf{Einzelergebnisse:}\\
+links:\\
+2.Odg.: $a_{2l}=(9.05\pm 0.37) \mu m$\\
+3. Odg.: $a_{3l}=(8.65 \pm 0.55) \mu m$\\
+4. Odg.: $a_{4l}=(7.45\pm 0.74)\mu m$\\
+rechts:\\
+2. Odg.: $a_{2r}=(8.62\pm 0.37)\mu m$\\
+3. Odg.: $a_{3r}=(9.53\pm 0.55) \mu m$\\
+4. Odg.:$a_{4r}=(9.64 \pm 0.74) \mu m$\\
+\\
+discarded:\\
+2.Odg r: $a_{2r-disc.}=(11.10 \pm 0.37)\mu m$\\
+\\
+\textbf{Mittelwert:}\\
+$$a=(8.82 \pm 0.33)\mu m$$
+
+
+
+
 \subsection{Spektrometrie}
 Hier sind unsere Messergebnisse zur Spektrometrie von 3 Testflüssigkeiten. Zu vergleichen und identifizieren sind Neodym und Praseodym.
 
@@ -354,6 +398,22 @@ Hier sind unsere Messergebnisse zur Spektrometrie von 3 Testflüssigkeiten. Zu v
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Diskussion}
 \subsection{Auflösungsvermögen eines Gitters}
+
+Die Auflösung des Kathetometers beträgt $0.01$ mm, die Unsicherheit für die Messungen der Blendenbreiten wurde jedoch mit $0.05$ mm abgeschätzt. Da sich in Versuchen, die gleiche Breite mehrmals zu messen, aufgrund des Fadenkreuzes und der ausgefransten Spaltenränder, eine gewisse Toleranz der Ergebnisse eingestellt hat, scheint diese eher vorsichtige Abschätzung vernünftig.\\
+Würde das Messinstrument öfter verwendet und ein besseres Gefühl für seine Handhabung entwickelt werden, wäre es sicher realistisch, kleinere unsicherheiten (eventuell bis hin zur Auflösung) zuzulassen.\\
+\\
+Im Kapitel \emph{Resultate} sind die einzelnen Ergebnisse für die Gitterkonstante, an jedem betrachteten Interferenzmaxiumum angegeben, sowie ein gemittelter Wert über alle Ergebnisse.\\
+Die Gitterkonstante des verwendeten Gitters wurde also mit \\
+$a=(8.82 \pm 0.33)\mu m$\\
+bestimmt.\\
+Da jedoch die Grenze des Auflösungsvermögens der beiden gelben Spektrallinien in einem gewissen Bereich subjektiv ist, und auch von verschiedenen Umfeldfaktoren abhängt, darf ein wesentlich größerer Unsicherheitsbereich angenommen werden, als der, der sich aus den Messunsicherheiten ergibt.\\
+Eine Einschränkung ist die Intensität der betrachteten Linien. Diese ist in der 4. Ordnung ohnehin schon sehr klein, außerdem treten hier die engsten Blendeneinstellungen auf. Dies verringert die Intensität zusätzlich und lässt die Messung sehr schwierig werden. Das zeigt sich auch darin, dass beide Messungen an den Maxima 4. Ordnung die extremsten Ergebnisse darstellen.\\
+Aber auch die anderen Messungen sind von momentanen Einflüssen gestört: Da die Blende jeweils abgenommen werden muss, um die Blendenbreite zu bestimmen, wird das Gitter immer wieder bewegt (die Blende wird fest an das Gitter geklemmt). Eine feste Vorrichtung zum Einspannen würde möglicherweise Verbesserungen bringen.\\
+Außerdem wurde das Experiment in einem Raum mit einer zweiten Gruppe durchgeführt, die etwas Licht für ihre Arbeit benötigt haben. Auch das ist ein Störeinfluss, der zwar leicht zu beseitigen wäre, aber hier aus praktischen Gründen vorliegt.\\
+Es lässt sich also nicht mit Bestimmtheit sagen, dass der wahre Wert innerhalb des Bereiches liegt.\\Nachfragen ergab, dass die Lösung mit $10 \mu m$ angegeben ist. Da jedoch alle Einzelmessungen unter diesem Wert liegen, ist trotz aller Ungenauigkeiten ein systematischer Fehler wahrscheinlich (bzw. eine ungenaue Angabe von Herstellerseite). Dies wäre in erster Näherung zu überprüfen, indem man die Ergebnisse verschiedener Gruppen miteinander vergleicht.\\
+\\
+Ein einziges Ergebnis liegt über $10\mu m$. Dieses wurde jedoch, vor seiner Berechnung verworfen, da der Messende am Goniometer während der Kathetometermessung unterbrochen hat mit der Begründung, wegen tränender Augen, die Messung am Maximum rechts, 2. Ordnung, wiederholen zu wollen.\\
+
 
 
 \subsection{Spektrometrie}
