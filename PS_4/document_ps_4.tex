@@ -212,10 +212,25 @@ Mit diesen Größen lassen sich Materialspezifische Spektren errechnen. Um das H
 
 \subsection{Michelson-Interferometer}
 
+Interferometrie ist eine methode zur Messung von Längen oder Brechungs-indizes.\\
+Im vorliegenden Fall wird die Wellenlänge eines Lasers bestimmt.\\
+Das Prinzip beruht dabei auf Interferenzerscheinungen durch Laufzeitunterschiede:\\
+Der Strahl des Lasers wird durch einen Strahlenteiler in 2 Wege aufgeteilt und wieder zusammengeführt. Bei unterschiedlicher Weglänge ergeben die Laufzeitunterschiede Interferenzerscheinungen.\\
+Hier ist ein Weg realisiert durch einen Spiegel in konstantem Abstand vom Strahlenteiler, und einen 2. Spiegel mit veränderlichem Abstand durch eine Mikrometerschraube. Für zusätzliche Genauigkeit wird diese von einem Steuerrad untersetzt angetrieben (siehe Abb.\ref{fig:Skizze_Michelson}).
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.1]{./data/Interferometer/Interferometer_skizze.png}
+	\caption{Aufbau-Skizze des Michelson-Interferometers}
+	\label{fig:Skizze_Michelson}
+\end{figure}
 
-%\end{multicols}
-%\begin{multicols}{2}
+Wird nun der eine Spiegel verschoben ist die Wellenlänge direkt bestimmbar aus dem Quotienten aus dem Wegunterschied und der Anzahl der Maxima bzw. Minima, die durchlaufen werden.\\
+Da in diesem Aufbau der Weg vom Strahlenteiler zum verschiebbaren Spiegel und zurück durchlaufen wird, ergibt sich:
+$$\lambda = \frac{2\cdot \Delta l}{N}$$
+Um genügend große Längen zu messen, und damit die Unsicherheit zu verringern, werden jeweils 100 Minima gezählt und $\Delta l$ auf der Mikrometerschraube abgelesen.\\
+Der Antrieb ist durch ein Gummiband mit der Steuerung verbunden, was auch zu einer Dämpfung führt. Der gesamte Aufbau ist dennoch höchst erschütterungsempfindlich und muss bei Bedarf nachkalibriert werden.\\
+Da außerdem von Hand durch die Minima durchgeskippt wird und auch die Zählung eine gewisse Konzentration erfordert, ist auch $N$ unsicherheitenbehaftet.
 
 
 
@@ -392,6 +407,21 @@ Hier sind unsere Messergebnisse zur Spektrometrie von 3 Testflüssigkeiten. Zu v
 \begin{multicols}{2}
 
 \subsection{Michelson-Interferometer}
+
+1. Messung:\\
+$N = (100 \pm 1)$ Minima\\
+$\Delta l = (31\pm 0.5)\mu m$\\
+$$\lambda_1=(620\pm 12)nm$$\\
+
+\noindent 2. Messung:\\
+$N=(100 \pm 4)$ Minima\\
+$\Delta l = (30 \pm 0.5) \mu m$\\
+$$\lambda_2 =(600\pm 41)nm$$\\
+
+\noindent 3. Messung:\\
+$N =(100 \pm 5)$ Minima\\
+$\Delta l = (28 \pm 0.5)\mu m$\\
+$$\lambda_3 = (560\pm 51) nm$$
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
