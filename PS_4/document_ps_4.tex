@@ -163,8 +163,13 @@ In diesem Versuch geht es darum, das Auflösungsvermögen eines Gitters für ein
 In PW8 des Anfängerpraktikums I wurden erstmals die Lichtbeugung und Interferenz am Doppelspalt sowie die Beugung am Gitter untersucht. Durch Messung der unterschiedlichen Beugungswinkel verschiedener scharf abgegrenzter Wellenlängen, wurde aus dem gemessenen Spektrum auf die Art der Lichtquelle, eine Quecksilberdampflampe, geschlossen.\\
 Der Aufbau mit Lichtquelle, Fernrohr, Gitter und Beobachtungsfernrohr an einem Goniometer wird auch nun benutzt, um die unbekannte Gitterkonstante zu bestimmen.\\
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.11]{./data/Aufloesungsvermoegen/Aufloesungsvermoegen_Aufbau.jpg}
+	\caption{Aufbau mit Lampe, Gitter, Fernrohr und Kathetometer}
+	\label{fig:Skizze_Michelson}
+\end{figure}
 
-%%%%% ABBILDUNG DES VERSUCHSAUFBAU %%%%%%
 
 
 Ausgehend vom Doppelspalt, wird die Ausprägung der Interferenzmaxima bei steigender Spaltanzahl stärker. Werden die Beugungsmaxima am Gitter einzelner Wellenlängen der Hg-Lampe also beobachtet, zeigen sich klar erkennbare deutlich abgegrenzte Linien in den entsprechenden Farben.\\
@@ -204,11 +209,10 @@ Licht das durch die Probe hindurchtritt (also nicht absorbiert wird) heißt Tran
 $$T = I_{trans}/I_0$$
 Über den Zusammenhang der bisher genannten Größen kann wie in [1](p. 12) das Reflexionsvermögen definiert werden:
 $$R = \frac{(n-1)^2 + k^2}{(n+1)^2 + k^2}$$
-Mit diesen Größen lassen sich Materialspezifische Spektren errechnen. Um das Hintergrundrauschen des Sensor sowie vorhandenes Licht und Wärmestrahlung zu eliminieren werden Messungen mit leeren Proben und schwarzen Objekten vorgenommen. Diese werden dann subtrahiert um eine möglichst rauschfreie Messung zu ermöglichen.
-
-% TODO Interferenzfilter
-
-% TODO Farbfilter
+Mit diesen Größen lassen sich Materialspezifische Spektren errechnen. Um das Hintergrundrauschen des Sensor sowie vorhandenes Licht und Wärmestrahlung zu eliminieren werden Messungen mit leeren Proben und schwarzen Objekten vorgenommen. Diese werden dann subtrahiert um eine möglichst rauschfreie Messung zu ermöglichen.\\
+\\
+Farbfilter machen sich das Absorptionsverhalten von Farben zu nutze. Dabei werden Plättchen aus Plastik oder Glas getönt. So können gewisse Wellenlängenbereiche gefiltert werden.\\
+Interferenzfilter auf der anderen Seite nützen Interferenz zur Transmission oder Auslöschung von Frequenzen. Zu diesem Zweck werden mehrere Plättchen mit unterschiedlichen Materialien bedampft. Eine Anordnung von $\lambda$/2 und $\lambda$/4 Plättchen führt zur reflexion bzw. Auslöschung von Frequenzen und zur Verstärkung einer Frequenz. Als Resultat erhält man (fast) monochromatisches Licht.
 
 \subsection{Michelson-Interferometer}
 
@@ -449,11 +453,15 @@ Ein einziges Ergebnis liegt über $10\mu m$. Dieses wurde jedoch, vor seiner Ber
 \subsection{Spektrometrie}
 Durch das einfache Messen mit dem Spektrometer konnte die Auswertung sehr genau mit dem Computer durchgeführt werden. Im ersten Beispiel sind die Spektren der beiden Testflüssigkeiten A und B eindeutig zu unterscheiden. Bei A handelt es sich laut Tabelle 1 [1](p. 19) um Praseodym. Zwischen 400nm und 500nm treten die Maxima auf und ein Maximum bei 590. Zu sehen in Abb. \ref{fig:AbsorbtionA} und \ref{fig:TransmissionA}.\\
 Bei B handelt es sich um Neodym. Zu erkennen an den Infrarot-Anteilen bei 800nm und rund 970nm in Abb. \ref{fig:TransmissionB} und \ref{fig:AbsorbtionB}.\\
-
-%TODO Interferenzfilter
-
-%TODO Farbfilter
-
+Flüssigkeit C konnte mit Überlagerung vom Spektrum A (Abb. \ref{fig:AbsorbtionCuA}) und B (Abb. \ref{fig:AbsorbtionCuB}) als Mischung identifiziert werden.\\
+\\
+Bei den Farbfiltern ist der Grüne (Abb. \ref{fig:FilterGruen}) am besten abgegrenzt. Der rote Filter (Abb. \ref{fig:FilterRot}) weißt über den roten Bereich hinaus noch einen Infrarot-Anteil auf.\\
+Am schwächsten ausgeprägt ist der blau/violette Filter (Abb. \ref{fig:FilterBlau}). Grund dafür dürfte sein das das Licht der Quelle in diesem Spektrum nicht mehr die volle Intensität aufweist.\\
+\\
+Der Interferenzfilter brachte das interessanteste Ergebnis. Reflektiert wurde hauptsächlich in Wellenlängen 900-1000nm. Um 400nm wurde absorbiert (bzw. ausgelöscht) wie in Abb. \ref{fig:InterferenzGelb} zu sehen ist. Wendet man den Filter werden ebenfalls Wellenlängen 900-1000nm reflektiert und zusätzlich alles bis auf ein Minimum bei 400nm (Abb. \ref{fig:InterferenzSelber}).\\
+\\
+Bei der Untersuchung der transmittierten Wellenlängen ist klar ein peak bei 480-490nm zu sehen.\\
+Trotz leichtem rauschen dank fettiger Fingerabdrücke auf so gut wie allen optischen Bauteilen waren die Spektren überall unterscheidbar und die Substanzen feststellbar.
 
 \subsection{Michelson-Interferometer}
 
