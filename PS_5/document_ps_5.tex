@@ -157,40 +157,48 @@
 \section{Grundlagen, Theorie und Versuchsaufbau}
 
 \subsection{Brewster Winkel}
-Durch die Eigenschaft von Licht, aus vertikalen und horizontalen Komponenten zu bestehen, wird bei einer Einstrahlung von Licht auf einen Körper (z.B. von Luft auf Glas) nur ein Teil reflektiert. Genau jener Anteil der senkrecht auf die Einfallsebene steht.\\
-Ist Licht nur einfach polarisiert und zwar senkrecht zur Einfallsebene, wird immer weniger Licht reflektiert, bis nur noch Hintergrundrauschen fest zu stellen ist.\\ 
-Der Winkel des einbestrahlten Lichtes, bei dem nichts reflektiert wird, heißt Brewster Winkel.\\
+Durch die Eigenschaft von Licht, aus vertikalen und horizontalen Komponenten zu bestehen, wird bei einer Einstrahlung von Licht auf einen Körper (z.B. von Luft auf Glas) nur ein Teil reflektiert und zwar genau jener Anteil der senkrecht auf die Einfallsebene steht.\\
+Ist Licht nur senkrecht zur Einfallsebene polarisiert, wird immer weniger Licht reflektiert, bis nur noch Hintergrundrauschen fest zu stellen ist. Dieses Rauschen stammt jedoch von Umgebungslicht oder thermischer Strahlung.\\ 
+Der Winkel des eingestrahlten Lichtes, bei dem nicht mehr reflektiert wird, heißt Brewster Winkel.\\
 Ein einfacher geometrischer Zusammenhang beschreibt wie folgt den Winkel:
 
 $$tan(\alpha_B) = \frac{n_2}{n_1}$$
 
+\noindent
+Gemessen werden kann die Lichtintensität. Lichtintensität kann mit Hilfe eines Fotowiderstandes gemessen werden. Die Funktionsweise ist wie folgt: "Je höher der Lichteinfall, desto kleiner wird aufgrund des inneren fotoelektrischen Effekts sein elektrischer Widerstand." [2] Diesen Umstand werden wir später noch benötigen.\\
+\\
+Der Aufbau zur Messung des Winkels benötigt eine planparallele Platte einen Polarisator (Prisma, [1](p. 3)) und eine Fotodiode (siehe Diskussion). Der Aufbau ist in Abbildung \ref{fig:brewster_aufbau} ersichtlich. Wie oben erwähnt wird ein Amperemeter zur Messung des hervorgerufenen Stroms genützt.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.1]{./data/PS5_1_Aufbau.jpg}
-	\caption{Aufbau zur Messung des Brewster Winkel}
+	\includegraphics[scale=0.055]{./data/PS5_1_Aufbau.jpg}
+	\caption{Aufbau zur Messung des Brewster-Winkel}
 	\label{fig:brewster_aufbau}
 \end{figure}
+\noindent
+Für eine kontinuierliche interpolation der Intensitätskurven wie in der Abbildung in [1](p. 3) oben, müssen für parallel und senkrecht polarisiertes Licht einige Messinge vorgenommen werden.\\
+Diese Messungen werden durch neue Justierung (Abb. \ref{fig:brewster_justierung}) des Probekörpers und Ausrichtung der Diode auf das Intensitätsmaximum durchgeführt.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.1]{./data/PS5_1_Justierung.jpg}
-	\caption{Nachjustierung zur Messung des Brewster Winkel}
+	\includegraphics[scale=0.055]{./data/PS5_1_Justierung.jpg}
+	\caption{Nachjustierung zur Messung des Brewster-Winkel}
 	\label{fig:brewster_justierung}
 \end{figure}
+
 
 \subsection{Spannungsoptik}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.1]{./data/PS5_2_Aufbau.jpg}
+	\includegraphics[scale=0.055]{./data/PS5_2_Aufbau.jpg}
 	\caption{Aufbau zur optischen Messung einer Doppelbrechung}
 	\label{fig:spannung_aufbau}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.1]{./data/PS5_2_Filterjustierung.jpg}
+	\includegraphics[scale=0.055]{./data/PS5_2_Filterjustierung.jpg}
 	\caption{Justierung der Polarisationsfilter mit weißem Licht}
 	\label{fig:spannung_justierung}
 \end{figure}
@@ -204,9 +212,23 @@ $$tan(\alpha_B) = \frac{n_2}{n_1}$$
 \section{Resultate}
 
 \subsection{Brewster Winkel}
+\textbf{Senkrecht Polarisiert}\\
+Bei $180^\circ$ (nicht exakt, da Detektor nicht im Zentrum des Gehäuses) gibt es ein Maximum der Intensität mit \textbf{(0.94 $\pm$ 0.005)mA}.\\
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.28]{./data/R_S_Plot.png}
+	\caption{Reflexionsvermögen senkrecht polarisiertes Licht mit polynomiellem Fit}
+	\label{fig:r_s_plot}
+\end{figure}
 
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.28]{./data/R_P_Plot.png}
+	\caption{Reflexionsvermögen parallel polarisiertes Licht mit Interpolation}
+	\label{fig:r_p_plot}
+\end{figure}
+In Abbildung \ref{fig:r_p_plot} ein Winkel von (55 $\pm$ 5)$^\circ$ als Brewster-Winkel ersichtlich.
 \subsection{Spannungsoptik}
 
 
@@ -222,7 +244,9 @@ $$tan(\alpha_B) = \frac{n_2}{n_1}$$
 \section{Diskussion}
 
 \subsection{Brewster Winkel}
-
+Da wir mit einem Amperemeter den Strom gemessen haben und beim Brewster Winkel kein Strom feststellbar war, wurde wohl im Anleitungstext ein Fotowiderstand (kein Strom fließt) und eine Fotodiode [3] (Strom fließt bei Einstrahlung) vertauscht. \\
+Die Resultate zeigen eindeutig das bei parallel polarisiertem Licht keine Reflexion stattfindet  (Abb. \ref{fig:r_p_plot}) bei senkrecht polarisiertem Licht jedoch Totalreflexion (Abb. \ref{fig:r_s_plot}). \\
+Der Brewster-Winkel konnte leider nur auf einige Grad genau bestimmt werden, da im zutreffenden Bereich nur noch um 1 $\mu$A messbar war, welches aber auch vom Hintergrund (Wärme, Licht von außen etc.) verursacht werden konnte. Bei einem solch kleinem Strom könnte sogar Induktion vom Netzteil die Ursache sein.
 
 
 \subsection{Spannungsoptik}
@@ -237,6 +261,8 @@ $$tan(\alpha_B) = \frac{n_2}{n_1}$$
 
 \section{Quellen}
 $[1]$ Anleitung, \url{http://www.univie.ac.at/anfpra/neu1/ps/ps5/PS5.pdf}\\
+$[2]$ Fotowiderstand \url{https://de.wikipedia.org/wiki/Fotowiderstand}\\
+$[3]$ Fotodiode \url{https://de.wikipedia.org/wiki/Fotodiode}\\
 \end{multicols}
 
 \end{document}
