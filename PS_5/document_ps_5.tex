@@ -188,17 +188,29 @@ Diese Messungen werden durch neue Justierung (Abb. \ref{fig:brewster_justierung}
 
 
 \subsection{Spannungsoptik}
+Die Doppelbrechung tritt in anisotropen Medien auf und ruft durch z.B. Verformung oder Kompression optische Muster hervor [1](p. 6). Verwendet man weißes Licht und normal aufeinander stehende Filter (Polarisatior und Analysator, vergleiche Aufbau Abbildung \ref{fig:spannung_aufbau}) so ist nur durch das Testobjekt Licht sichtbar (Abb. \ref{fig:spannung_justierung}). Wird nun kein weißes Licht sondern Licht in einem schmalen Band verwendet, werden dunkle Linien bei Erhöhung des Drucks sichtbar.\\
+Diese Linien kommen zu Stande, da durch die Verformung das polarisierte Licht doppelt (Spannungsdoppelbrechung) gebrochen wird und in Komponenten anderer Ausrichtung aufgespalten wird. Dadurch kommt es bei diesen Komponenten zu einem Gangunterschied (Bei gleichen Amplituden [1](p. 7)). Ist die Aufspaltung unter einem Winkel von 180$^\circ$ so tritt beim Analysator Auslöschung auf. Dabei ist die beherrschende Größe der Druckunterschied:
+
+$$\delta = \frac{C}{\lambda}*d*(\sigma_1 - \sigma_2) * d$$
+
+\noindent
+wobei:\\
+$\delta$ \ldots Gangunterschied\\
+$\lambda$ \ldots Wellenlänge monochromatisches Licht\\
+$C$ \ldots Materialkonstante\\
+$\sigma_x$ \ldots Druck\\
+$d$ \ldots Dicke der Probe\\
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.055]{./data/PS5_2_Aufbau.jpg}
+	\includegraphics[scale=0.09,angle=-90]{./data/PS5_2_Aufbau.jpg}
 	\caption{Aufbau zur optischen Messung einer Doppelbrechung}
 	\label{fig:spannung_aufbau}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.055]{./data/PS5_2_Filterjustierung.jpg}
+	\includegraphics[scale=0.1,angle=-90]{./data/PS5_2_Filterjustierung.jpg}
 	\caption{Justierung der Polarisationsfilter mit weißem Licht}
 	\label{fig:spannung_justierung}
 \end{figure}
