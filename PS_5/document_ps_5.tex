@@ -165,9 +165,9 @@ Ein einfacher geometrischer Zusammenhang beschreibt wie folgt den Winkel:
 $$tan(\alpha_B) = \frac{n_2}{n_1}$$
 
 \noindent
-Gemessen werden kann die Lichtintensität. Lichtintensität kann mit Hilfe eines Fotowiderstandes gemessen werden. Die Funktionsweise ist wie folgt: "Je höher der Lichteinfall, desto kleiner wird aufgrund des inneren fotoelektrischen Effekts sein elektrischer Widerstand." [2] Diesen Umstand werden wir später noch benötigen.\\
+Gemessen werden kann die Lichtintensität. Sie kann mit Hilfe eines Fotowiderstandes gemessen werden. Die Funktionsweise ist wie folgt: "Je höher der Lichteinfall, desto kleiner wird aufgrund des inneren fotoelektrischen Effekts sein elektrischer Widerstand." [2] Dieser Umstand wird in diesem Versuch benutzt.\\
 \\
-Der Aufbau zur Messung des Winkels benötigt eine planparallele Platte einen Polarisator (Prisma, [1](p. 3)) und eine Fotodiode (siehe Diskussion). Der Aufbau ist in Abbildung \ref{fig:brewster_aufbau} ersichtlich. Wie oben erwähnt wird ein Amperemeter zur Messung des hervorgerufenen Stroms genützt.
+Der Aufbau zur Messung des Winkels besteht aus einer planparallelen Platte, einem Polarisator (Prisma, [1](p. 3)) und einer Fotodiode (siehe Diskussion). Der Aufbau ist in Abbildung \ref{fig:brewster_aufbau} ersichtlich. Wie oben erwähnt, wird ein Amperemeter zur Messung des hervorgerufenen Stroms genützt.
 
 \begin{figure}[H]
 	\centering
@@ -175,8 +175,9 @@ Der Aufbau zur Messung des Winkels benötigt eine planparallele Platte einen Pol
 	\caption{Aufbau zur Messung des Brewster-Winkel}
 	\label{fig:brewster_aufbau}
 \end{figure}
+
 \noindent
-Für eine kontinuierliche interpolation der Intensitätskurven wie in der Abbildung in [1](p. 3) oben, müssen für parallel und senkrecht polarisiertes Licht einige Messinge vorgenommen werden.\\
+Für eine kontinuierliche Interpolation der Intensitätskurven, wie in der Abbildung in [1](p. 3) oben, müssen für parallel und senkrecht polarisiertes Licht einige Messungen vorgenommen werden.\\
 Diese Messungen werden durch neue Justierung (Abb. \ref{fig:brewster_justierung}) des Probekörpers und Ausrichtung der Diode auf das Intensitätsmaximum durchgeführt.
 
 \begin{figure}[H]
@@ -188,32 +189,46 @@ Diese Messungen werden durch neue Justierung (Abb. \ref{fig:brewster_justierung}
 
 
 \subsection{Spannungsoptik}
-Die Doppelbrechung tritt in anisotropen Medien auf und ruft durch z.B. Verformung oder Kompression optische Muster hervor [1](p. 6). Verwendet man weißes Licht und normal aufeinander stehende Filter (Polarisatior und Analysator, vergleiche Aufbau Abbildung \ref{fig:spannung_aufbau}) so ist nur durch das Testobjekt Licht sichtbar (Abb. \ref{fig:spannung_justierung}). Wird nun kein weißes Licht sondern Licht in einem schmalen Band verwendet, werden dunkle Linien bei Erhöhung des Drucks sichtbar.\\
-Diese Linien kommen zu Stande, da durch die Verformung das polarisierte Licht doppelt (Spannungsdoppelbrechung) gebrochen wird und in Komponenten anderer Ausrichtung aufgespalten wird. Dadurch kommt es bei diesen Komponenten zu einem Gangunterschied (Bei gleichen Amplituden [1](p. 7)). Ist die Aufspaltung unter einem Winkel von 180$^\circ$ so tritt beim Analysator Auslöschung auf. Dabei ist die beherrschende Größe der Druckunterschied:
+Die Doppelbrechung tritt in anisotropen Medien auf und ruft, z.B. durch Verformung oder Kompression, optische Muster hervor [1](p. 6). Verwendet man weißes Licht und normal aufeinander stehende Filter (Polarisatior und Analysator, vgl. Aufbau, Abbildung \ref{fig:spannung_aufbau}), so ist nur durch das Testobjekt Licht sichtbar (Abb. \ref{fig:spannung_justierung}). Wird nun kein weißes Licht, sondern monochromatisches verwendet, werden dunkle Linien bei Erhöhung des Drucks sichtbar.\\
+Diese Linien kommen zu Stande, da durch die Verformung das polarisierte Licht doppelt (\emph{Spannungsdoppelbrechung}) gebrochen wird und in Komponenten anderer Ausrichtung aufgespalten wird. Dadurch kommt es bei diesen Komponenten zu einem Gangunterschied (Bei gleichen Amplituden [1](p. 7)). Ist die Aufspaltung unter einem Winkel von 180$^\circ$ so tritt beim Analysator Auslöschung auf. Dabei ist die beherrschende Größe der Druckunterschied:
 
-$$\delta = \frac{C}{\lambda}*d*(\sigma_1 - \sigma_2) * d$$
+$$\delta = \frac{C}{\lambda} \cdot (\sigma_1 - \sigma_2) \cdot d$$
 
 \noindent
 wobei:\\
-$\delta$ \ldots Gangunterschied\\
-$\lambda$ \ldots Wellenlänge monochromatisches Licht\\
-$C$ \ldots Materialkonstante\\
+$\delta$ \ldots Ordnung der Isokline\\
+$\lambda$ \ldots Wellenlänge monochromatisches \\
+\indent Licht\\
+$C$ \ldots gesuchte Materialkonstante \\
+\indent in ($m^2/N$)\\
 $\sigma_x$ \ldots Druck\\
 $d$ \ldots Dicke der Probe\\
 
+Der Druck wird in diesem Versuch nur in einer Achse auf die Probe ausgeübt, daher ist $\sigma_2 = 0$.\\
+Da die Ordnung der Isokline nicht mit Sicherheit bekannt ist, werden die Gleichungen für je 2 benachbarte Ordnungen subtrahiert und mit dem Druckunterschied 2er Ordnungen gerechnet:
+$$C = \frac{\Delta \delta \cdot \lambda}{\Delta \sigma_1 \cdot d}$$
+wobei $\Delta \delta = 1$.\\
+
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.09,angle=-90]{./data/PS5_2_Aufbau.jpg}
+	\includegraphics[scale=0.07,angle=-90]{./data/PS5_2_Aufbau.jpg}
 	\caption{Aufbau zur optischen Messung einer Doppelbrechung}
 	\label{fig:spannung_aufbau}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.1,angle=-90]{./data/PS5_2_Filterjustierung.jpg}
+	\includegraphics[scale=0.065,angle=-90]{./data/PS5_2_Filterjustierung.jpg}
 	\caption{Justierung der Polarisationsfilter mit weißem Licht}
 	\label{fig:spannung_justierung}
 \end{figure}
+
+
+
+Der gemessene Druck in der Presse muss, wegen Flächenunterschied zwischen Pressangriffspunkt und Probendurchmesser, im Verhältnis umgerechnet werden. Da auch die Dicke der Probe in die Rechnung eingeht, kürzt sich diese mit ihrem Anteil an der Probenquerschnittsfläche. Damit verschwindet auch die (korrelierte) Unsicherheit aus der Dicke, und es bleibt nur die Breite der Probe als Messgröße neben dem Druck.\\
+Die in der Literatur übliche Darstellung $S= \frac{\lambda}{C}$ in N/mm ist die letztendlich gesuchte.
+
 
 \subsection{Drehung der Polarisationsebene}
 
@@ -263,7 +278,7 @@ Bei $180^\circ$ (nicht exakt, da Detektor nicht im Zentrum des Gehäuses) gibt e
 	\caption{Reflexionsvermögen parallel polarisiertes Licht mit Interpolation}
 	\label{fig:r_p_plot}
 \end{figure}
-In Abbildung \ref{fig:r_p_plot} ein Winkel von (55 $\pm$ 5)$^\circ$ als Brewster-Winkel ersichtlich.
+In Abbildung \ref{fig:r_p_plot} ein Winkel von (55 $\pm$ 5)$^\circ$ als Brewster-Winkel zu sehen.
 
 
 
@@ -314,19 +329,22 @@ $$[\alpha] = (69.7 \pm 3.1)$$
 \section{Diskussion}
 
 \subsection{Brewster Winkel}
-Da wir mit einem Amperemeter den Strom gemessen haben und beim Brewster Winkel kein Strom feststellbar war, wurde wohl im Anleitungstext ein Fotowiderstand (kein Strom fließt) und eine Fotodiode [3] (Strom fließt bei Einstrahlung) vertauscht. \\
-Die Resultate zeigen eindeutig das bei parallel polarisiertem Licht keine Reflexion stattfindet  (Abb. \ref{fig:r_p_plot}) bei senkrecht polarisiertem Licht jedoch Totalreflexion (Abb. \ref{fig:r_s_plot}). \\
-Der Brewster-Winkel konnte leider nur auf einige Grad genau bestimmt werden, da im zutreffenden Bereich nur noch um 1 $\mu$A messbar war, welches aber auch vom Hintergrund (Wärme, Licht von außen etc.) verursacht werden konnte. Bei einem solch kleinem Strom könnte sogar Induktion vom Netzteil die Ursache sein.
+Da in diesem Versuch der Strom mit dem Amperemeter gemessen wurde und beim Brewster Winkel kein Strom feststellbar war, wurde wohl im Anleitungstext ein Fotowiderstand (kein Strom fließt) und eine Fotodiode [3] (Strom fließt bei Einstrahlung) vertauscht. \\
+Die Resultate zeigen eindeutig, dass bei parallel polarisiertem Licht keine Reflexion stattfindet  (Abb. \ref{fig:r_p_plot}) bei senkrecht polarisiertem Licht jedoch Totalreflexion (Abb. \ref{fig:r_s_plot}). \\
+Der Brewster-Winkel konnte leider nur auf einige Grad genau bestimmt werden, da im zutreffenden Bereich nur noch um 1 $\mu$A messbar war, welches aber auch vom Hintergrund (Wärme, Licht von außen etc.) verursacht werden konnte. Bei einem solch kleinem Strom könnte sogar Induktion vom Netzteil die Ursache sein.\\
 
+\noindent Diverse qualitative Tests on-Spot haben gezeigt, dass Einflüsse vorliegen, die Umstände der Versuchsdurchführung (Praktikumsräume, Kollegen von anderen Gruppen im gleichen Raum, Licht, Kabelwege etc.) lassen aber keine genaueren Aussagen über die Stärke der jeweiligen Einflüsse zu.\\
+Es wurde daher versucht, zumindest die erkennbaren Einflüsse so konstant wie möglich zu halten (Winkel und Abschirmung der Lampe zum Ablesen der Messung, Lage der Kabel etc.)\\
+Der gesuchte Spannungsverlauf für beide Polarisationsrichtungen ist jedoch gut zu erkennen.
 
 \subsection{Spannungsoptik}
 
 Bedingt durch die grobe Auflösung (0.5 bar bei Werten zwischen 3 und 15 bar) des Hauptmesswertes, streuen die einzelnen Ergebnisse sehr stark. Die Auflösung wirkt sich auch auf die Unsicherheit aus: Der Anteil, der durch die Dicke der Probe entsteht ist um 2 Größenordnungen kleiner, als die Unsicherheit aus der Druckmessung, und damit für alle Messungen zu vernachlässigen.\\
-Der Mittelwert der Einzelergebnisse covert mit seiner Unsicherheit alle Ergebnisse (beinahe) und wirkt, wie auch die Einzelmessungen plausibel, soweit das zu beurteilen ist; Es wäre interessant, mit einem deutlich genaueren Messgerät das Experiment zu wiederholen:
+Der Mittelwert der Einzelergebnisse covert mit seiner Unsicherheit alle Ergebnisse (beinahe) und wirkt, wie auch die Einzelmessungen plausibel, soweit das zu beurteilen ist; Es wäre interessant, mit einem deutlich genaueren Messgerät das Experiment zu wiederholen:\\
 Bedingt durch die Übersetzung des Drucks auf die Probe, fällt die Dicke der Probe sogar aus der Rechnung heraus und erzeugt keine Unsicherheit; die Breite wurde mit einer Schiebelehre so genau gemessen, dass die Unsicherheit vernachlässigbar ist; auch die Durchführung der Messung selbst lässt sich, dank Hebel und ein wenig Geschick, durchaus genau durchführen;\\
 Unmittelbar in der ersten Durchführung war qualitativ zu bemerken, dass die Skala der Presse sehr grob im Vergleich zur Messgröße ist.\\
 \\
-Angesichts dieses Befundes lässt sich kaum etwas über die Probe, Polarisationsfilter oder Lichtquelle aussagen, während das gesamte look \& feel des Experimentes vermuten lässt, dass genaue Ergebnisse möglich und einfach zu erhalten wären.
+Angesichts dieses Befundes lässt sich kaum etwas über die Probe, Polarisationsfilter oder Lichtquelle aussagen, während das gesamte look \& feel des Experimentes (die Polarisationsfilter lassen sich gut feinjustieren, die Isoklinen sind eindeutig zu sehen und die Presse gut und genau steuerbar) vermuten lässt, dass genaue Ergebnisse möglich und durchaus einfach zu erhalten wären.
 
 \subsection{Drehung der Polarisationsebene}
 
