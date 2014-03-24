@@ -167,7 +167,53 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Wärmestrahlung}
 
+In diesem Versuch wird die Temperatur des Glühdrahtes einer Glühbirne gemessen, unter Ausnutzung der Wärmestrahlung, die von ihm abgegeben wird.
+
 \subsection{Grundlagen, Theorie und Versuchsaufbau}
+
+Jeder Körper emittiert Wärmestrahlung. Ab einer gewissen Temperatur kommt auch sichtbares Licht dazu (wie eben in einer Glühbirne).\\
+
+\textbf{Aufbau:}\\
+Die Glühlampe, ein Filter und eine Fotozelle (zur Messung der Intentsität) sind auf einer Schiene montiert. Strom sowie Spannung, mit der die Glühbirne versorgt wird, werden mit 2 Multimetern gemessen (um letztendlich die Leistung zu berechnen); ein weiteres Voltmeter misst die Spannung, nachdem ein Strom-Spannungs-Wandler den Output der Fotozelle übersetzt hat (Abb. \ref{fig:waermestrahlung_aufbau}).
+
+
+
+
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.9]{./data/waermestrahlung_aufbau.png}
+	\caption{Versuchsaufbau zur Messung der Wärmestrahlung einer Glühlampe}
+	\label{fig:waermestrahlung_aufbau}
+\end{figure}
+\begin{multicols}{2}
+
+
+Das Licht wird gefiltert um monochromatisches bzw. einen sehr eng eingegrenzten Wellenlängenbereich zu messen (hier $\lambda = 560nm)$. In diesem Versuch wird nämlich das Planck'sche Strahlungsgesetz verwendet, das die Strahlungsenergie, abhängig von Temperatur des strahlenden Körpers und Wellenlänge der Strahlung, angibt:
+$$L(\lambda,T)\cdot d \lambda = \frac{2hc^2}{\lambda ^5}\cdot \frac{1}{exp(\frac{hc}{\lambda k T})-1}\cdot d\lambda$$
+Verglichen werden im Versuch 2 vorgegebene Einstellungen an der Glühbirne; der Filter bleibt gleich und damit auch die Wellenlänge; Im Quotienten aus beiden Strahlungsformeln ergibt sich, bei gleicher Wellenlänge, dass die Energien im Verhältnis der Intensitäten stehen:
+$$\frac{L(\lambda, T_1)}{L(\lambda, T_2)}=\frac{I_1}{I_2}=\frac{exp(\frac{ch}{k\lambda T_2})}{exp(\frac{ch}{k \lambda T_1})}$$
+
+Durch logarithmieren erhält man:
+
+$$ln(\frac{I_1}{I_2})=(\frac{1}{T_2}-\frac{1}{T_1})\cdot \frac{ch}{k\lambda}$$
+
+Weiters wird das Stefan-Boltzmann-Gesetz von der Umwandlung von elektrischer Leistung in Wärme verwendet, um (wiederum im Quotienten beider Konfigurationen) eine Temperatur zu substituieren:
+
+$$\frac{P_1}{P_2}=\frac{T_1^4}{T_2^4}$$
+
+Dieses Verhältnis wird auch benutzt, um, nach Berechnung einer Temperatur, die zweite zu erhalten.\\
+Eingesetzt ergibt sich zur Berechnung von $T_1$:
+$$T_1=\frac{1}{ln(\frac{I_1}{I_2})}\cdot (\sqrt[4]{\frac{P_1}{P_2}}-1)\cdot \frac{ch}{k\lambda}$$
+
+
+Die Leistungen $P_1$ und $P_2$ werden durch die gemssenen Ströme und Spannungen berechnet, 
+$\lambda$ durch den verwendeten Filter definiert.\\
+Um den Quotienten aus den Intensitäten zu erhalten, wird benutzt, dass die Beleuchtungsstärke der Fotozelle durch den Abstand von der Lichtquelle mit $1/r^2$ verringert.\\
+
+Es werden also, für beide Einstellungen an der Lichtquelle, jeweils mehrere Beleuchtungsstärken mit der Fotozelle, für verschiedenen Abständen von der Lichtquelle, gemessen. Diese werden gegen $1/r^2$ aufgetragen, um einen linearen Anstieg zu ergeben. Im linearen Fit beider Daten-Sets erhält man 2 Steigungen, die im gleichen Verhältnis stehen, wie die Intensitäten:
+$$\frac{I_1}{I_2}=\frac{r_1^2}{r_2^2}$$.
+
 
 
 \subsection{Resultate}
