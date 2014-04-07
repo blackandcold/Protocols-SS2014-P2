@@ -105,7 +105,7 @@
 \end{verbatim}
 							%Name des Betreuers, das Praktikum betreute.
 			\begin{flushleft}
-			\LARGE{\textbf{Betreuer:}}	\Large{Erhard Schafler}	
+			\LARGE{\textbf{Betreuer:}}	\Large{Johanna Akbarzadeh}	
 			\end{flushleft}
 
 %%%%%%% DECKBLATT ENDE %%%%%%%
@@ -154,9 +154,40 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Bipolartransistor}
+\noindent In PS08 wird die Funktionsweise und das Verhalten von Transistoren untersucht, sowie konkret diverse Kennlinien einerseits eines bipolaren Transistors und andererseits eines Feldeffekttransistors gemessen und dargestellt.\\
 
+Ein Transistor ist ein Bauteil in dem eine Eingangsspannung ein Ausgangssignal steuert, also ein steuerbarer (genauer "übertragender") Widerstand. Sowohl als elektronische Bauelemente (wie zum Beispiel in den Messungen dieser Experimente) wie auch innerhalb von integrated circuits oder Mikrochips, in Mengen bis zu einer Größenordnung von $10^{10}$ Transistoren pro Chip, sind verschiedene Typen ausgeführt.\\
+
+
+
+\section{Bipolartransistor}
 \subsection{Grundlagen}
+In bipolaren Transistoren sind sowohl positive als auch negative Ladungsträger am Ladungstransport beteiligt (daher der Name).\\
+
+Ein Transistor ist aus 3 Schichten aufgebaut, der Basis $B$, dem Emitter $E$ und dem Kollektor $C$, jeweils mit einem Anschluss. Man unterscheidet, je nach der Dotierung der Außen- bzw der Innenschicht zwischen npn- und pnp-Transistoren, abgesehen von der Polarität der Spannungen und dem Vorzeichen der Ladungen funktionieren diese identisch.\\
+Durch diesen Aufbau ergibt sich eine Situation, ähnlich 2 Dioden, die sich eine gemeinsame Anode (npn) oder Kathode (pnp) teilen (die Basis), wobei Emitter und Kollektor unterschiedlich stark dotiert sind (Abb \ref{fig:bipolar_transistor_skizze}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.55]{./data/bipolar_transistor_skizze.png}
+	\caption{Funktionsweise eines bipolaren npn-Transistors}
+	\label{fig:bipolar_transistor_skizze}
+\end{figure}
+
+Am linken Teil der Skizze liegt keine Spannung $U_{BE}$ an der Base-Emitter-Schleife an. Beide Sperrschichten im Transistor sind geschlossen und kein Strom fließt.\\
+Sobald eine Spannung an diesem Kreis anliegt, verschwindet die Sperrschicht Base-Emitter (wie bei einer Diode). Elektronen aus dem Emitter gelangen in die Basis (und Löcher aus der Basis pflanzen sich umgekehrt fort - daher "bipolar").\\
+Hier kommt zum tragen, dass die Basis sehr dünn ist und schwach dotiert. Das führt dazu, dass nur ein sehr kleiner Teil der Ladungen ($<1\%$) mit den Löchern der Basis rekombiniert und zu einem Basisstrom führt. Der überwiegende Teil der Ladungen geht über die dünne Basisschicht, angezogen vom großen Potential des Kollektors in die Schleife zwischen Kollektor und Emitter, zur Spannungsquelle $U_{CE}$.\\
+Im Fall einer Verstärkung beispielsweise lässt sich so also durch ein Signal $U_{BE}$, mit kleinen Amplituden, der Spannungsverlauf in $U_{CE}$, mit wesentlich höheren Spannungen, steuern.\\
+
+
+\subsection{Versuchsaufbau}
+
+In diesem Versuch werden verschiedene Kennlinien eines bipolaren Transistors ("BC 548B", npn) vermessen. Dazu wird das RC2000-System verwendet, ein Modulsystem, bestehend aus Software zur Messung und Darstellung der Daten, einem Steckbrett mit Anschlüssen für Untermodule. Hier werden ein Modul mit fest verdrahteten Anschlüssen, passend zum Vermessen von Transistoren, eine Gleichspannungsquelle, ein Wavegenerator und dazu ein Verstärkermodul verwendet.\\
+Mit dem RC2000 können gleichzeitig 2 Spannungen gemessen werden, wobei eine vom System direkt gesteuert wird und in einem definierten Bereich einen Sweep durchführt, um eben eine Kennlinie zu messen. Ströme werden indirekt gemessen, indem die Software aus einer Spannungsmessung an einem bekannten Widerstand den Strom direkt berechnet.\\
+
+
+
+
 
 \subsection{Resultate}
 
