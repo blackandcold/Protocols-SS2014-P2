@@ -279,8 +279,12 @@ Abb. \ref{fig:eingangsskennlinien} und \ref{fig:verstaerker_faktor} zeigen die S
 Abb. \ref{fig:ausgangskennlinienfeld} zeigt die Verstärkung von 4 Signalen mit diskreter Spannung, bei einer Betriebsspannung zwischen 0V und 10V.\\
 Gut erkennnbar ist, dass die Verstärkung ab etwa 0.25V Betriebsspannung für alle Input-Spannungen stabil wird.\\
 
+In Abb. \ref{fig:kleinsignalverstaerkung} wird eine sinusförmige Wechselspannung, um einen Faktor von etwa 20, verstärkt (Output A, gelb, Input B, blau). Ein leichter Phasenversatz ist erkennbar. Das Signal wird, im Rahmen der Darstellung, sauber wiedergegeben.\\
+Danach wurde der Transistor erhitzt. Seine Temperaturabhängigkeit führt zu einer Verzerrung des Signals. Die Spitzen werden einseitig 'abgeschnitten', da sich der Arbeitspunkt verschiebt (Abb. \ref{fig:kleinsignalverstaerkung_temp_cut}).\\
+Um diesen Effekt zu kompensieren, wird nun eine Stromgegenkopplung eingebaut (Abb. \ref{fig:kleinsignalverstaerkung_temp_gegen}). Das Signal wird nun, trotz Erhitzung, wiedergegeben, nur um den Verstärkungsfaktor verändert. Durch die Stromgegenkopplung entstehen jedoch Fluktuationen in einem höher frequenten Bereich.\\
 
-
+Abb. \ref{fig:frequenzabh} zeigt die Abhängigkeit der Kleinsignalverstärkung, von der Frequenz des Input-Signals.\\
+Die maximale Verstärkung wird dabei in einem Bereich von etwa 110Hz - 1200 Hz erreicht. Die untere Grenzfrequenz, also die Frequenz an der die Verstärkung auf -3dB der maximalen Verstärkung abfällt, liegt bei $(7 \pm 1)$Hz, die obere Grenzfrequenz über dem Bereich, der mit dem Frequenzgenerator des RC2000 erreichbar ist.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -328,7 +332,7 @@ Wie auch beim bipolaren Transistor, wird zur Messung das RC2000-System verwendet
 
 \subsection{Diskussion}
 In Abbildung \ref{fig:eingangskennlinien_fet} ist die Eingangskennlinie des Feld-Effekt-Transistors (FET) zu sehen.
-Diese weicht kaum vom Verhalten des normalen Transistors ab.\\
+Diese weicht kaum vom Verhalten des bipolaren Transistors ab.\\
 Die Schwierigkeit bei der Ermittlung der Eingangskennlinie des FET war die passenden Einstellungen für die Output Ramp zu finden. Von 0V-2V brachte den gewünschten Bereich.\\ 
 Des weiteren war nicht Immer klar welche Spannungen gemessen werden sollen, da die Bezeichnungen in [1] nicht sofort eingeordnet werden konnten.\\
 \\
