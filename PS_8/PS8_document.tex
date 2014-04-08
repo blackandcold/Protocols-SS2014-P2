@@ -302,15 +302,17 @@ Der Widerstand einer Leitung (deren Eingang 'Source $S$' und Ausgang 'Drain $D$'
 \end{figure}
 \begin{multicols}{2}
 
-Dabei ist die Spannung, die am Gate anliegt, im Gegensatz zum bipolar-transistor, in keiner leitenden Verbindung mit dem S-D-Kanal. Die Trennung kann durch verschiedene Bauweisen realisiert werden, in Abb. \ref{fig:FET_skizze} geschieht dies durch die pn-Sperrschicht (daher 'Sperrschicht-FET' bzw junction-field-effect 'J-FET').\\
+\noindent
+Dabei ist die Spannung, die am Gate anliegt, im Gegensatz zum bipolar-transistor, in keiner leitenden Verbindung mit dem S-D-Kanal. Die Trennung kann durch verschiedene Bauweisen realisiert werden, in Abb. \ref{fig:FET_skizze} geschieht dies durch die pn-Sperrschicht (daher 'Sperrschicht-FET' bzw. junction-field-effect 'J-FET').\\
 Das elektrische Feld steuert also die Stärke der Sperrschicht, und das mit sehr kleinem Spannungsbedarf, da ja kein Strom fließt zwischen Gate und SD-Kanal.\\
 Bei FETs wird unterschieden zwischen solchen, die ohne anliegende Gate-Spannung im SD-Kanal offen, und denen die geschlossen sind.\\
-
+\noindent
 Wie auch beim bipolaren Transistor, wird zur Messung das RC2000-System verwendet.
 
 
-
 \subsection{Resultate}
+
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
@@ -326,6 +328,8 @@ Wie auch beim bipolaren Transistor, wird zur Messung das RC2000-System verwendet
 	\label{fig:eingangskennlinien_fet}
 \end{figure}
 
+\begin{multicols}{2}
+
 \subsection{Diskussion}
 In Abbildung \ref{fig:eingangskennlinien_fet} ist die Eingangskennlinie des Feld-Effekt-Transistors (FET) zu sehen.
 Diese weicht kaum vom Verhalten des normalen Transistors ab.\\
@@ -333,7 +337,7 @@ Die Schwierigkeit bei der Ermittlung der Eingangskennlinie des FET war die passe
 Des weiteren war nicht Immer klar welche Spannungen gemessen werden sollen, da die Bezeichnungen in [1] nicht sofort eingeordnet werden konnten.\\
 \\
 Die J-FET-Ausgangskennlinie ist ersichtlich in Abbildung \ref{fig:ausgangskennlinienfeld_fet} ersichtlich. Gemessen bei 0V, -1V, -2V und -2.5V.\\
-Die Ergebnisse der Ausgangskennlinien stimmen im Verhalten mit den in [1](p. 21) überein, jedoch ist der Anstieg im ohmschen Bereich stärker ausgeprägt. Die negativen Spannungen sind nötig da der verwendete FET beim Anlegen der Spannung den Source-Drain Kanal freilegt und somit einen Teil oder die ganze Sperrschicht leitend wird.
+Die Ergebnisse der Ausgangskennlinien stimmen im Verhalten mit den in [1](p. 21) überein, jedoch ist der Anstieg im ohmschen Bereich stärker ausgeprägt. Die negativen Spannungen sind nötig da der verwendete FET beim Anlegen der Spannung den Source-Drain Kanal freilegt (Abb. \ref{fig:FET_skizze}) und somit einen Teil oder die ganze Sperrschicht leitend wird. Dieser Vorgang wurde bereits in den Grundlagen behandelt.
 
 
 \section{Quellen}
