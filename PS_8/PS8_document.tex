@@ -197,19 +197,27 @@ Mit dem RC2000 können gleichzeitig 2 Spannungen gemessen werden, wobei eine vom
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Feldeffekt-Transistor (FET)}
 
+\subsection{Grundlagen}
+
 Auch ein FET ist ein Widerstand, der durch eine (geringe) Spannung gesteuert werden kann, und damit eben als Schalter für einen Leiter oder eben als signalverstärkendes Bauteil verwendet werden kann.\\
 Wie der bipolare Transistor hat auch der FET 3 Anschlüsse, die Funktionsweise ist aber komplett verschieden:\\
-Der Widerstand einer Leitung (deren Eingang "Source $S$" und Ausgang "Drain $D$" genannt werden) wird durch ein transversales elektrisches Feld erzeugt. Dieses wird wiederum von einer kleinen Steuerspannung am "Gate $G$"-Anschluss gesteuert (
-
-%\begin{figure}[H]
-%	\centering
-%	\includegraphics[scale=0.35]{./data/beugung.png}
-%	\caption{Beugungsmuster Einzelspalt (echtes Foto; schwarz durch weiß ersetzt)}
-%	\label{fig:beugungsmuster}
-%\end{figure}
+Der Widerstand einer Leitung (deren Eingang 'Source $S$' und Ausgang 'Drain $D$' genannt werden) wird durch ein transversales elektrisches Feld erzeugt. Dieses wird wiederum von einer kleinen Steuerspannung am 'Gate $G$'-Anschluss gesteuert (Abb. \ref{fig:FET_skizze}).
 
 
-\subsection{Grundlagen}
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{./data/FET_skizze.png}
+	\caption{Funktionsweise eines Feldeffekt-Transistors}
+	\label{fig:FET_skizze}
+\end{figure}
+\begin{multicols}{2}
+
+Dabei ist die Spannung, die am Gate anliegt, im Gegensatz zum bipolar-transistor, in keiner leitenden Verbindung mit dem S-D-Kanal. Die Trennung kann durch verschiedene Bauweisen realisiert werden, in Abb. \ref{fig:FET_skizze} geschieht dies durch die pn-Sperrschicht (daher 'Sperrschicht-FET' bzw junction-field-effect 'J-FET').\\
+Das elektrische Feld steuert also die Stärke der Sperrschicht, und das mit sehr kleinem Spannungsbedarf, da ja kein Strom fließt zwischen Gate und SD-Kanal.\\
+Bei FETs wird unterschieden zwischen solchen, die ohne anliegende Gate-Spannung im SD-Kanal offen, und denen die geschlossen sind.\\
+
+Wie auch beim bipolaren Transistor, wird zur Messung das RC2000-System verwendet.
 
 
 
