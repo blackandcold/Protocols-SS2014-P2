@@ -190,8 +190,93 @@ Mit dem RC2000 können gleichzeitig 2 Spannungen gemessen werden, wobei eine vom
 
 \subsection{Resultate}
 
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kennlinien_Emitter_Collector.png}
+	\caption{Kennlinie zwischen Base und Emitter sowie Base und Collector}
+	\label{fig:kenn_emit_coll}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Gleichstromverstaerkung.png}
+	\caption{Eingangskennlinie für die Gleichstromverstärkung}
+	\label{fig:eingangsskennlinien}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/stromverstaerkung.png}
+	\caption{Verstärkungsfaktor Gleichstromverstärker}
+	\label{fig:verstaerker_faktor}
+\end{figure}
+Verstärkungsfaktur $I_{BE}/I_{BC}= 1: (185\pm 2)$
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Ausgangskennlinienfeld.png}
+	\caption{Ausgangskennlinienfeld für die Gleichstromverstärkung}
+	\label{fig:ausgangskennlinienfeld}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung.png}
+	\caption{Kleinsignalverstärkung}
+	\label{fig:kleinsignalverstaerkung}
+\end{figure}
+
+Verstärkungsfaktor: $u_a/u_e= 1: (20 \pm 0.5)$
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung_Temp.png}
+%	\caption{Kleinsignalverstärkung mit erhöhter Temperatur}
+%	\label{fig:kleinsignalverstaerkung_temp}
+%\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung_Temp_Cut.png}
+	\caption{Kleinsignalverstärkung mit erhöhter Temperatur und sichtbarem Cut}
+	\label{fig:kleinsignalverstaerkung_temp_cut}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung_Temp_Gegenspannung.png}
+	\caption{Kleinsignalverstärkung mit erhöhter Temperatur und Gegenspannung}
+	\label{fig:kleinsignalverstaerkung_temp_gegen}
+\end{figure}
+
+Verstärkungsfaktor: $u_a/u_e= 1: (20 \pm 1)$
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.45]{./data/frequenzabhaengigkeit.png}
+	\caption{Frequenzabhängigkeit von Verstärkung und Phasenlage}
+	\label{fig:frequenzabh}
+\end{figure}
+
+\noindent untere Grenzfrequenz: $(7 \pm 1)$ Hz\\
+maximale Verstärkung im Bereich von etwa 110 Hz - 1200 Hz
+
+\begin{multicols}{2}
+
+
 
 \subsection{Diskussion}
+Im Gegensatz zu den meisten anderen Praktikumsaufgaben ist, bedingt durch das vollständig konzipierte Messsystem, wenig Spielraum für Verbesserungen im Messaufbau und dem Versuch, höhere Genauigkeiten zu erzielen.\\
+Im Folgenden werden daher vor allem die Messresultate vor allem kommentiert und etwas genauer erläutert.\\
+
+In Abb. \ref{fig:kenn_emit_coll} sind die Kennlinien der Basis-Emitter-Diode (blau, M2) und der Basis-Kollektor-Diode (gelb, M1) dargestellt.\\
+Gut erkennbar sind die verschiedenen Anstiege, bedingt durch die unterschiedlichen Dotierungen (der Emitter ist stärker dotiert als der Kollektor).\\
+
+Abb. \ref{fig:eingangsskennlinien} und \ref{fig:verstaerker_faktor} zeigen die Stromsteuerkennlinie bzw. Gleichstromverstärkung in einer Emitterschaltung. Der Gleichstrom wird um einen Faktor von $185\pm 2$ verstärkt, wobei eine näherungsweise gute lineare Verstärkung nicht sofort eintritt.\\
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -233,19 +318,11 @@ $[1]$ Anleitung, \url{http://www.univie.ac.at/anfpra/neu1/ps/ps8/PS8.pdf}\\
 \end{multicols}
 \section{Anhang}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Ausgangskennlinienfeld.png}
-	\caption{Ausgangskennlinienfeld für die Gleichstromverstärkung}
-	\label{fig:ausgangskennlinienfeld}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Gleichstromverstaerkung.png}
-	\caption{Eingangskennlinie für die Gleichstromverstärkung}
-	\label{fig:eingangsskennlinien}
-\end{figure}
+
+
+
+
 
 \begin{figure}[H]
 	\centering
@@ -261,53 +338,14 @@ $[1]$ Anleitung, \url{http://www.univie.ac.at/anfpra/neu1/ps/ps8/PS8.pdf}\\
 	\label{fig:eingangskennlinien_fet}
 \end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kennlinien_Emitter_Collector.png}
-	\caption{Kennlinie zwischen Base und Emittier sowie Base und Collector}
-	\label{fig:kenn_emit_coll}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung.png}
-	\caption{Kleinsignalverstärkung}
-	\label{fig:kleinsignalverstaerkung}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung_Temp.png}
-	\caption{Kleinsignalverstärkung mit erhöhter Temperatur}
-	\label{fig:kleinsignalverstaerkung_temp}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung_Temp_Cut.png}
-	\caption{Kleinsignalverstärkung mit erhöhter Temperatur und sichtbarem Cut}
-	\label{fig:kleinsignalverstaerkung_temp_cut}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kleinsignalverstaerkung_Temp_Gegenspannung.png}
-	\caption{Kleinsignalverstärkung mit erhöhter Temperatur und Gegenspannung}
-	\label{fig:kleinsignalverstaerkung_temp_gegen}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/frequenzabhaengigkeit.png}
-	\caption{Frequenzabhängigkeit von Verstärkung und Phasenlage}
-	\label{fig:frequenzabh}
-\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.45]{./data/stromverstaerkung.png}
-	\caption{Verstärkungsfaktor Gleichstromverstärker}
-	\label{fig:verstaerker_faktor}
-\end{figure}
+
+
+
 
 \end{document}
