@@ -196,7 +196,7 @@ Mit dem RC2000 können gleichzeitig 2 Spannungen gemessen werden, wobei eine vom
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Feldeffekt-Transistor (FET)}
-
+\subsection{Grundlagen}
 Auch ein FET ist ein Widerstand, der durch eine (geringe) Spannung gesteuert werden kann, und damit eben als Schalter für einen Leiter oder eben als signalverstärkendes Bauteil verwendet werden kann.\\
 Wie der bipolare Transistor hat auch der FET 3 Anschlüsse, die Funktionsweise ist aber komplett verschieden:\\
 Der Widerstand einer Leitung (deren Eingang "Source $S$" und Ausgang "Drain $D$" genannt werden) wird durch ein transversales elektrisches Feld erzeugt. Dieses wird wiederum von einer kleinen Steuerspannung am "Gate $G$"-Anschluss gesteuert (
@@ -209,14 +209,18 @@ Der Widerstand einer Leitung (deren Eingang "Source $S$" und Ausgang "Drain $D$"
 %\end{figure}
 
 
-\subsection{Grundlagen}
-
-
-
 \subsection{Resultate}
 
 
 \subsection{Diskussion}
+In Abbildung \ref{fig:eingangskennlinien_fet} ist die Eingangskennlinie des Feld-Effekt-Transistors (FET) zu sehen.
+Diese weicht kaum vom Verhalten des normalen Transistors ab.\\
+Die Schwierigkeit bei der Ermittlung der Eingangskennlinie des FET war die passenden Einstellungen für die Output Ramp zu finden. Von 0V-2V brachte den gewünschten Bereich.\\ 
+Des weiteren war nicht Immer klar welche Spannungen gemessen werden sollen, da die Bezeichnungen in [1] nicht sofort eingeordnet werden konnten.\\
+\\
+Die J-FET-Ausgangskennlinie ist ersichtlich in Abbildung \ref{fig:ausgangskennlinienfeld_fet} ersichtlich. Gemessen bei 0V, -1V, -2V und -2.5V.\\
+Die Ergebnisse der Ausgangskennlinien stimmen im Verhalten mit den in [1](p. 21) überein, jedoch ist der Anstieg im ohmschen Bereich stärker ausgeprägt. Die negativen Spannungen sind nötig da der verwendete FET beim Anlegen der Spannung den Source-Drain Kanal freilegt und somit einen Teil oder die ganze Sperrschicht leitend wird.
+
 
 
 \section{Quellen}
