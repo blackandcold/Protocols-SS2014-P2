@@ -187,10 +187,10 @@ Mit dem RC2000 können gleichzeitig 2 Spannungen gemessen werden, wobei eine vom
 
 
 
-
+\end{multicols}
 \subsection{Resultate}
 
-\end{multicols}
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.45]{./data/Braun_Kurz_PS8/Kennlinien_Emitter_Collector.png}
@@ -279,8 +279,12 @@ Abb. \ref{fig:eingangsskennlinien} und \ref{fig:verstaerker_faktor} zeigen die S
 Abb. \ref{fig:ausgangskennlinienfeld} zeigt die Verstärkung von 4 Signalen mit diskreter Spannung, bei einer Betriebsspannung zwischen 0V und 10V.\\
 Gut erkennnbar ist, dass die Verstärkung ab etwa 0.25V Betriebsspannung für alle Input-Spannungen stabil wird.\\
 
+In Abb. \ref{fig:kleinsignalverstaerkung} wird eine sinusförmige Wechselspannung, um einen Faktor von etwa 20, verstärkt (Output A, gelb, Input B, blau). Ein leichter Phasenversatz ist erkennbar. Das Signal wird, im Rahmen der Darstellung, sauber wiedergegeben.\\
+Danach wurde der Transistor erhitzt. Seine Temperaturabhängigkeit führt zu einer Verzerrung des Signals. Die Spitzen werden einseitig 'abgeschnitten', da sich der Arbeitspunkt verschiebt (Abb. \ref{fig:kleinsignalverstaerkung_temp_cut}).\\
+Um diesen Effekt zu kompensieren, wird nun eine Stromgegenkopplung eingebaut (Abb. \ref{fig:kleinsignalverstaerkung_temp_gegen}). Das Signal wird nun, trotz Erhitzung, wiedergegeben, nur um den Verstärkungsfaktor verändert. Durch die Stromgegenkopplung entstehen jedoch Fluktuationen in einem höher frequenten Bereich.\\
 
-
+Abb. \ref{fig:frequenzabh} zeigt die Abhängigkeit der Kleinsignalverstärkung, von der Frequenz des Input-Signals.\\
+Die maximale Verstärkung wird dabei in einem Bereich von etwa 110Hz - 1200 Hz erreicht. Die untere Grenzfrequenz, also die Frequenz an der die Verstärkung auf -3dB der maximalen Verstärkung abfällt, liegt bei $(7 \pm 1)$Hz, die obere Grenzfrequenz über dem Bereich, der mit dem Frequenzgenerator des RC2000 erreichbar ist.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -307,12 +311,12 @@ Dabei ist die Spannung, die am Gate anliegt, im Gegensatz zum bipolar-transistor
 Das elektrische Feld steuert also die Stärke der Sperrschicht, und das mit sehr kleinem Spannungsbedarf, da ja kein Strom fließt zwischen Gate und SD-Kanal.\\
 Bei FETs wird unterschieden zwischen solchen, die ohne anliegende Gate-Spannung im SD-Kanal offen, und denen die geschlossen sind.\\
 \noindent
-Wie auch beim bipolaren Transistor, wird zur Messung das RC2000-System verwendet.
+Wie auch beim bipolaren Transistor, wird zur Messung das RC2000-System verwendet.\\
 
+\end{multicols}
 
 \subsection{Resultate}
 
-\end{multicols}
 
 \begin{figure}[H]
 	\centering
@@ -332,12 +336,11 @@ Wie auch beim bipolaren Transistor, wird zur Messung das RC2000-System verwendet
 
 \subsection{Diskussion}
 In Abbildung \ref{fig:eingangskennlinien_fet} ist die Eingangskennlinie des Feld-Effekt-Transistors (FET) zu sehen.
-Diese weicht kaum vom Verhalten des normalen Transistors ab.\\
-Die Schwierigkeit bei der Ermittlung der Eingangskennlinie des FET war die passenden Einstellungen für die Output Ramp zu finden. Von 0V-2V brachte den gewünschten Bereich.\\ 
-Des weiteren war nicht Immer klar welche Spannungen gemessen werden sollen, da die Bezeichnungen in [1] nicht sofort eingeordnet werden konnten.\\
+Diese weicht kaum vom Verhalten des bipolaren Transistors ab.\\
+Eine Schwierigkeit bei der Ermittlung der Eingangskennlinie des FET war es, die passenden Einstellungen für die Output Ramp (also die Spannungsversorgung, die durch einen Bereich sweept) zu finden. 0V-2V ist der verwendete Bereich.\\ 
 \\
-Die J-FET-Ausgangskennlinie ist ersichtlich in Abbildung \ref{fig:ausgangskennlinienfeld_fet} ersichtlich. Gemessen bei 0V, -1V, -2V und -2.5V.\\
-Die Ergebnisse der Ausgangskennlinien stimmen im Verhalten mit den in [1](p. 21) überein, jedoch ist der Anstieg im ohmschen Bereich stärker ausgeprägt. Die negativen Spannungen sind nötig da der verwendete FET beim Anlegen der Spannung den Source-Drain Kanal freilegt (Abb. \ref{fig:FET_skizze}) und somit einen Teil oder die ganze Sperrschicht leitend wird. Dieser Vorgang wurde bereits in den Grundlagen behandelt.
+Die J-FET-Ausgangskennlinie ist in Abbildung \ref{fig:ausgangskennlinienfeld_fet} ersichtlich. Gemessen bei 0V, -1V, -2V und -2.5V.\\
+Die Ergebnisse der Ausgangskennlinien stimmen im Verhalten mit denen in [1](p. 21) überein, jedoch ist der Anstieg im ohmschen Bereich stärker ausgeprägt für den hier verwendeten FET. Die negativen Spannungen sind nötig da der verwendete FET beim Anlegen der Spannung den Source-Drain Kanal freilegt (Abb. \ref{fig:FET_skizze}) und somit ein Teil oder die gesamte Sperrschicht leitend wird. Dieser Vorgang wird in den Grundlagen behandelt.
 
 
 \section{Quellen}
