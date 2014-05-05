@@ -158,24 +158,33 @@ Als wichtigstes Maß eines Motors errechnen wir den Wirkungsgrad jeder Anwendung
 
 
 \section{Der Heißluftmotor als Wärmekraftmaschine}
+In diesem Teil des Experiments bestimmen wir den Wirkungsgrad eines Stirlingmotors über die Leistung welche zugeführt wird und abgenommen werden kann. Zu erst bestimmen wir den idealen Wirkungsgrad, danach den realen Wirkungsgrad und zu Letzt den Wirkungsgrad des Motors.
 
 \subsection{Grundlagen}
+Für die Berechnungen benötigen wir folgende Formeln ([1] (pp. 6-8)):\\
+$$\eta{ideal} = \frac{T_1 - T_2}{T_1}$$
+Bei diesem idealen Verhalten geht keine Energie über Reibung oder Abstrahlung verloren.
+$$\eta_{real} = \frac{P_{Motor}}{P_{Zugeführt}}$$
+Der reale Wirkungsgrad ist der aussagekräftigste. Dabei wird die aufgewendete Leistung der abnehmbaren Leistung gegenüber gestellt.
+$$\eta_{Motor} = \frac{P_{Motor}}{\oint p dV * f}$$
+Den Wirkungsgrad des Motors erhalten wir durch die Leistung des Motors (jeweilig beschrieben durch Abnehmer) gebrochen durch die Leistung beschrieben durch die eingeschlossene Fläche im Carnotprozess (entspricht der Energie) mal die Frequenz. 
 
 \subsection{Versuchsaufbau}
-In diesem Experiment wird ein bereits aufgebauter Stirlingmotor mit einer Heizspindel und einer Kühlung betrieben (Abbildung  \ref{fig:stirlingMotor_3D}). Als Grundlage dient der bereits beschriebene Carnotprozess.\\
+In diesem Experiment wird ein bereits aufgebauter Stirlingmotor mit einer Heizspindel und einer Kühlung betrieben (Abbildung  \ref{fig:stirlingMotor_3D}). Als Grundlage dient der bereits beschriebene Carnotprozess. \\
 \\
 Das Volumen des Zylinder ergibt sich durch (auf den Nullpunkt angepasst):\\
 $Volumen = Weg (\pm 0.08mm) * Fläche 28.3 + 195 = $\\ %%%% TODO ergebnis %%%%%
 Der Bereich für den Druck
 $Druck (-2000 - +2000 \pm 2) hPa$\\
 
-%%%%% TODO AUSTAUSCHEN AUF 3D %%%%%
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.05]{./data/3D-Model_Images/DSC_0083.JPG}
+	\includegraphics[scale=0.25]{./data/3D-Model/PS9-model_neutral01.JPG}
 	\caption{Versuchsaufbau als 3D Modell}
 	\label{fig:stirlingMotor_3D}
 \end{figure}
+
+
 
 \subsection{Resultate}
 \textbf{1. Leerlaufbetrieb:}\\
@@ -232,22 +241,27 @@ $$\eta_{motor}=(3.01\pm 0.25)\%$$
 
 \subsection{Resultate}
 
+
+Kühlraumtemperatur:\\ 
+$T= (5.6 \pm 0.5)^{\circ}C$\\
+\indent (deutliche Schwankungen)\\
 Zugeführte Leistung:\\
-$230V * (0.36 \pm 0.03) A$\\
-Temperatur:\\ 
-$T_{unten} = (5.2 \pm 0.1)^{\circ}C$\\
-$T_{oben} = (6.0 \pm 0.1)^{\circ}C$\\
-
-Kühlung:\\ 
-$U_{unten} = (8.0 \pm 0.5)V$\\
-$A_{unten} = (1.7 \pm 0.1)A$\\
-$U_{oben} = (8.5 \pm 0.5)V$\\
-$A_{oben} = (1.8 \pm 0.1)A$\\
-
-Frequenz:\\
-$f = \frac{50.6}{10} Hz$\\
+$P=(82.8 \pm 4.6)W$\\
+%$230V * (0.36 \pm 0.03) A$\\
+\noindent Kühlung (= Heizleistung der Heizwendel):\\ 
+$U= (8.3 \pm 0.7)V$\\
+$A_{unten} = (1.7 \pm 0.2)A$\\
+%$U_{oben} = (8.5 \pm 0.5)V$\\
+%$A_{oben} = (1.8 \pm 0.1)A$\\
+\noindent Umdrehungsfrequenz:\\
+$f = (5.06\pm 0.05)Hz$\\
+Wirkungsgrad:\\
+$$\eta_{Kaelte}=(17.04\pm 2.7)\%$$
 
 \subsection{Diskussion}
+
+
+
 
 
 \section{Quellen}
@@ -255,6 +269,11 @@ $[1]$ Anleitung, \url{http://www.univie.ac.at/anfpra/neu1/ps/ps9/PS9.pdf}\\
 
 \end{multicols}
 
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=2]{./data/3D-Model/PS9-model_desk01.JPG}
+	%\caption{}
+	\label{fig:stirlingMotor_3D-desktop}
+\end{figure}
 
 \end{document}
