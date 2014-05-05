@@ -158,15 +158,32 @@ Als wichtigstes Maß eines Motors errechnen wir den Wirkungsgrad jeder Anwendung
 
 
 \section{Der Heißluftmotor als Wärmekraftmaschine}
+In diesem Teil des Experiments bestimmen wir den Wirkungsgrad eines Stirlingmotors über die Leistung welche zugeführt wird und abgenommen werden kann. Zu erst bestimmen wir den idealen Wirkungsgrad, danach den realen Wirkungsgrad und zu Letzt den Wirkungsgrad des Motors.
 
 \subsection{Grundlagen}
+Für die Berechnungen benötigen wir folgende Formeln ([1] (pp. 6-8)):\\
+$$\eta{ideal} = \frac{T_1 - T_2}{T_1}$$
+Bei diesem idealen Verhalten geht keine Energie über Reibung oder Abstrahlung verloren.
+$$\eta_{real} = \frac{P_{Motor}}{P_{Zugeführt}}$$
+Der reale Wirkungsgrad ist der aussagekräftigste. Dabei wird die aufgewendete Leistung der abnehmbaren Leistung gegenüber gestellt.
+$$\eta_{Motor} = \frac{P_{Motor}}{\oint p dV * f}$$
+Den Wirkungsgrad des Motors erhalten wir durch die Leistung des Motors (jeweilig beschrieben durch Abnehmer) gebrochen durch die Leistung beschrieben durch die eingeschlossene Fläche im Carnotprozess (entspricht der Energie) mal die Frequenz. 
+\\
+Im realen Prozess ergibt sich aber keine schön abgegrenzte Fläche wie in [1] dargestellt sondern eine wie in Abbildung \ref{fig:real_carnot}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{./data/kennlinie_stirling_ohnelast.png}
+	\caption{Kennlinie im pV-Diagramm eines realen Prozesses im Leerlauf}
+	\label{fig:real_carnot}
+\end{figure}
 
 \subsection{Versuchsaufbau}
-In diesem Experiment wird ein bereits aufgebauter Stirlingmotor mit einer Heizspindel und einer Kühlung betrieben (Abbildung  \ref{fig:stirlingMotor_3D}). Als Grundlage dient der bereits beschriebene Carnotprozess.\\
+In diesem Experiment wird ein bereits aufgebauter Stirlingmotor mit einer Heizspindel und einer Kühlung betrieben (Abbildung  \ref{fig:stirlingMotor_3D}). Als Grundlage dient der bereits beschriebene Carnotprozess. \\
 \\
 Das Volumen des Zylinder ergibt sich durch (auf den Nullpunkt angepasst):\\
-$Volumen = Weg (\pm 0.08mm) * Fläche 28.3 + 195 = $\\ %%%% TODO ergebnis %%%%%
-Der Bereich für den Druck
+$Volumen = Weg (\pm 0.08mm) * Fläche (28.3 \pm 0.1)mm + 195 = $\\ %%%% TODO ergebnis %%%%%
+Der Bereich für den Druck\\
 $Druck (-2000 - +2000 \pm 2) hPa$\\
 
 \begin{figure}[H]
