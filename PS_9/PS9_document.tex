@@ -186,12 +186,17 @@ $Volumen = Weg (\pm 0.08mm) * Fläche (28.3 \pm 0.1)mm + 195 = $\\ %%%% TODO erg
 Der Bereich für den Druck\\
 $Druck (-2000 - +2000 \pm 2) hPa$\\
 
+\end {multicols}{2}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.20]{./data/3D-Model/PS9-model_neutral01.JPG}
+
+	\includegraphics[scale=0.45]{./data/3D-Model/PS9-model_neutral01.JPG}
+
 	\caption{Versuchsaufbau als 3D Modell}
 	\label{fig:stirlingMotor_3D}
 \end{figure}
+
+\begin{multicols}{2}
 
 \subsection{Resultate}
 \textbf{1. Leerlaufbetrieb:}\\
@@ -278,7 +283,7 @@ $P=(82.8 \pm 4.6)W$\\
 %$230V * (0.36 \pm 0.03) A$\\
 \noindent Kühlung (= Heizleistung der Heizwendel):\\ 
 $U= (8.3 \pm 0.7)V$\\
-$A_{unten} = (1.7 \pm 0.2)A$\\
+$I = (1.7 \pm 0.2)A$\\
 %$U_{oben} = (8.5 \pm 0.5)V$\\
 %$A_{oben} = (1.8 \pm 0.1)A$\\
 \noindent Umdrehungsfrequenz:\\
@@ -287,6 +292,28 @@ Wirkungsgrad:\\
 $$\eta_{Kaelte}=(17.04\pm 2.7)\%$$
 
 \subsection{Diskussion}
+
+Die Kältemaschine ist die Umkehrung der Wärmekraftmaschine. Da der Antrieb (ein Elektromotor) nun mit einem Wirkungsgrad von $100\%$ angenommen wird und, abgesehen von den Kolben in der Maschine selbst, keine mechanischen Teile bewegt werden, ist der Wirkungsgrad der Kältemaschine deutlich höher, als der des Wärme-Motors.\\
+Dabei werden in diesem Versuch einige Annahmen getroffen:\\
+\begin{itemize}
+\item Elektromotor mit idealem Wirkungsgrad
+\item Heizleistung = Kühlleistung
+\item ideale Wärmeisolierung
+\item stabile Gleichgewichtstemperatur
+\end{itemize}
+
+\noindent Ein schlechterer Wirkungsgrad des E-Motors würde einen real höheren Wirkungsgrad der Kältemaschine bedeuten. Damit wirkt er den anderen Punkten entgegen.\\
+In Wirklichkeit hat sich keine stabile Gleichgewichtstemperatur eingestellt; Die Heizleistung wurde so gesteuert, dass sich eine Oszillation zwischen 2 Temperaturen ($\Delta T \backsim 1^\circ C$) eingestellt hat.\\
+An beiden Extrempunkten wurde gemessen und der Wirkungsgrad berechnet. Aufgrund der zugrunde liegenden Gleichungen ergibt sich im Mittel beider Wirkungsgrade der gleiche Wert, wie für das Mittel der Spannungen/Ströme in der Heizwendel.\\
+Aus Gründen der Übersichtlichkeit werden also die gemittelten Messergebnisse für Spannung und Strom der Heizleistung abgedruckt. Daraus ergeben sich die Unsicherheitsbereiche, die deutlich höher sind, als die Messgeräte verlangen würden.
+Der Wirkungsgrad und seine Unsicherheit bleiben dabei erhalten.\\
+Die Fluktuationen im Ablauf der Kältemaschine, machen die Messung zusätzlich undeutlich. Insgesamt ergibt sich also ein eher hoher Unsicherheitsbereich im Wirkungsgrad der Kältemaschine.\\
+
+\noindent Aufgrund der schlechten Isolierung, arbeitet auch die Raumtemperatur gegen die Kältemaschine. Das angestrebte Gleichgewicht liegt bei etwa $6^\circ C$, also deutlich niedriger als Raumtemperatur. Da die Leistung an der Heizwendel die Messgröße ist, wird der Wirkungsgrad so nach oben verfälscht.\\
+Dieser Effekt ließe sich verringern durch ein Angleichen der Umgebungstemperatur an die Zieltemperatur (also durch einen kälteren Raum oder eine höhere Gleichgewichtstemperatur).\\
+Dazu müsste jedoch die Kältemaschine etwas anders realisiert sein, was möglicherweise den PS9-Teil mit der Wärmekraftmaschine stören würde bzw. ein aufwendigeres Heiz/Kühlsystem verlangen würde.\\
+
+
 
 
 
