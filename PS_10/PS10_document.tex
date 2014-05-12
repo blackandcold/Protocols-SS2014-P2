@@ -163,8 +163,14 @@ Diese geben an wie gut (oder schlecht bei Isolatoren) Temperaturen und somit Wä
 \section{Wärmeleitfähigkeit von Metallen - thermografische Bestimmung}
 
 \subsection{Grundlagen}
-
+$$T(x,t) = (T_0 - T_{max}) * erf(\frac{1}{sqrt(4 * \chi * t)})+T_{max}$$
+$$\chi = \frac{\lambda}{\rho*c}$$
+$$\phi = const.$$
+$$\frac{\delta Q}{\deltat} = -\lambda * A * \frac{dT}{dx}$$
 \subsection{Versuchsaufbau}
+Der erste Versuch gliedert sich in zwei Teilgebiete. Im ersten Teilgebiet betrachten wir zwei Metallstäbe (Eisen, lackiert). Einer der beiden wird auf 40 Grad erwärmt und der andere verbleibt bei Raumtemperatur. Mit ein wenig Wärmeleitpaste werden beide Stäbe zusammengefügt und mit der Wärmebildkamera (Abb. \ref{}) nach 30 und nach 60 Sekunden ein Bild erstellt.\\
+Mit der Software Talios zur Auswertung der Infrarotbilder kann in einer Linie der Temperaturverlauf festgestellt werden.
+
 
 \subsection{Resultate}
 
@@ -192,6 +198,8 @@ Diese geben an wie gut (oder schlecht bei Isolatoren) Temperaturen und somit Wä
 \end{figure}
 
 \subsection{Diskussion}
+Ein nicht klar hervorgegangener Sachverhalt der eine ordentliche Auswertung erst möglich macht, ist das die Wärmeleitpaste nur zur Verminderung des Luftpolsters zwischen den Stäben dient. Beim ersten Versuchsdurchlauf wurde zu viel Paste verwendet und daher ein steiler Temperaturabfall festgestellt (Isolator Wirkung).\\
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
