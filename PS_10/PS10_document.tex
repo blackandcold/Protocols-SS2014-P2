@@ -163,14 +163,22 @@ Diese geben an wie gut (oder schlecht bei Isolatoren) Temperaturen und somit Wä
 \section{Wärmeleitfähigkeit von Metallen - thermografische Bestimmung}
 
 \subsection{Grundlagen}
-$$T(x,t) = (T_0 - T_{max}) * erf(\frac{1}{sqrt(4 * \chi * t)})+T_{max}$$
+Um die Temperaturleitzahl zu errechnen wird die Wärmeleitungsgleichung für den eindimensionalen Fall gelöst ([1] p.8). Dabei ergibt sich der Faktor 
 $$\chi = \frac{\lambda}{\rho*c}$$
+Nach dem Übergang zum Zielmedium ([1] p. 8 Abb. 2) kann das Temperaturprofil unter zur Hilfenahme der Gauss'schen  Fehlerfunktion folgend beschrieben werden
+$$T(x,t) = (T_0 - T_{max}) * $$
+$$ * erf(\frac{1}{\sqrt{4 * \chi * t}})+T_{max}$$
+\\
+\\
+Bei einem konstanten Wärmestrom
 $$\phi = const.$$
-$$\frac{\delta Q}{\deltat} = -\lambda * A * \frac{dT}{dx}$$
+kann näherungsweise die Lösung ([1] p. 9 Glg. 8) 
+$$\frac{\Delta Q}{\Delta t} = -\lambda * A * \frac{dT}{dx}$$
+verwendet werden.
 \subsection{Versuchsaufbau}
 Der erste Versuch gliedert sich in zwei Teilgebiete. Im ersten Teilgebiet betrachten wir zwei Metallstäbe (Eisen, lackiert). Einer der beiden wird auf 40 Grad erwärmt und der andere verbleibt bei Raumtemperatur. Mit ein wenig Wärmeleitpaste werden beide Stäbe zusammengefügt und mit der Wärmebildkamera (Abb. \ref{}) nach 30 und nach 60 Sekunden ein Bild erstellt.\\
-Mit der Software Talios zur Auswertung der Infrarotbilder kann in einer Linie der Temperaturverlauf festgestellt werden.
-
+Mit der Software "Testo" zur Auswertung der Infrarotbilder kann in einer Linie der Temperaturverlauf festgestellt werden.
+Mit diesem Verlauf kann durch einen linearen Fit die Steigung $\frac{dT}{dx}$ errechnet werden. Bei bekannten Abmessungen lässt sich die Wärmeleitfähigkeit des Materials dadurch errechnen. 
 
 \subsection{Resultate}
 
@@ -188,8 +196,6 @@ Mit der Software Talios zur Auswertung der Infrarotbilder kann in einer Linie de
 	\label{fig:stat_verlauf}
 \end{figure}
 
-
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=3.7]{./BilderCorrect/nicht_stationaer_temp_verlauf.png}
@@ -204,6 +210,7 @@ Ein nicht klar hervorgegangener Sachverhalt der eine ordentliche Auswertung erst
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Wärmeleitfähigkeit von Wärmeisolatoren}
+In diesem Experiment wird die Isolationsfähigkeit eines unbekannten Materials überprüft.
 
 \subsection{Grundlagen}
 
