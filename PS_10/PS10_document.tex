@@ -264,6 +264,10 @@ Da im stationären Zustand der Wärmestrom $\Phi$ in allen Schichten (näherungs
 $$\Phi=\lambda_a \cdot A_a \cdot \frac{(T_{w1}-T_{w2})}{d_a}=\lambda_b \cdot A_b \cdot \frac{(T_{w2}-T_{w3})}{d_b}$$
 $$\Phi = \alpha_a \cdot A_a \cdot (T1-T_{w1}) = \alpha_b \cdot A_b \cdot (T_{w3}-T_2) $$
 
+Ebenfalls ähnlich der Elektrotechnik, wird der Wärmewiderstand des Gesamtsystems als Serienschaltung mehrerer einzelner Wärmewiderstände beschrieben:
+$$R_k = R_{\alpha1}+R_{\lambda} + R_{\alpha2}=\frac{1}{\alpha_1 A}+\frac{d}{\lambda A}+\frac{1}{\alpha_2 A}$$
+mit dem Wärmedurchgangskoeffizient
+$$k = \frac{1}{R_k \cdot A}$$
 
 \subsection{Versuchsaufbau}
 In einer isolierten Wärmekammer wird das Zweiplattensystem aufgebaut. Dieser verfügt an mehreren Stellen über Öffnungen, durch die jeweils ein Thermoelement, zur Messung der Temperatur, eingebracht werden kann:\\
@@ -276,11 +280,19 @@ $T_{w1}$... Außentemperatur an der Eichplatte\\
 $T_{w2}$... Temperatur zwischen den Platten\\
 $T_{w3}$... Außentemperatur an der Probe\\
 $T_2$... Temperatur außen\\
+(wie in  Abb. \ref{fig:temp_verlauf})\\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{./BilderCorrect/PS10_Versuch-2_Skizze.png}
+	\caption{Skizze des Temperaturverlaufs}
+	\label{fig:temp_verlauf}
+\end{figure}
 
 \noindent Das System wird mit einer Steinplatte abgeschlossen.\\
 Es dauert etwas mehr als 2 Stunden, bis der Wärmestrom annähernd konstant bleibt. Die Temperaturen werden während der Heizphase protokolliert.\\
 
-\noindent Die Temperaturmessung mit den Termoelementen wird mit dem Fluke 179 Voltmeter durchgeführt und nutzt den Seebeck-Effekt:\\
+\noindent Die \textbf{Temperaturmessung} mit den Termoelementen wird mit dem Fluke 179 Voltmeter durchgeführt und nutzt den Seebeck-Effekt:\\
 2 Drähte aus verschiedenen Metallen bzw. Legierungen sind miteinander verlötet. Bei unterschiedlichen Temperaturen, entstehen aufgrund der unterschiedlichen Fermi-Energien beider Drähte Kontaktspannungen. Diese werden mit dem Voltmeter gemessen (und daraus automatisch die Temperatur berechnet).
 
 \end{multicols}
@@ -334,17 +346,40 @@ Wärmeleitkoeffizient:\\
 $\lambda_{Probe}=(0.1965 \pm 0.0065)\frac{W}{m \cdot K}$\\
 Wärmeübergangskoeffizienten:\\
 $\alpha_1=(5.56 \pm 0.13 )\frac{W}{m^2 \cdot K}$\\
-%$\alpha_2=(5.56 \pm 0.13 )\frac{W}{m^2 \cdot K}$\\
-%%T2 nicht gemessen.. wert besorgen von anderer gruppe.. fertig rechnen
-%% Zugeben, dassmas verschissen haben
+
+\noindent------------------------------------------------------\\
+\noindent \textbf{Leider wurde verabsäumt die Raumtemperatur $T_2$ zu messen.\\
+Alle weiteren Ergebnisse benötigen diese. Sie wird daher als $(24.0\pm0.1)^\circ C$ angenommen um die weiteren Rechnungen zumindest durchführen zu können}\\
+------------------------------------------------------\\
+
+
+
+
+\noindent $\alpha_2=(9.08 \pm 0.22 )\frac{W}{m^2 \cdot K}$\\
+
+\noindent \textbf{Aufgabe 3:}\\
+$R_{\lambda}=(2.245 \pm 0.076)K/W$\\
+$R_{\alpha1}=(7.94 \pm 0.19)K/W$\\
+$R_{\alpha2}=(4.86 \pm 0.12)K/W$\\
+
+\noindent \textbf{Aufgabe 4:}\\
+$R_k=(15.05\pm 0.24)K/W$\\
+$k=(2.932 \pm 0.047)\frac{W}{m^2 \cdot K}$
+
 
 \subsection{Diskussion}
 Der ermittelte Wärmeleitkoeffizient $\lambda_{Probe}$ liegt im erwarteten Bereich. Da jedoch nicht genau bekannt ist, welcher Gipskarton verwendet wurde (die Literaturwerte variieren leicht, je nach Variante und Norm), lässt sich die Methode allein durch den Vergleich nicht bewerten.\\
-Jedenfalls sind im Messaufbau einige Ungenauigkeiten enthalten:\\
+Für die Berechnung des Flusses $\Phi$ wirkt sich vor allem die Unsicherheit in der Temperaturdifferenz stark aus, sowie auch die Dicke der Platte. Die Unsicherheit der Fläche hat einen vergleichsweisen geringen Einfluss (da diese auch wesentlich größer als die Dicke ist).
+
+Im Messaufbau sind einige Ungenauigkeiten enthalten:\\
 Die Rillen für die Thermoelemente erzeugen Luftpolster, die Kontaktscheiben sitzen nicht ganz in der Mitte der Platten.\\
 Außerdem können beim Messen der Dicke der Probeplatte die zahlreichen Vertiefungen in der Oberfläche, nicht gut berücksichtigt werden.\\
 Desweiteren ist auch fraglich, ob sich, im Rahmen der Praktikumsdauer, bereits wirklich stabile Verhältnisse eingestellt haben.\\
 Die Messverfahren selbst (Thermoelement und Schiebelehre) sind jedoch sehr genau und erzeugen dementsprechend kleine Unsicherheiten. In den Ergebnissen wurden die angesprochenen möglichen Fehler also nicht (durch eine gröbere Abschätzung) berücksichtigt. Dies bedürfte einer gesonderten Untersuchung des Temperatur-Gleichgewichts (mehr Zeit), und der der Effekte, die durch die Oberflächen der Probe und Eichplatte entstehen.\\
+
+Das Verabsäumen der Raumtemperaturmessung lässt die Ergebnisse ab Aufgabe 3 bloße Übungswerte bleiben.\\
+
+
 
 
 \section{Quellen}
