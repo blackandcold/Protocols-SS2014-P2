@@ -192,30 +192,16 @@ Der Emissionskoeffizient bei beiden Versuchen lag bei 0.98-0.99.
 Die Quelle wurde mit $P = 15.19V * 0.046A = 0.699 W$ geheizt.
 \subsection{Resultate}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.12]{./BilderCorrect/Versuch_1_gradient_60.png}
-	\caption{Nicht stationärer Temperaturverlauf in Eisen}
-	\label{fig:nicht_stat_verlauf}
-\end{figure}
-
-$$\lambda = ( \pm )$$
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale=0.12]{./BilderCorrect/Versuch_1_stationaer_roh.png}
-	\caption{Stationärer Temperaturverlauf in Aluminium}
-	\label{fig:stat_verlauf}
-\end{figure}
-
 \end{multicols}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=7]{./BilderCorrect/nicht_stationaer_temp_verlauf.png}
 	\caption{Nicht stationärer Temperaturverlauf in Eisen}
-	\label{fig:stat_verlauf}
+	\label{fig:nicht_stat_verlauf}
 \end{figure}
 \begin{multicols}{2}
 
+\noindent \textbf{Nicht stationärer Temperaturverlauf}
 \noindent Aus Abb.\ref{fig:stat_verlauf}:\\
 $C=(18.88\pm 0.3)$\\
 $t=(50 \pm 1) s$\\
@@ -223,22 +209,73 @@ $\rho = (7480 \pm 350)\frac{kg}{m^3}$\\
 $c_{32^{\circ}C} = (454.6 \pm 0.7)\frac{J}{kg * K}$\\
 $$\lambda = (47.7 \pm 2.5)$$
 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.12]{./BilderCorrect/Versuch_1_gradient_60.png}
+	\caption{Nicht stationärer Temperaturverlauf in Aluminium }
+	\label{fig:nicht_stat_waermebild}
+\end{figure}
+
+
+
+
+
+\noindent \textbf{Stationärer Temperaturverlauf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.25]{./BilderCorrect/Versuch_1_stationaer_Graph.png}
+	\caption{Linearer Fit der extrahierten Messdaten}
+	\label{fig:stat_fit}
+\end{figure}
+
+
+\noindent $A=(45.83 \pm 0.57)mm^2$\\
+$P=(0.699 \pm 0.016)W$\\
+$\frac{dT}{dx}=(-100.6 \pm 1.8)K/m$\\
+$$\lambda = ( 151.6 \pm 4.8)\frac{W}{m\cdot K}$$
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.12]{./BilderCorrect/Versuch_1_stationaer_roh.png}
+	\caption{Stationärer Temperaturverlauf in Aluminium}
+	\label{fig:stat_verlauf}
+\end{figure}
+
+
+
+
+
+
 Die Rohdaten sind unter [2] auffindbar.
 
 \subsection{Diskussion}
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{nicht-stationärer Verlauf in Eisen}\\
 Der Versuch zum nicht-stationären Temperaturverlauf musste 3mal durchgeführt werden.\\
 Der erste Versuch kann verworfen werden, da der Bildausschnitt auf der Wärmebildkamera zu klein war, um die Länge der Stäbe auf dem Bild festzusetzen.\\
 Der 2. Versuch kann verworfen werden, da zu viel Wärmeleitpaste aufgetragen wurde, die in dem Fall zu einer Isolierung zwischen beiden Eisenstäben führt.\\
 Erst im 3. Anlauf wurde korrekt gearbeitet, dies sind die verwendeten Daten.\\
+Zur Kategorisierung von Materialien auf Grund ihrer Eignung für Isolation bzw. Wärme(ab)leitung genügt dieses Verfahren.\\
 
 Die Interpolation liegt gut an den gemessenen Werten. Die Auflösung der Wärmebildkamera ist eher grob im Vergleich dazu.
+Eine Unsicherheit ist die Zeit, an der das Bild gemacht wird, da sowohl das Zusammenfügen der Stäbe als auch das Abdrücken an der Wärmebildkamera nicht exakt mit der Stoppuhr sind.
+Vor allem das Zusammenfügen der Stäbe dauert, je nach Geschick, 1-2 Sekunden.\\
+Die Unsicherheit der Zeit wirkt sich allerdings kaum auf die des Ergebnisses aus.\\
 
+\noindent \textbf{stationärer Verlauf in Aluminium}\\
+Der Versuch ist, dank des vorgefertigten Aufbaus, im ersten Anlauf gut gelungen.\\
+Eine mögliche Fehlerquelle ist, ähnlich wie bei der Wärmeisolation von Gipskarton, das sich Einstellen des Gleichgewichtes.\\
+Es wurde, wie in der Anleitung, nach etwa 5min, das Ausmaß des Gradient überprüft, und dann gemessen. Es ist jedoch nicht auszuschließen, dass weiter Schwankungen bestehen.\\
+Eventuell wäre eine Durchführung des Versuchs in einem Umfeld mit konstanter Wärme (gut isolierter Raum) besser geeignet, als die Praktikumsräume mit ihren offenen Fenstern und Luftzug.\\
+Für den nicht-stationären Versuch ist dieser Einfluss viel geringer, da er innerhalb 1 min durchgeführt wird, und keines Gleichgewichts bedarf.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \section{Wärmeleitfähigkeit von Wärmeisolatoren}
