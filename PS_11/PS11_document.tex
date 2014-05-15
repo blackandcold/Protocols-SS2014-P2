@@ -30,7 +30,7 @@
 % a floating environment for diagrams
 %\newfloat{diagram}{tbph}{diagrams}
 %\floatname{diagram}{Diagramm}
-
+\pgfplotsset{compat=1.8}
 \selectlanguage{german} % use german
 
 \begin{document}
@@ -154,20 +154,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
+In diesen Experimenten werden die Eigenschaften von dotierten Halbleitern in Bezug auf den Hall-Effekt untersucht. Der Hall-Effekt ist das Auftreten einer Spannung normal stehend zur Flussrichtung eines an den Halbleiter angelegten Stromes.\\
 
 
 \section{n-Ge}
 
 \subsection{Grundlagen}
 
-
-
 \subsection{Versuchsaufbau}
-
-
-
 
 \subsection{Resultate}
 
@@ -208,6 +202,38 @@
 %RSS (Summe der quadrierten Restwerte) = 7,07240036646817e-07
 %---------------------------------------------------------------------------------------
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{./figures/Hall_nGe_-I_UH.png}
+	\caption{Hallspannung mit Fit bei einem n-dotierten Germaniumhalbleiter und negativem Strom}
+	\label{fig:nGe_nI_UH}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{./figures/Hall_nGe_+I_UH.png}
+	\caption{Hallspannung mit Fit bei einem n-dotierten Germaniumhalbleiter und positivem Strom}
+	\label{fig:nGe_pI_UH}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{./figures/Hall_nGe_UH-B.png}
+	\caption{Hallspannung mit Fit bei variertem magnetischem Feld bei einem n-dotierten Germaniumhalbleiter}
+	\label{fig:nGe_UH_B}
+\end{figure}
+
+Rohdaten sind zu finden unter [2].
+
+\subsection{Diskussion}
+
+\section{p-Ge}
+
+\subsection{Grundlagen}
+
+\subsection{Versuchsaufbau}
+
+\subsection{Resultate}
 
 %pGe Magnet UH
 %Von x = 2,154975000000000e-01 bis x = -2,203675000000000e-01
@@ -220,41 +246,22 @@
 %RMSE (Standardabweichung) = 0,0014519410868208
 %RSS (Summe der quadrierten Restwerte) = 3,58382596331721e-05
 %---------------------------------------------------------------------------------------
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.8]{./figures/Hall_pGe_UH-B.png}
+	\caption{Hallspannung mit Fit bei variertem magnetischem Feld bei einem p-dotierten Germaniumhalbleiter}
+	\label{fig:pGe_UH_B}
+\end{figure}
 
-\noindent \textbf{Stationärer Temperaturverlauf}
-
-
-
-\subsection{Diskussion}
-
-
-
-
-
-
-\section{p-Ge}
-
-
-In diesem Experiment wird die Wärmeleitfähigkeit eines nicht genau bekannten, isolierenden, Materials bestimmt (Rigips/ Gipskarton).
-
-\subsection{Grundlagen}
-
-
-\subsection{Versuchsaufbau}
-
-
-
-\subsection{Resultate}
-
-
+Rohdaten sind zu finden unter [2].
 
 \subsection{Diskussion}
-
 
 
 \section{Quellen}
-$[1]$ Anleitung, \url{http://www.univie.ac.at/anfpra/neu1/ps/ps10/PS10.pdf}\\
-$[2]$ Rohdaten, \url{https://github.com/blackandcold/Protocols-SS2014-P2/tree/master/PS_10/BilderCorrect}\\
+$[1]$ Anleitung, \url{http://www.univie.ac.at/anfpra/neu1/ps/ps11/PS11.pdf}\\
+$[2]$ Rohdaten, \url{htts://github.com/blackandcold/Protocols-SS2014-P2/tree/master/PS_11/daten}\\
 
 \end{multicols}
 \end{document}
