@@ -1,0 +1,613 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	8
+<table>
+hall_n_germanium_positiv	7	3	15.05.14 14:14
+geometry	980	454	445	220	minimized	
+header	I-Probe[X]	U-Probe	U-Hall[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments	I_Probe	U_Probe	U_Hall	
+WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_positiv.dat	2
+<data>
+0	0.002	0.09	0.0016
+1	0.006	0.29	0.0047
+2	0.01	0.44	0.0069
+3	0.015	0.67	0.011
+4	0.02	0.88	0.0145
+5	0.025	1.12	0.0189
+6	0.03	1.33	0.0227
+</data>
+</table>
+<table>
+hall_n_germanium_negativ	7	3	15.05.14 14:28
+geometry	784	454	445	220	minimized	
+header	I-Probe[X]	U-Probe	U-Hall[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments	I_Probe	U_Probe	U_Hall	
+WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_negativ.dat	2
+<data>
+0	0.002	0.093	-0.0021
+1	0.005	227	-0.0059
+2	0.01	0.435	-0.0127
+3	0.015	0.669	-0.0148
+4	0.02	0.872	-0.0211
+5	0.025	1.114	-0.026
+6	0.03	1.32	-0.0282
+</data>
+</table>
+<table>
+hall_n_germanium_magnet_var	19	5	15.05.14 14:58
+geometry	588	454	681	487	minimized	
+header	I-B	U-B	U-Hall[Y]	U-Versorg	B Magnetfeld[X]
+ColWidth	100	100	100	100	146	
+<com>
+<col nr="4">
+col("I-B")*0.0487
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments	I_B	U_B	U_Hall	U_Versorg		
+WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_magnet_var.dat	2
+<data>
+0	-4.516	5.26	-0.0474	1.132	-0.2199292
+1	-4.052	4.73	-0.0429	1.131	-0.1973324
+2	-3.496	4.09	-0.0377	1.129	-0.1702552
+3	-3.038	3.56	-0.0333	1.128	-0.1479506
+4	-2.508	2.94	-0.0271	1.126	-0.1221396
+5	-2.014	2.36	-0.0227	1.125	-0.0980818
+6	-1.57	1.84	-0.0173	1.124	-0.076459
+7	-1.01	1.19	-0.0114	1.124	-0.049187
+8	-0.521	0.62	-0.0059	1.123	-0.0253727
+9	0	0.01	0	1.123	0
+10	0.504	0.6	0.0057	1.124	0.0245448
+11	0.999	1.17	0.0113	1.124	0.0486513
+12	1.53	1.78	0.0174	1.125	0.074511
+13	2.005	2.33	0.0228	1.126	0.0976435
+14	2.517	2.93	0.0283	1.128	0.1225779
+15	3.009	3.5	0.0337	1.13	0.1465383
+16	3.505	4.09	0.0391	1.132	0.1706935
+17	4.064	4.76	0.0454	1.135	0.1979168
+18	4.477	5.25	0.0496	1.136	0.2180299
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	15.05.14 14:15
+geometry	196	454	549	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	531	398
+<PageGeometry>0.00924214	0.0121065	0.981516	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Probestrom I (A)	Hallspannung U (V)		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	hall_n_germanium_positiv_I-Probe	hall_n_germanium_positiv_U-Hall	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	6	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.002	0.03</Range>
+<Points>2</Points>
+<Constant>A	0.753527256069629</Constant>
+<Constant>B	-0.000154420522217133</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	0.025	0	6	5	0	0
+scale	1	0	0.025	0	6	5	0	0
+scale	2	0	0.035	0	8	5	0	0
+scale	3	0	0.035	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.00087719298245614</x>
+<y>0.024163879598662</y>
+<right>0.0100522193211488</right>
+<bottom>0.0215753424657534</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik2	1	1	15.05.14 14:28
+geometry	392	454	566	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	548	398
+<PageGeometry>0.00896057	0.0121065	0.982079	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	 Probenstrom I (A)	Hallspannung U (V)		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	hall_n_germanium_negativ_I-Probe	hall_n_germanium_negativ_U-Hall	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	6	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.002	0.03</Range>
+<Points>2</Points>
+<Constant>A	-0.94345026642984</Constant>
+<Constant>B	-0.00140726021314387</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.03	0	0	7	5	0	0
+scale	1	-0.03	0	0	7	5	0	0
+scale	2	0	0.035	0	8	5	0	0
+scale	3	0	0.035	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.00087719298245614</x>
+<y>-0.0010033444816054</y>
+<right>0.009625</right>
+<bottom>-0.00410958904109589</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik4	1	1	15.05.14 15:30
+geometry	0	454	553	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	535	398
+<PageGeometry>0.00917431	0.0121065	0.981651	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Magnetfeld B (T)	Hallspannung U_H (V)		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	hall_n_germanium_magnet_var_B Magnetfeld	hall_n_germanium_magnet_var_U-Hall	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	18	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>-0.2199292	0.2180299</Range>
+<Points>2</Points>
+<Constant>A	0.224837297985753</Constant>
+<Constant>B	0.000466273751966804</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.06	0.06	0	7	5	0	0
+scale	1	-0.06	0.06	0	7	5	0	0
+scale	2	-0.3	0.3	0	7	5	0	0
+scale	3	-0.3	0.3	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.28496240601504</x>
+<y>0.055986622073579</y>
+<right>-0.135678391959799</right>
+<bottom>0.0442953020134228</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+hall_p_germanium_magnet	19	5	15.05.14 16:14
+geometry	0	0	669	460	
+header	I-B	U-B	U-Hall[Y]	U-Versorg	Magentfeld B[X]
+ColWidth	100	100	100	100	100	
+<com>
+<col nr="4">
+col("I-B")*0.0487
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments	I_B	U_B	U_Hall	U_Versorg		
+WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_p_germanium_magnet.dat	2
+<data>
+0	4.425	5.46	-0.0553	1.503	0.2154975
+1	3.966	4.91	-0.0515	1.501	0.1931442
+2	3.488	4.32	-0.0464	1.496	0.1698656
+3	3.028	3.74	-0.0417	1.492	0.1474636
+4	2.451	3.02	-0.0343	1.487	0.1193637
+5	2.031	2.5	-0.0287	1.484	0.0989097
+6	1.505	1.84	-0.022	1.482	0.0732935
+7	1.008	1.24	-0.0156	1.48	0.0490896
+8	0.564	0.7	-0.0095	1.479	0.0274668
+9	0	0.01	-0.0016	1.478	0
+10	-0.499	0.62	0.0054	1.479	-0.0243013
+11	-1.005	1.23	0.0126	1.482	-0.0489435
+12	-1.549	1.89	0.0199	1.485	-0.0754363
+13	-2.081	2.53	0.0276	1.489	-0.1013447
+14	-2.597	3.14	0.0343	1.496	-0.1264739
+15	-2.993	3.62	0.0385	1.5	-0.1457591
+16	-3.527	4.27	0.0447	1.506	-0.1717649
+17	-3.999	4.84	0.0499	1.512	-0.1947513
+18	-4.525	5.49	0.0552	1.518	-0.2203675
+</data>
+</table>
+<multiLayer>
+Grafik5	1	1	15.05.14 16:15
+geometry	669	0	553	461	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	535	398
+<PageGeometry>0.00917431	0.0121065	0.981651	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Magnetfeld B (T)	Hallspannung U (V)		<br>	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	hall_p_germanium_magnet_Magentfeld B	hall_p_germanium_magnet_U-Hall	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	18	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>-0.2203675	0.2154975</Range>
+<Points>2</Points>
+<Constant>A	-0.265535446932444</Constant>
+<Constant>B	-0.00118399247716176</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.06	0.06	0	7	5	0	0
+scale	1	-0.06	0.06	0	7	5	0	0
+scale	2	-0.3	0.3	0	7	5	0	0
+scale	3	-0.3	0.3	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.038345864661654</x>
+<y>0.050367892976589</y>
+<right>0.202255639097744</right>
+<bottom>0.039933110367893</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[15.05.14 15:11	Diagramm: ''Grafik3'']
+Lineare Regression von Datensatz: hall_n_germanium_magnet_var_U-Hall, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = -2,199292000000000e-01 bis x = 2,180299000000000e-01
+B (y-intercept) = 4,662737519668038e-04 +/- 1,508714424821067e-04
+A (slope) = 2,248372979857526e-01 +/- 1,124478213531423e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,324795635932366e-07
+R^2 = 0,999574960134199
+Angepasstes R^2 = 0,999521830150974
+RMSE (Standardabweichung) = 0,000657631784202404
+RSS (Summe der quadrierten Restwerte) = 7,35215258108503e-06
+---------------------------------------------------------------------------------------
+[15.05.14 15:17	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: hall_n_germanium_negativ_U-Hall, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,000000000000000e-03 bis x = 3,000000000000000e-02
+B (y-intercept) = -1,407260213143868e-03 +/- 9,794485115681493e-04
+A (slope) = -9,434502664298404e-01 +/- 5,428232838540915e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,895908081705150e-06
+R^2 = 0,983717565353814
+Angepasstes R^2 = 0,975576348030721
+RMSE (Standardabweichung) = 0,00137691978041756
+RSS (Summe der quadrierten Restwerte) = 9,47954040852575e-06
+---------------------------------------------------------------------------------------
+[15.05.14 15:19	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: hall_n_germanium_positiv_U-Hall, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,000000000000000e-03 bis x = 3,000000000000000e-02
+B (y-intercept) = -1,544205222171330e-04 +/- 2,723794209658636e-04
+A (slope) = 7,535272560696289e-01 +/- 1,505932725754159e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,414480073293634e-07
+R^2 = 0,998006956474477
+Angepasstes R^2 = 0,997010434711716
+RMSE (Standardabweichung) = 0,000376095742237749
+RSS (Summe der quadrierten Restwerte) = 7,07240036646817e-07
+---------------------------------------------------------------------------------------
+
+[15.05.14 16:18	Diagramm: ''Grafik5'']
+Lineare Regression von Datensatz: hall_p_germanium_magnet_U-Hall, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,154975000000000e-01 bis x = -2,203675000000000e-01
+B (y-intercept) = -1,183992477161761e-03 +/- 3,331039840238531e-04
+A (slope) = -2,655354469324444e-01 +/- 2,493431990282161e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,108132919598357e-06
+R^2 = 0,998503252811351
+Angepasstes R^2 = 0,998316159412769
+RMSE (Standardabweichung) = 0,0014519410868208
+RSS (Summe der quadrierten Restwerte) = 3,58382596331721e-05
+---------------------------------------------------------------------------------------
+</log>
