@@ -47,7 +47,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_neg
 </table>
 <table>
 hall_n_germanium_magnet_var	19	6	15.05.14 14:58
-geometry	196	571	684	309	minimized	
+geometry	392	571	684	309	minimized	
 header	I-B	U-B	U-Hall	U-Versorg	B Magnetfeld[X]	R-Laengs [Ohm][Y]
 ColWidth	100	100	100	100	146	100	
 <com>
@@ -87,7 +87,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_mag
 </table>
 <table>
 hall_p_germanium_magnet	19	6	15.05.14 16:14
-geometry	392	571	682	309	minimized	
+geometry	588	571	682	309	minimized	active
 header	I-B	U-B	U-Hall	U-Versorg	Magentfeld B[X]	R-Laengs [Ohm][Y]
 ColWidth	100	100	100	100	132	139	
 <com>
@@ -563,7 +563,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik6	1	1	20.05.14 11:46
-geometry	588	571	682	310	minimized	active
+geometry	196	571	682	310	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
