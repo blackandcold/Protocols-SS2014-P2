@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	10
+<windows>	12
 <table>
 hall_n_germanium_positiv	7	3	15.05.14 14:14
-geometry	784	595	-1	-1	minimized	
+geometry	784	463	-1	-1	minimized	
 header	I-Probe[X]	U-Probe	U-Hall[Y]
 ColWidth	100	100	100	
 <com>
@@ -25,7 +25,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_pos
 </table>
 <table>
 hall_n_germanium_negativ	7	3	15.05.14 14:28
-geometry	588	595	-1	-1	minimized	
+geometry	588	463	-1	-1	minimized	
 header	I-Probe[X]	U-Probe	U-Hall[Y]
 ColWidth	100	100	100	
 <com>
@@ -47,7 +47,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_neg
 </table>
 <table>
 hall_n_germanium_magnet_var	19	6	15.05.14 14:58
-geometry	392	571	684	309	minimized	
+geometry	392	439	684	309	minimized	
 header	I-B	U-B	U-Hall	U-Versorg	B Magnetfeld[X]	R-Laengs [Ohm][Y]
 ColWidth	100	100	100	100	146	100	
 <com>
@@ -87,7 +87,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_mag
 </table>
 <table>
 hall_p_germanium_magnet	19	6	15.05.14 16:14
-geometry	588	571	682	309	minimized	active
+geometry	588	439	682	309	minimized	
 header	I-B	U-B	U-Hall	U-Versorg	Magentfeld B[X]	R-Laengs [Ohm][Y]
 ColWidth	100	100	100	100	132	139	
 <com>
@@ -127,7 +127,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_p_germanium_mag
 </table>
 <multiLayer>
 Grafik1	1	1	15.05.14 14:15
-geometry	392	595	549	461	minimized	
+geometry	392	463	549	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -236,7 +236,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik2	1	1	15.05.14 14:28
-geometry	196	595	566	461	minimized	
+geometry	196	463	566	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -345,7 +345,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik4	1	1	15.05.14 15:30
-geometry	0	595	553	461	minimized	
+geometry	0	463	553	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -454,7 +454,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik5	1	1	15.05.14 16:15
-geometry	980	595	553	461	minimized	
+geometry	980	463	553	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -563,7 +563,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik6	1	1	20.05.14 11:46
-geometry	196	571	682	310	minimized	
+geometry	196	439	682	310	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -650,7 +650,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik7	1	1	20.05.14 11:48
-geometry	0	571	684	310	minimized	
+geometry	0	439	684	310	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -735,6 +735,235 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
+<table>
+PS11_nGe	79	4	20.05.14 12:59
+geometry	0	0	638	521	
+header	Temp-C	Hall-U	Versorg-U	1/Grad. C
+ColWidth	100	100	100	163	
+<com>
+<col nr="3">
+1/col("Temp-C")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments	Temp_C	Hall_U	Versorg_U		
+WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/PS11_nGe.txt	2
+<data>
+0	161.982572	-0.000974	0.2386	0.00617350365322
+1	157.89858	-0.000974	0.254911	0.006333179183752
+2	150.955793	-0.000974	0.298748	0.006624455942542
+3	144.319305	-0.000974	0.353798	0.006929079931476
+4	138.091217	-0.000974	0.417004	0.007241590172965
+5	132.067328	-0.000974	0.490405	0.007571895450175
+6	126.349739	-0.000974	0.574	0.00791453949897
+7	121.040549	4.621648e-05	0.66677	0.008261694186466
+8	116.139758	0.001066	0.768716	0.008610315857555
+9	111.238967	0.003106	0.878817	0.008989655576359
+10	106.746575	0.004126	0.996054	0.009367982064062
+11	102.254184	0.006166	1.111252	0.009779550927716
+12	98.170191	0.010246	1.223392	0.0101863915086
+13	94.392498	0.012286	1.325337	0.0105940622527
+14	90.819005	0.017385	1.417088	0.01101091120741
+15	87.449711	0.020445	1.493547	0.01143514356497
+16	84.386717	0.023505	1.556753	0.01185020623566
+17	81.527923	0.026565	1.607726	0.01226573624352
+18	78.771228	0.030644	1.644426	0.01269499061256
+19	76.218732	0.031664	1.672971	0.01312013429979
+20	73.768337	0.035744	1.69234	0.01355595151887
+21	71.522141	0.037784	1.704574	0.01398168435702
+22	69.378045	0.038804	1.71171	0.01441378176626
+23	67.438149	0.039824	1.714768	0.01482840224455
+24	65.702452	0.041864	1.714768	0.01522013211927
+25	63.762556	0.041864	1.71273	0.01568318559877
+26	62.026859	0.042884	1.707632	0.01612204803084
+27	60.699561	0.042884	1.702535	0.01647458372887
+28	59.270164	0.043904	1.696418	0.01687189527601
+29	57.840767	0.044924	1.690302	0.01728884404316
+30	56.615569	0.044924	1.683165	0.01766298595356
+31	55.390371	0.045944	1.67501	0.01805367940215
+32	54.165174	0.046964	1.667874	0.01846204721875
+33	53.144176	0.045944	1.659718	0.01881673732226
+34	52.225277	0.045944	1.652582	0.01914781610445
+35	51.204279	0.046964	1.645446	0.01952961782745
+36	50.387481	0.046964	1.638309	0.01984619949547
+37	49.570682	0.047983	1.632193	0.0201732144819
+38	48.651784	0.046964	1.626076	0.02055423085821
+39	47.937085	0.046964	1.619959	0.02086067602984
+40	47.324486	0.047983	1.614862	0.0211307102205
+41	46.711888	0.047983	1.608745	0.02140782663291
+42	46.099289	0.047983	1.602629	0.02169230852996
+43	45.48669	0.047983	1.596512	0.0219844530345
+44	44.874091	0.047983	1.592434	0.02228457396496
+45	44.261492	0.047983	1.588356	0.02259300251334
+46	43.750993	0.047983	1.583259	0.02285662407708
+47	43.444694	0.046964	1.578162	0.02301777059357
+48	42.934195	0.047983	1.575103	0.02329145800917
+49	42.423696	0.047983	1.572045	0.02357173217534
+50	42.117396	0.049003	1.567967	0.02374315829022
+51	41.708997	0.047983	1.564909	0.02397564247349
+52	41.504797	0.047983	1.560831	0.02409360055417
+53	41.096398	0.046964	1.559812	0.02433303278793
+54	40.687999	0.049003	1.555734	0.02457727154388
+55	40.483799	0.046964	1.552675	0.02470123913025
+56	40.1775	0.047983	1.550636	0.02488955261029
+57	39.8712	0.047983	1.546559	0.02508076004735
+58	39.769101	0.049003	1.546559	0.02514514974829
+59	39.564901	0.049003	1.5435	0.02527492739082
+60	39.360701	0.047983	1.541461	0.02540605158429
+61	38.952302	0.047983	1.538403	0.02567242367345
+62	38.850202	0.047983	1.537384	0.02573989190584
+63	38.441803	0.047983	1.536364	0.02601334802116
+64	38.441803	0.047983	1.534325	0.02601334802116
+65	38.237603	0.047983	1.533306	0.02615226691903
+66	38.135504	0.047983	1.530247	0.02622228357071
+67	37.931304	0.047983	1.529228	0.02636344903935
+68	37.829204	0.047983	1.528208	0.02643460327635
+69	37.829204	0.047983	1.527189	0.02643460327635
+70	37.522905	0.047983	1.52515	0.0266503886093
+71	37.318705	0.047983	1.524131	0.02679621385576
+72	37.318705	0.047983	1.523111	0.02679621385576
+73	37.216605	0.049003	1.522092	0.02686972656426
+74	37.216605	0.047983	1.522092	0.02686972656426
+75	37.012406	0.049003	1.519033	0.02701796797539
+76	36.910306	0.047983	1.519033	0.02709270413526
+77	36.808206	0.047983	1.519033	0.02716785490714
+78	36.808206	0.047983	1.518014	0.02716785490714
+</data>
+</table>
+<multiLayer>
+Grafik8	1	1	20.05.14 13:00
+geometry	638	0	519	461	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	8	1	501	398
+<PageGeometry>0.0156556	0.00242131	0.980431	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Temperatur [°C]	Versorgungsspannung [V]		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS11_nGe_Temp-C	PS11_nGe_Versorg-U	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	78	1
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>36.808206	57</Range>
+<Points>100</Points>
+<Constant>A	0.008616972082209</Constant>
+<Constant>B	1.203368679533</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit2</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>90.808206	161.982572</Range>
+<Points>100</Points>
+<Constant>A	12.8191559729903</Constant>
+<Constant>t	42.5190265634222</Constant>
+<Constant>y0	-0.0668995671691579</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff8000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0.2	1.8	0	9	5	0	0
+scale	1	0.2	1.8	0	9	5	0	0
+scale	2	20	180	0	9	5	0	0
+scale	3	20	180	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>104.61152882206</x>
+<y>1.6983277591973</y>
+<right>171.979949874687</right>
+<bottom>1.39866220735786</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2) Lin.Fit
+\l(3) ExponDecay Fit
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
 <open>1</open>
 <log>
 [15.05.14 15:11	Diagramm: ''Grafik3'']
@@ -791,4 +1020,164 @@ RMSE (Standardabweichung) = 0,0014519410868208
 RSS (Summe der quadrierten Restwerte) = 3,58382596331721e-05
 ---------------------------------------------------------------------------------------
 
+[20.05.14 13:12	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 5,661556900000000e+01 bis x = 3,680820600000000e+01
+A = 8,616972082208685e-03 +/- 6,216544304504270e-05
+B = 1,203368679532878e+00 +/- 2,676047516963463e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,826232540003205e-06
+R^2 = 0,997559799583358
+Angepasstes R^2 = 0,997453703913069
+RMSE (Standardabweichung) = 0,00241375900619826
+RSS (Summe der quadrierten Restwerte) = 0,000273832929380151
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[20.05.14 13:13	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 5,661556900000000e+01 bis x = 3,680820600000000e+01
+A = 8,616972082209001e-03 +/- 6,216544331656291e-05
+B = 1,203368679533000e+00 +/- 2,676047531055166e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,826232540003168e-06
+R^2 = 0,997559799583358
+Angepasstes R^2 = 0,997453703913069
+RMSE (Standardabweichung) = 0,00241375900619825
+RSS (Summe der quadrierten Restwerte) = 0,000273832929380149
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+[20.05.14 13:14	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,619825720000000e+02 bis x = 8,152792300000000e+01
+A = 1,000000000000000e+00 +/- 5,600982538754718e+39
+t = 1,000000000000000e+00 +/- 5,600982538754721e+39
+y0 = 8,707176667062673e-01 +/- 3,656358803878195e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,645754788792000e-01
+R^2 = -2,22044604925031e-16
+Angepasstes R^2 = -0,214285714285714
+RMSE (Standardabweichung) = 0,514369010418785
+RSS (Summe der quadrierten Restwerte) = 3,968632183188
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.05.14 13:15	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Unskalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,619825720000000e+02 bis x = 8,438671700000000e+01
+A = 1,000000000158052e+00 +/- 5,536861165036295e+39
+t = 1,000000000158052e+00 +/- 5,536861165036296e+39
+y0 = 8,273642352770821e-01 +/- 3,303997700077321e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,423927899703613e-01
+R^2 = 0
+Angepasstes R^2 = -0,230769230769231
+RMSE (Standardabweichung) = 0,492334022763369
+RSS (Summe der quadrierten Restwerte) = 3,39349905958506
+---------------------------------------------------------------------------------------
+Iterationen = 4
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.05.14 13:16	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Unskalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,619825720000000e+02 bis x = 8,438671700000000e+01
+A = 7,999464227245232e+01 +/- 0,000000000000000e+00
+t = 1,999126624790538e-01 +/- 2,380781247973492e+24
+y0 = 8,273642351460594e-01 +/- 1,101813714468157e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,423927899703613e-01
+R^2 = 1,11022302462516e-16
+Angepasstes R^2 = -0,230769230769231
+RMSE (Standardabweichung) = 0,492334022763369
+RSS (Summe der quadrierten Restwerte) = 3,39349905958506
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.05.14 13:16	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Unskalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,619825720000000e+02 bis x = 8,438671700000000e+01
+A = 1,000000000000000e+00 +/- 1,107372233007259e+40
+t = 1,000000000000000e+00 +/- 1,107372233007259e+40
+y0 = 8,273642353469979e-01 +/- 7,080527616928300e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,423927899703612e-01
+R^2 = 1,11022302462516e-16
+Angepasstes R^2 = -0,230769230769231
+RMSE (Standardabweichung) = 0,492334022763369
+RSS (Summe der quadrierten Restwerte) = 3,39349905958506
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[20.05.14 13:17	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Unskalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,619825720000000e+02 bis x = 1,022541840000000e+02
+A = 1,000000000000000e+00 +/- 4,531701239990744e+39
+t = 1,000000000000000e+00 +/- 4,531701239990744e+39
+y0 = 5,874229167930438e-01 +/- 5,131130792987132e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,082489548258796e-01
+R^2 = -2,22044604925031e-16
+Angepasstes R^2 = -0,375
+RMSE (Standardabweichung) = 0,329012089178923
+RSS (Summe der quadrierten Restwerte) = 0,974240593432916
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.05.14 13:17	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Nelder-Mead Simplex Algorithmus mit Tolleranz = 0,0001
+Von x = 1,619825720000000e+02 bis x = 1,022541840000000e+02
+A = 1,043076458047288e+02 +/- 0,000000000000000e+00
+t = 2,183663559951834e+01 +/- 0,000000000000000e+00
+y0 = 2,103874513697436e-01 +/- 0,000000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,082489548258796e-01
+R^2 = 0,984295136026052
+Angepasstes R^2 = 0,978405812035822
+RMSE (Standardabweichung) = 0,0412314820357267
+RSS (Summe der quadrierten Restwerte) = 0,0153003159977621
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[20.05.14 13:18	Diagramm: ''Grafik8'']
+Nichtlinearer Fit von Datensatz: PS11_nGe_Versorg-U, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Nelder-Mead Simplex Algorithmus mit Tolleranz = 0,0001
+Von x = 1,619825720000000e+02 bis x = 9,081900500000000e+01
+A = 1,281915597299025e+01 +/- 1,251968447359459e+00
+t = 4,251902656342223e+01 +/- 2,344638701942167e+00
+y0 = -6,689956716915794e-02 +/- 4,079908537088561e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,048092013980623e-04
+R^2 = 0,998401245729612
+Angepasstes R^2 = 0,997965221837689
+RMSE (Standardabweichung) = 0,0174587857939223
+RSS (Summe der quadrierten Restwerte) = 0,00365771041677675
+---------------------------------------------------------------------------------------
+Iterationen = 241
+Status = success
+---------------------------------------------------------------------------------------
 </log>
