@@ -398,7 +398,7 @@ Es wird erwartet, dass die Spannung (proportional zum Widerstand bei konstantem 
 Nahe der Raumtemperatur überwiegt nämlich ein metallischer Charakter des Halbleiters:\\
 Es ist eine gewisse Anzahl Elektronen im  Leitungsband und damit frei bewegliche Ladungsträger im Material. Wird dieses nun wärmer, behindert die höhere Energie der Atomrümpfe deren Bewegung, damit steigt der Widerstand (linear wie eben in Metallen).\\
 Gleichzeitig übernimmt aber, mit steigender Temperatur, die Halbleitercharakteristik: Eine zunehmende Menge Ladungsträger (abhängig von der Dotierung) gelangen in das Leitungsband. Die Leitfähigkeit nimmt also zu (und damit die Spannung und der Widerstand ab).\\
-Dieser Prozess sollte, wie eben in der Temperaturabhängigkeit von Halbleitern (PW10) gezeigt, exponentiell verlaufen und damit schnell zum bestimmenden Faktor der Leitfähigkeit werden.
+Dieser Prozess sollte, wie eben in der Temperaturabhängigkeit von Halbleitern (PW10) gezeigt, exponentiell Verlaufen und damit schnell zum bestimmenden Faktor der Leitfähigkeit werden.
 
 
 
@@ -410,15 +410,23 @@ Dieser Prozess sollte, wie eben in der Temperaturabhängigkeit von Halbleitern (
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{./figures/Hall_pGe_temp.png}
+	\includegraphics[scale=0.7]{./figures/Hall_pGe_temp.png}
 	\caption{Temperaturabhängigkeit im p-Germanium}
 	\label{fig:pGe_mag_temp}
 \end{figure}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{./figures/Hall_nGe_temp.png}
+	\includegraphics[scale=0.7]{./figures/Hall_nGe_temp.png}
 	\caption{Temperaturabhängigkeit im n-Germanium}
 	\label{fig:nGe_mag_temp}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.8]{./figures/Halbleiter_Dotierung_Verhalten.png}
+	\caption{Temperaturabhängigkeit im n-dotierten Halbleiter mit Lin. Fit und Exp. Fit}
+	\label{fig:halbleiter_fits}
 \end{figure}
 \begin{multicols}{2}
 
@@ -427,6 +435,18 @@ Dieser Prozess sollte, wie eben in der Temperaturabhängigkeit von Halbleitern (
 \noindent Die Rohdaten sind zu finden unter [2].
 
 \subsection{Diskussion}
+
+Abb. \ref{fig:halbleiter_fits} zeigt die Längsspannung im p-dotierten Halbleiter aufgetragen gegen die Temperatur. Bis zum Umkehrpunkt der Spannung (bei etwa $70^\circ C$) steigt die Spannung und der WIderstand linear an (qualitativ gezeigt durch einen linearen Fit), während bei höheren Temperaturen der Widerstand exponentiell abfällt (exponentieller Fit ab $90^\circ C$).\\
+Damit ist das Verhalten der beiden Leitungstyp-Charakteristika zumindest optisch, gut dargestellt.\\
+
+In den Abbildungen \ref{fig:pGe_mag_temp} und \ref{fig:nGe_mag_temp} ist weiters ein Unterschied im Verhalten der Hallspannung, je nach Dotierung, zu erkennen:\\
+Die Hallspannung ändert beim n-dotierten Germanium, über den gesamten Temperaturbereich ihr Vorzeichen nicht.\\
+Beim p-dotierten Halbleiter ändert die Hallspannung ab etwa $120^\circ C$ ihre Richtung.\\
+Dieser Effekt entsteht dadurch, dass bei Raumtemperatur für beide Proben negative Ladungsträger (freie Elektronen) wesentlich am Ladungstransport beteiligt sind (für niedrige Temperaturen), eben der metallische Charakter der Proben.\\
+Steigt nun die Temperatur, wächst der Widerstand für diese an, während der Ladungstransport vor allem durch die Dotierungen passiert. Diese haben im n-Germanium auch eine negative Ladung.\\
+Im p-Germanium jedoch übernehmen mit steigender Temperatur positive Ladungsträger den Ladungstransport von den negative geladenen Elektronen. Daher kommt es zu einer Umkehrung der Hallspannung.\\
+
+Bei niedrigeren Temperaturen sind im p-Germanium sowohl positive als auch negative Ladungsträger am Transport beteiligt. Da der Halleffekt beide in die gleiche Richtung ablenkt (siehe Teil 1) beeinflusst das den Effekt selbst nicht.
 
 
 \section{Quellen}
