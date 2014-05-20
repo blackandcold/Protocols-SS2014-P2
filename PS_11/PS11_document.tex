@@ -154,14 +154,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-In diesen Experimenten werden die Eigenschaften von dotierten Halbleitern in Bezug auf den Hall-Effekt untersucht. Der Hall-Effekt ist das Auftreten einer Spannung normal stehend zur Flussrichtung eines an den Halbleiter angelegten Stromes.\\
+In diesen Experimenten werden die Eigenschaften von dotierten Halbleitern in Bezug auf den Hall-Effekt untersucht. Der Hall-Effekt ist das Auftreten einer Spannung,die normal steht zur Flussrichtung eines an den Halbleiter angelegten Stromes.\\
 
 
 \section{Hall-Effekt in n- und p-dotiertem Germanium}
 Im Halbleiter aus Germanium wird im Folgenden der lineare Zusammenhang zwischen Strom und Hallspannung überprüft.
 
 \subsection{Grundlagen}
-Grundlage der Hallspannung ist die Lorenzkraft. In ([1] p. 5 Abb. 2) ist der Aufbau der Untersuchung wie folgt zu sehen:
+Grundlage der Hallspannung ist die Lorenzkraft. In ([1] p. 5 Abb. 2) ist der Aufbau der Untersuchung zu sehen:
 
 \begin{figure}[H]
 	\centering
@@ -170,15 +170,22 @@ Grundlage der Hallspannung ist die Lorenzkraft. In ([1] p. 5 Abb. 2) ist der Auf
 	\label{fig:hallspannung_aufbau}
 \end{figure}
 
-Hier ist zu sehen das normal zur Stromrichtung (in z-Richtung) das Magnetfeld angelegt wird. Normal zu Stromrichtung und normal zum Magnetfeld (Kreuzprodukt) liegt die Hallspannung an. Wie bereits erwähnt ist der Grund dafür die Lorenzkraft:
+Hier ist zu sehen, dass das Magnetfeld  in z-Richtung angelegt wird. Normal zu Stromrichtung und normal zum Magnetfeld entsteht eine Hallspannung, da die Ladungsträger durch die Lorentzkraft abgelenkt werden und damit eine seitliche Geschwindigkeitskomponente bekommen:
 
 $$\vec{F_{L}} = q \cdot \vec{E} + q \cdot (\vec{v} \times \vec{B})$$
 
-Bei der in Abbildung \ref{fig:hallspannung_aufbau} skizzierten Flussrichtung ist eine Ablenkung nach der Rechte-Hand-Regel gegeben. Ändert man die Flussrichtung entgegengesetzt ändert sich das Vorzeichen und positive Ladungen entsprechen nun dem Fluss in die ursprüngliche Richtung. Die umgekrehte Stromrichtung führt zu einer entgegengesetzten Ablenkung der negativen Ladungen. Da nun positive Ladungen vorhanden sind, ist die Hallspannung unabhängig von der Stromrichtung. Zu sehen ist dieser Zusammenhang in der Gleichung:
+Bei der, in Abbildung \ref{fig:hallspannung_aufbau} skizzierten, Flussrichtung ist eine Ablenkung nach der Rechte-Hand-Regel gegeben. Ändert man die Flussrichtung entgegengesetzt, so ändert sich das Vorzeichen des Stromes und positive Ladungen entsprechen nun dem Fluss in die ursprüngliche Richtung. Die umgekehrte Stromrichtung führt zu einer entgegengesetzten Ablenkung der negativen Ladungen. Die Hallspannung ändert also ihre Richtung mit einer Richtungsänderung des Stromes oder des B-Feldes.\\
+Das bedeutet jedoch auch, dass sowohl in p-dotierten sowie n-dotierten Halbleitern, die Ladungsträger in die gleiche Richtung abgelenkt werden (da die umgekehrte Ladung der Ladungsträger einer Änderung der Stromrichtung entspricht).\\
+Zu sehen ist dieser Zusammenhang in der Gleichung:
 $$U_H = - \frac{1}{nq} \cdot \frac{I \cdot B}{d}$$
+$$R_H=- \frac{1}{nq}$$
 
+Da nun Ladungsträger normal zur Flussrichtung abgelenkt werden, entsteht auch ein Widerstand im Halbleiter (weniger Ladung/Zeit fließt). Dieser Magnetowiderstand ist quadratisch abhängig von der Stärke des B-Feldes.
+
+
+\pagebreak
 \subsection{Versuchsaufbau}
-Die Versuche werden mit verdrahteten Proben auf einer Paltine mit Elektromagneten und Netzteilen durchgeführt. In Abbildung \ref{fig:probe_aufbau} ist eine eingespannte Probe schematisch dargestellt [1 p.10 Abb. 6].
+Die Versuche werden mit verdrahteten Proben auf einer Platine mit Elektromagneten und Netzteilen durchgeführt. In Abbildung \ref{fig:probe_aufbau} ist eine eingespannte Probe schematisch dargestellt [1 p.10 Abb. 6].
 
 \begin{figure}[H]
 	\centering
@@ -187,10 +194,17 @@ Die Versuche werden mit verdrahteten Proben auf einer Paltine mit Elektromagnete
 	\label{fig:probe_aufbau}
 \end{figure}
 
- Mit einer Eichmessung ergibt sich ein Fluss pro Ampere welcher in [1 p.11] mit 
+Die Polschuhe des Magneten werden nahe an Abstandhalter gebracht, die ebenfalls fest an der Platine verbaut sind. Es ist darauf zu achten, die Polschuhe nach dem Einrichten gut zu befestigen um Schäden an der Platine zu vermeiden.\\
+
+Für die Messung selbst werden 2 Fluke 179 - Multimeter verwendet, sowie 2TTi EL155R Netzgeräte zur Stromversorgung (deren Anzeige gleichzeitig als messwerte verwendet werden).\\
+
+Das B-Feld wird nicht direkt gemessen, sondern der Strom, mit dem die Magneten versorgt werden.
+Nach einer Eichmessung ergibt sich ein Fluss pro Ampere welcher in [1 p.11] mit 
 $(48.70 \pm 0.25) \frac{mT}{A}$ 
 angegeben ist.
 
+
+\pagebreak
 \end{multicols}
 \subsection{Resultate}
 
@@ -388,21 +402,21 @@ Dieser Prozess sollte, wie eben in der Temperaturabhängigkeit von Halbleitern (
 
 
 
-
+\end{multicols}
 
 \subsection{Resultate}
 
 
-\end{multicols}
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.3]{./figures/Hall_pGe_temp.png}
+	\includegraphics[scale=0.8]{./figures/Hall_pGe_temp.png}
 	\caption{Temperaturabhängigkeit im p-Germanium}
 	\label{fig:pGe_mag_temp}
 \end{figure}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.3]{./figures/Hall_nGe_temp.png}
+	\includegraphics[scale=0.8]{./figures/Hall_nGe_temp.png}
 	\caption{Temperaturabhängigkeit im n-Germanium}
 	\label{fig:nGe_mag_temp}
 \end{figure}
