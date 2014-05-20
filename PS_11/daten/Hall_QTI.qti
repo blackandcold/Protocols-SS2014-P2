@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	8
+<windows>	10
 <table>
 hall_n_germanium_positiv	7	3	15.05.14 14:14
-geometry	980	454	445	220	minimized	
+geometry	784	595	-1	-1	minimized	
 header	I-Probe[X]	U-Probe	U-Hall[Y]
 ColWidth	100	100	100	
 <com>
@@ -25,7 +25,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_pos
 </table>
 <table>
 hall_n_germanium_negativ	7	3	15.05.14 14:28
-geometry	784	454	445	220	minimized	
+geometry	588	595	-1	-1	minimized	
 header	I-Probe[X]	U-Probe	U-Hall[Y]
 ColWidth	100	100	100	
 <com>
@@ -46,45 +46,88 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_neg
 </data>
 </table>
 <table>
-hall_n_germanium_magnet_var	19	5	15.05.14 14:58
-geometry	588	454	681	487	minimized	
-header	I-B	U-B	U-Hall[Y]	U-Versorg	B Magnetfeld[X]
-ColWidth	100	100	100	100	146	
+hall_n_germanium_magnet_var	19	6	15.05.14 14:58
+geometry	196	571	684	309	minimized	
+header	I-B	U-B	U-Hall	U-Versorg	B Magnetfeld[X]	R-Laengs [Ohm][Y]
+ColWidth	100	100	100	100	146	100	
 <com>
 <col nr="4">
 col("I-B")*0.0487
 </col>
+<col nr="5">
+col("U-Versorg")/0.025
+</col>
 </com>
-ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0
-HiddenColumn	0	0	0	0	0
-Comments	I_B	U_B	U_Hall	U_Versorg		
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments	I_B	U_B	U_Hall	U_Versorg			
 WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_n_germanium_magnet_var.dat	2
 <data>
-0	-4.516	5.26	-0.0474	1.132	-0.2199292
-1	-4.052	4.73	-0.0429	1.131	-0.1973324
-2	-3.496	4.09	-0.0377	1.129	-0.1702552
-3	-3.038	3.56	-0.0333	1.128	-0.1479506
-4	-2.508	2.94	-0.0271	1.126	-0.1221396
-5	-2.014	2.36	-0.0227	1.125	-0.0980818
-6	-1.57	1.84	-0.0173	1.124	-0.076459
-7	-1.01	1.19	-0.0114	1.124	-0.049187
-8	-0.521	0.62	-0.0059	1.123	-0.0253727
-9	0	0.01	0	1.123	0
-10	0.504	0.6	0.0057	1.124	0.0245448
-11	0.999	1.17	0.0113	1.124	0.0486513
-12	1.53	1.78	0.0174	1.125	0.074511
-13	2.005	2.33	0.0228	1.126	0.0976435
-14	2.517	2.93	0.0283	1.128	0.1225779
-15	3.009	3.5	0.0337	1.13	0.1465383
-16	3.505	4.09	0.0391	1.132	0.1706935
-17	4.064	4.76	0.0454	1.135	0.1979168
-18	4.477	5.25	0.0496	1.136	0.2180299
+0	-4.516	5.26	-0.0474	1.132	-0.2199292	45.28
+1	-4.052	4.73	-0.0429	1.131	-0.1973324	45.24
+2	-3.496	4.09	-0.0377	1.129	-0.1702552	45.16
+3	-3.038	3.56	-0.0333	1.128	-0.1479506	45.12
+4	-2.508	2.94	-0.0271	1.126	-0.1221396	45.04
+5	-2.014	2.36	-0.0227	1.125	-0.0980818	45
+6	-1.57	1.84	-0.0173	1.124	-0.076459	44.96
+7	-1.01	1.19	-0.0114	1.124	-0.049187	44.96
+8	-0.521	0.62	-0.0059	1.123	-0.0253727	44.92
+9	0	0.01	0	1.123	0	44.92
+10	0.504	0.6	0.0057	1.124	0.0245448	44.96
+11	0.999	1.17	0.0113	1.124	0.0486513	44.96
+12	1.53	1.78	0.0174	1.125	0.074511	45
+13	2.005	2.33	0.0228	1.126	0.0976435	45.04
+14	2.517	2.93	0.0283	1.128	0.1225779	45.12
+15	3.009	3.5	0.0337	1.13	0.1465383	45.2
+16	3.505	4.09	0.0391	1.132	0.1706935	45.28
+17	4.064	4.76	0.0454	1.135	0.1979168	45.4
+18	4.477	5.25	0.0496	1.136	0.2180299	45.44
+</data>
+</table>
+<table>
+hall_p_germanium_magnet	19	6	15.05.14 16:14
+geometry	392	571	682	309	minimized	
+header	I-B	U-B	U-Hall	U-Versorg	Magentfeld B[X]	R-Laengs [Ohm][Y]
+ColWidth	100	100	100	100	132	139	
+<com>
+<col nr="4">
+col("I-B")*0.0487
+</col>
+<col nr="5">
+col("U-Versorg")/0.025
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments	I_B	U_B	U_Hall	U_Versorg			
+WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_p_germanium_magnet.dat	2
+<data>
+0	4.425	5.46	-0.0553	1.503	0.2154975	60.12
+1	3.966	4.91	-0.0515	1.501	0.1931442	60.04
+2	3.488	4.32	-0.0464	1.496	0.1698656	59.84
+3	3.028	3.74	-0.0417	1.492	0.1474636	59.68
+4	2.451	3.02	-0.0343	1.487	0.1193637	59.48
+5	2.031	2.5	-0.0287	1.484	0.0989097	59.36
+6	1.505	1.84	-0.022	1.482	0.0732935	59.28
+7	1.008	1.24	-0.0156	1.48	0.0490896	59.2
+8	0.564	0.7	-0.0095	1.479	0.0274668	59.16
+9	0	0.01	-0.0016	1.478	0	59.12
+10	-0.499	0.62	0.0054	1.479	-0.0243013	59.16
+11	-1.005	1.23	0.0126	1.482	-0.0489435	59.28
+12	-1.549	1.89	0.0199	1.485	-0.0754363	59.4
+13	-2.081	2.53	0.0276	1.489	-0.1013447	59.56
+14	-2.597	3.14	0.0343	1.496	-0.1264739	59.84
+15	-2.993	3.62	0.0385	1.5	-0.1457591	60
+16	-3.527	4.27	0.0447	1.506	-0.1717649	60.24
+17	-3.999	4.84	0.0499	1.512	-0.1947513	60.48
+18	-4.525	5.49	0.0552	1.518	-0.2203675	60.72
 </data>
 </table>
 <multiLayer>
 Grafik1	1	1	15.05.14 14:15
-geometry	196	454	549	461	minimized	
+geometry	392	595	549	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -94,7 +137,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	531	398
-<PageGeometry>0.00924214	0.0121065	0.981516	0.96368</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.04118	0.970732</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -193,7 +236,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik2	1	1	15.05.14 14:28
-geometry	392	454	566	461	minimized	
+geometry	196	595	566	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -203,7 +246,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	548	398
-<PageGeometry>0.00896057	0.0121065	0.982079	0.96368</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.07451	0.970732</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -302,7 +345,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik4	1	1	15.05.14 15:30
-geometry	0	454	553	461	minimized	
+geometry	0	595	553	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -312,7 +355,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	535	398
-<PageGeometry>0.00917431	0.0121065	0.981651	0.96368</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	1.04902	0.970732</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -388,8 +431,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-0.28496240601504</x>
 <y>0.055986622073579</y>
-<right>-0.135678391959799</right>
-<bottom>0.0442953020134228</bottom>
+<right>-0.1453125</right>
+<bottom>0.0435616438356164</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -409,46 +452,9 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<table>
-hall_p_germanium_magnet	19	5	15.05.14 16:14
-geometry	0	0	669	460	
-header	I-B	U-B	U-Hall[Y]	U-Versorg	Magentfeld B[X]
-ColWidth	100	100	100	100	100	
-<com>
-<col nr="4">
-col("I-B")*0.0487
-</col>
-</com>
-ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0
-HiddenColumn	0	0	0	0	0
-Comments	I_B	U_B	U_Hall	U_Versorg		
-WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/hall_p_germanium_magnet.dat	2
-<data>
-0	4.425	5.46	-0.0553	1.503	0.2154975
-1	3.966	4.91	-0.0515	1.501	0.1931442
-2	3.488	4.32	-0.0464	1.496	0.1698656
-3	3.028	3.74	-0.0417	1.492	0.1474636
-4	2.451	3.02	-0.0343	1.487	0.1193637
-5	2.031	2.5	-0.0287	1.484	0.0989097
-6	1.505	1.84	-0.022	1.482	0.0732935
-7	1.008	1.24	-0.0156	1.48	0.0490896
-8	0.564	0.7	-0.0095	1.479	0.0274668
-9	0	0.01	-0.0016	1.478	0
-10	-0.499	0.62	0.0054	1.479	-0.0243013
-11	-1.005	1.23	0.0126	1.482	-0.0489435
-12	-1.549	1.89	0.0199	1.485	-0.0754363
-13	-2.081	2.53	0.0276	1.489	-0.1013447
-14	-2.597	3.14	0.0343	1.496	-0.1264739
-15	-2.993	3.62	0.0385	1.5	-0.1457591
-16	-3.527	4.27	0.0447	1.506	-0.1717649
-17	-3.999	4.84	0.0499	1.512	-0.1947513
-18	-4.525	5.49	0.0552	1.518	-0.2203675
-</data>
-</table>
 <multiLayer>
 Grafik5	1	1	15.05.14 16:15
-geometry	669	0	553	461	active
+geometry	980	595	553	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -534,8 +540,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>0.038345864661654</x>
 <y>0.050367892976589</y>
-<right>0.202255639097744</right>
-<bottom>0.039933110367893</bottom>
+<right>-0.137260273972603</right>
+<bottom>0.0435616438356164</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -544,6 +550,180 @@ EnabledTickLabels	1	1	1	1
 \l(2)%(2)
 </Text>
 <Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik6	1	1	20.05.14 11:46
+geometry	588	571	682	310	minimized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	3	661	252
+<PageGeometry>0.00890208	0.0114504	0.980712	0.961832</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	B-Feld [T]	Widerstand [Ohm]		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	7	75	0	0	0
+ScaleFont0	Sans	6	75	0	0	0
+ScaleFont1	Sans	6	75	0	0	0
+ScaleFont2	Sans	6	75	0	0	0
+ScaleFont3	Sans	6	75	0	0	0
+AxisFont0	Sans	6	50	0	0	0
+AxisFont1	Sans	6	50	0	0	0
+AxisFont2	Sans	6	50	0	0	0
+AxisFont3	Sans	6	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	hall_p_germanium_magnet_Magentfeld B	hall_p_germanium_magnet_R-Laengs [Ohm]	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	18	1
+scale	0	59	61	0	5	5	0	0
+scale	1	59	61	0	5	5	0	0
+scale	2	-0.3	0.3	0	7	5	0	0
+scale	3	-0.3	0.3	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.13157894736842</x>
+<y>60.913043478261</y>
+<right>0.121052631578947</right>
+<bottom>60.7391304347826</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	6	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik7	1	1	20.05.14 11:48
+geometry	0	571	684	310	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	8	3	663	252
+<PageGeometry>0.0118343	0.0114504	0.980769	0.961832</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	B-Feld [T]	Widerstand [Ohm]		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	7	75	0	0	0
+ScaleFont0	Sans	6	75	0	0	0
+ScaleFont1	Sans	6	75	0	0	0
+ScaleFont2	Sans	6	75	0	0	0
+ScaleFont3	Sans	6	75	0	0	0
+AxisFont0	Sans	6	50	0	0	0
+AxisFont1	Sans	6	50	0	0	0
+AxisFont2	Sans	6	50	0	0	0
+AxisFont3	Sans	6	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	hall_n_germanium_magnet_var_B Magnetfeld	hall_n_germanium_magnet_var_R-Laengs [Ohm]	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	18	1
+scale	0	44.9	45.5	0	7	5	0	0
+scale	1	44.9	45.5	0	7	5	0	0
+scale	2	-0.3	0.3	0	7	5	0	0
+scale	3	-0.3	0.3	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.16917293233083</x>
+<y>45.399665551839</y>
+<right>0.121052631578947</right>
+<bottom>45.347491638796</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	6	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -610,4 +790,5 @@ Angepasstes R^2 = 0,998316159412769
 RMSE (Standardabweichung) = 0,0014519410868208
 RSS (Summe der quadrierten Restwerte) = 3,58382596331721e-05
 ---------------------------------------------------------------------------------------
+
 </log>
