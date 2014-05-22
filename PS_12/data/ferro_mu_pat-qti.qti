@@ -1,0 +1,506 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	5
+<table>
+Tabelle1	30	5	22.05.14 16:21
+geometry	0	0	557	319	
+header	I[mA][X]	Uy(B) [V][Y]	Ux(H) [V][X]	H[X]	B[Y]
+ColWidth	100	100	100	100	100	
+<com>
+<col nr="3">
+col("Ux(H) [V]")*197/(0.02*46.4)
+</col>
+<col nr="4">
+col("Uy(B) [V]")*70700*0.0000106/(788*0.000202)
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel		2
+<data>
+0	43	0.104	3.04	645.3448275862	0.4896446700508
+1	60	0.14	4.56	968.0172413793	0.6591370558376
+2	80	0.168	6.24	1324.655172414	0.7909644670051
+3	100	0.192	8.2	1740.732758621	0.9039593908629
+4	120	0.204	10	2122.844827586	0.9604568527919
+5	136	0.212	11.6	2462.5	0.9981218274112
+6	149	0.22	12.6	2674.784482759	1.03578680203
+7				0	0
+</data>
+</table>
+<multiLayer>
+Grafik1	1	1	22.05.14 16:32
+geometry	557	0	497	461	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	485	403
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	Lucida Grande	15	75	0	0	0
+ScaleFont0	Lucida Grande	13	75	0	0	0
+ScaleFont1	Lucida Grande	13	75	0	0	0
+ScaleFont2	Lucida Grande	13	75	0	0	0
+ScaleFont3	Lucida Grande	13	75	0	0	0
+AxisFont0	Lucida Grande	13	50	0	0	0
+AxisFont1	Lucida Grande	13	50	0	0	0
+AxisFont2	Lucida Grande	13	50	0	0	0
+AxisFont3	Lucida Grande	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_H	Tabelle1_B	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+scale	0	-0.2	1.2	0	8	5	0	0
+scale	1	-0.2	1.2	0	8	5	0	0
+scale	2	-500	3000	0	8	5	0	0
+scale	3	-500	3000	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-412.28070175439</x>
+<y>1.0765886287625</y>
+<right>921.052631578948</right>
+<bottom>0.97123745819398</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Lucida Grande	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik2	1	1	22.05.14 16:57
+geometry	0	59	517	461	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	505	403
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	Lucida Grande	15	75	0	0	0
+ScaleFont0	Lucida Grande	13	75	0	0	0
+ScaleFont1	Lucida Grande	13	75	0	0	0
+ScaleFont2	Lucida Grande	13	75	0	0	0
+ScaleFont3	Lucida Grande	13	75	0	0	0
+AxisFont0	Lucida Grande	13	50	0	0	0
+AxisFont1	Lucida Grande	13	50	0	0	0
+AxisFont2	Lucida Grande	13	50	0	0	0
+AxisFont3	Lucida Grande	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Tabelle1_H	Tabelle1_B	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit1</Title>
+<Expression>a0+a1*x+a2*x^2+a3*x^3+a4*x^4</Expression>
+<Variable>x</Variable>
+<Range>0	2674.784482759</Range>
+<Points>100</Points>
+<Constant>a0	0.000270676119667869</Constant>
+<Constant>a1	0.000909705543843223</Constant>
+<Constant>a2	-2.33293040494013e-07</Constant>
+<Constant>a3	-1.39492388805436e-11</Constant>
+<Constant>a4	1.04727360480648e-14</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.2	1.2	0	8	5	0	0
+scale	1	-0.2	1.2	0	8	5	0	0
+scale	2	-500	3000	0	8	5	0	0
+scale	3	-500	3000	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-412.28070175439</x>
+<y>1.1531772575251</y>
+<right>456.140350877193</right>
+<bottom>1.01739130434783</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Lucida Grande	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+DiagrammAbleitung	1	1	22.05.14 16:57
+geometry	527	17	530	462	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	518	404
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+Background	#ffffff	255
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+TitleFont	Lucida Grande	15	75	0	0	0
+ScaleFont0	Lucida Grande	13	75	0	0	0
+ScaleFont1	Lucida Grande	13	75	0	0	0
+ScaleFont2	Lucida Grande	13	75	0	0	0
+ScaleFont3	Lucida Grande	13	75	0	0	0
+AxisFont0	Lucida Grande	13	50	0	0	0
+AxisFont1	Lucida Grande	13	50	0	0	0
+AxisFont2	Lucida Grande	13	50	0	0	0
+AxisFont3	Lucida Grande	13	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	255
+curve	Ableitung1_1	Ableitung1_2	0	1	#000000	0	1	3	0	#000000	#000000	0	#000000	14	1	2	0	0	97	1
+scale	0	0.0001	0.001	0	8	5	0	0
+scale	1	0.0001	0.001	0	8	5	0	0
+scale	2	0	3000	0	8	5	0	0
+scale	3	0	3000	0	8	5	0	0
+LabelsFormat	0	4	0	4	0	4	0	4
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>26.246719160105</x>
+<y>966.10169491525</y>
+<right>286.089238845144</right>
+<bottom>867.796610169491</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Lucida Grande	13	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Ableitung1	98	2	22.05.14 16:57
+geometry	0	269	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ableitung von NichtlinearFit1	2
+<data>
+0	27.01802507837	0.0008970602314808
+1	54.03605015675	0.0008843689633839
+2	81.05407523512	0.0008716265141268
+3	108.0721003135	0.0008588378408612
+4	135.0901253919	0.0008460079007386
+5	162.1081504702	0.0008331416509107
+6	189.1261755486	0.000820244048529
+7	216.144200627	0.0008073200507451
+8	243.1622257054	0.0007943746147108
+9	270.1802507837	0.0007814126975775
+10	297.1982758621	0.0007684392564968
+11	324.2163009405	0.0007554592486204
+12	351.2343260189	0.0007424776310999
+13	378.2523510972	0.0007294993610869
+14	405.2703761756	0.0007165293957329
+15	432.288401254	0.0007035726921896
+16	459.3064263324	0.0006906342076085
+17	486.3244514107	0.0006777188991414
+18	513.3424764891	0.0006648317239397
+19	540.3605015675	0.0006519776391551
+20	567.3785266458	0.0006391616019392
+21	594.3965517242	0.0006263885694436
+22	621.4145768026	0.0006136634988199
+23	648.432601881	0.0006009913472196
+24	675.4506269593	0.0005883770717945
+25	702.4686520377	0.000575825629696
+26	729.4866771161	0.0005633419780759
+27	756.5047021945	0.0005509310740856
+28	783.5227272728	0.0005385978748769
+29	810.5407523512	0.0005263473376012
+30	837.5587774296	0.0005141844194103
+31	864.576802508	0.0005021140774557
+32	891.5948275863	0.000490141268889
+33	918.6128526647	0.0004782709508618
+34	945.6308777431	0.0004665080805257
+35	972.6489028215	0.0004548576150323
+36	999.6669278998	0.0004433245115333
+37	1026.684952978	0.0004319137271801
+38	1053.702978057	0.0004206302191246
+39	1080.721003135	0.0004094789445181
+40	1107.739028213	0.0003984648605123
+41	1134.757053292	0.0003875929242589
+42	1161.77507837	0.0003768680929095
+43	1188.793103448	0.0003662953236155
+44	1215.811128527	0.0003558795735287
+45	1242.829153605	0.0003456257998007
+46	1269.847178684	0.0003355389595829
+47	1296.865203762	0.0003256240100272
+48	1323.88322884	0.0003158859082849
+49	1350.901253919	0.0003063296115079
+50	1377.919278997	0.0002969600768476
+51	1404.937304075	0.0002877822614556
+52	1431.955329154	0.0002788011224836
+53	1458.973354232	0.0002700216170831
+54	1485.991379311	0.0002614487024058
+55	1513.009404389	0.0002530873356033
+56	1540.027429467	0.0002449424738272
+57	1567.045454546	0.000237019074229
+58	1594.063479624	0.0002293220939604
+59	1621.081504702	0.0002218564901729
+60	1648.099529781	0.0002146272200182
+61	1675.117554859	0.0002076392406479
+62	1702.135579938	0.0002008975092136
+63	1729.153605016	0.0001944069828669
+64	1756.171630094	0.0001881726187593
+65	1783.189655173	0.0001821993740426
+66	1810.207680251	0.0001764922058682
+67	1837.225705329	0.0001710560713878
+68	1864.243730408	0.000165895927753
+69	1891.261755486	0.0001610167321154
+70	1918.279780565	0.0001564234416266
+71	1945.297805643	0.0001521210134382
+72	1972.315830721	0.0001481144047018
+73	1999.3338558	0.000144408572569
+74	2026.351880878	0.0001410084741915
+75	2053.369905956	0.0001379190667207
+76	2080.387931035	0.0001351453073083
+77	2107.405956113	0.0001326921531059
+78	2134.423981192	0.0001305645612652
+79	2161.44200627	0.0001287674889377
+80	2188.460031348	0.000127305893275
+81	2215.478056427	0.0001261847314287
+82	2242.496081505	0.0001254089605505
+83	2269.514106583	0.0001249835377918
+84	2296.532131662	0.0001249134203044
+85	2323.55015674	0.0001252035652399
+86	2350.568181819	0.0001258589297497
+87	2377.586206897	0.0001268844709856
+88	2404.604231975	0.0001282851460992
+89	2431.622257054	0.000130065912242
+90	2458.640282132	0.0001322317265656
+91	2485.65830721	0.0001347875462217
+92	2512.676332289	0.0001377383283618
+93	2539.694357367	0.0001410890301375
+94	2566.712382446	0.0001448446087006
+95	2593.730407524	0.0001490100212024
+96	2620.748432602	0.0001535902247947
+97	2647.766457681	0.0001585901766291
+</data>
+</table>
+<open>1</open>
+<log>
+[22.05.14 16:26	Diagramm: ''Grafik2'']
+Lineare Regression von Datensatz: Tabelle1_Uy(B) [V], unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 4,300000000000000e+01 bis x = 1,490000000000000e+02
+B (y-intercept) = 7,459615797052607e-02 +/- 1,242952890794707e-02
+A (slope) = 1,043353043904531e-03 +/- 1,185524857997704e-04
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,310660253071480e-04
+R^2 = 0,939359786303006
+Angepasstes R^2 = 0,909039679454509
+RMSE (Standardabweichung) = 0,0114484071078534
+RSS (Summe der quadrierten Restwerte) = 0,00065533012653574
+---------------------------------------------------------------------------------------
+[22.05.14 16:33	Diagramm: ''Grafik1'']
+Polynom-Fit von Datensatz: Tabelle1_B, unter Verwendung der Funktion: a0+a1*x+a2*x^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 6,453448275862000e+02 bis x = 2,674784482759000e+03
+a0 = 1,322517064320615e-01 +/- 3,754094737720765e-02
+a1 = 6,468048424895377e-04 +/- 5,070054250787186e-05
+a2 = -1,177466307977226e-07 +/- 1,495673920844380e-08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,360992561858803e-04
+R^2 = 0,99605760790413
+Angepasstes R^2 = 0,992115215808259
+RMSE (Standardabweichung) = 0,0153655216698256
+RSS (Summe der quadrierten Restwerte) = 0,000944397024743521
+---------------------------------------------------------------------------------------
+[22.05.14 16:36	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_B, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 6,453448275862000e+02 bis x = 0,000000000000000e+00
+A = 1,054842488610007e-04 +/- 7,357620535685233e-05
+B = 6,973384186885984e-01 +/- 1,270741094924627e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,273048564649152e-02
+R^2 = 0,255159825532011
+Angepasstes R^2 = -0,0427762442551842
+RMSE (Standardabweichung) = 0,180915686568334
+RSS (Summe der quadrierten Restwerte) = 0,196382913878949
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[22.05.14 16:55	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_B, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3+a4*x^4
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 6,453448275862000e+02 bis x = 0,000000000000000e+00
+a0 = 2,706761196678689e-04 +/- 4,857405669576553e-03
+a1 = 9,097055438432234e-04 +/- 3,351377179873925e-05
+a2 = -2,332930404940134e-07 +/- 5,903831713449035e-08
+a3 = -1,394923888054359e-11 +/- 3,410718609328789e-11
+a4 = 1,047273604806476e-14 +/- 6,250706567797717e-15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,366765618604911e-05
+R^2 = 0,99991628741472
+Angepasstes R^2 = 0,999707005951519
+RMSE (Standardabweichung) = 0,0048649415398388
+RSS (Summe der quadrierten Restwerte) = 7,10029685581473e-05
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+[22.05.14 16:57	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_B, unter Verwendung der Funktion: a0+a1*x+a2*x^2+a3*x^3+a4*x^4
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 6,4534482758620e+02 bis x = 0,0000000000000e+00
+a0 = 2,7067611966787e-04 +/- 4,8574056695766e-03
+a1 = 9,0970554384322e-04 +/- 3,3513771798739e-05
+a2 = -2,3329304049401e-07 +/- 5,9038317134490e-08
+a3 = -1,3949238880544e-11 +/- 3,4107186093288e-11
+a4 = 1,0472736048065e-14 +/- 6,2507065677977e-15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,3667656186049e-05
+R^2 = 0,9999162874147
+Angepasstes R^2 = 0,9997070059515
+RMSE (Standardabweichung) = 0,004864941539839
+RSS (Summe der quadrierten Restwerte) = 7,100296855815e-05
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+</log>
