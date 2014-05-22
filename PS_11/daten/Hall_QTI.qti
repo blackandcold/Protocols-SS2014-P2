@@ -737,7 +737,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <table>
 PS11_nGe	79	4	20.05.14 12:59
-geometry	0	0	638	521	
+geometry	0	1	638	521	active
 header	Temp-C	Hall-U	Versorg-U	1/Grad. C
 ColWidth	100	100	100	163	
 <com>
@@ -834,7 +834,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_11/daten/PS11_nGe.txt	2
 </table>
 <multiLayer>
 Grafik8	1	1	20.05.14 13:00
-geometry	638	0	519	461	active
+geometry	638	0	519	461	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
