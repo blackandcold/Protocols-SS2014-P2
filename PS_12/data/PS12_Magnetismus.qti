@@ -2508,7 +2508,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_12/data/TEK0038.CSV	0
 </table>
 <multiLayer>
 Grafik1	1	1	22.05.14 16:48
-geometry	508	0	744	618	active
+geometry	509	0	744	618	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -2571,10 +2571,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>-2849.6240601504</x>
-<y>0.13996655518395</y>
-<right>-1360.9022556391</right>
-<bottom>0.110869565217391</bottom>
+<x>-2303.2928942808</x>
+<y>0.56032482598608</y>
+<right>-1502.59965337955</right>
+<bottom>0.351508120649652</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>

@@ -171,12 +171,15 @@ Bei der Magnetisierung eines ferromagnetischen Stoffes und dessen Umkehrung durc
 	\label{fig:hysterese}
 \end{figure}
 
+\noindent
 Die Magnetisierung kann durch 4 in Abbildung \ref{fig:hysterese} zu sehenden Werte charakterisiert werden.\\
 $B_r$ \ldots der Ordinatenabschnitt\\
 $H_c$ \ldots der Abszissenabschnitt\\
 $B_S, H_S$ \ldots die Koordinaten des Sättigungspunktes\\
 
-\textbf{Berechnung Suszeptibilität von Graphit nach Fraraday}
+% TODO mu_0, mu_r, Formel dafür umformen PAT
+
+\textbf{Berechnung Suszeptilität von Graphit nach Fraraday}
 
 $$\chi_{Faraday} = \frac{F \cdot \mu_0}{V \cdot B \cdot \frac{dB}{dx}}$$
 $\mu_0$ \ldots magnetische Konstante\\
@@ -184,32 +187,55 @@ $F$ \ldots Kraft auf Probe\\
 $V$ \ldots Probevolumen\\
 $B$ \ldots Magnetische Flussdichte\\
 
-
+\noindent
 \textbf{Berechnung Suzeotibilität von Graphit nach Gouy}
 
 $$\chi = \frac{A \cdot B^2(x_2)}{F_x \cdot 2 \cdot \mu_{0}} $$
+Da der Messaufbau eine Rechnung mit dieser Variante nicht zugelassen hat, wird hier nicht näher darauf eingegangen und auf die Herleitung ([1] p.12 Formeln 9-11) verwiesen.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Resultate}
+\textbf{Messung der Suszeptilität}
 Gegebene Werte:\\
 $B = (0.6 \pm 0.1)T$\\
+\\
 $\frac{dB}{dx} = (40 \pm 1) \frac{T}{m}$\\
 \\
-Polykristalines Graphit:
+% TODO Fehler (Shorty diesmal PLZ, übung ftw :)
+\textbf{Polykristalines Graphit:}
 $$\chi_{poly} = (-7.482 \cdot 10^{-5} \pm )$$
-Monokristalines Graphit:
+\textbf{Monokristalines Graphit:}
 $$\chi_{poly} = (-3.247 \cdot 10^{-4} \pm )$$
 \\
-\textbf{Trafo F}\\
-
 \noindent
 \textbf{Trafo W}\\
 
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{./figures/Trafo_W_Hysterese.png}
+	\caption{Hysteresekurve des Ferromagneten W}
+	\label{fig:Trafo_W_Hysterese}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{./figures/Trafo_W_saettigung.png}
+	\caption{Sättigungskurve mit künstlichem Nullpunkt zur Bestimmung von $\mu_0$}
+	\label{fig:Trafo_W_saettigung}
+\end{figure}
+\begin{multicols}{2}
+
+% TODO sättigung, mu_0, Br Hc Bs Hs
+\noindent
+Die Rohdaten und QTI-Auswertungen sind unter [2] zu finden.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Diskussion}
-Durch eine defekte B-Feld Sonde konnte die Messung nach Gouy leider nicht durchgeführt werden. Das Ergebnis für das diamagnetika Graphit war mit der Methode nach Faraday gerade noch im Messbereich der Geräte feststellbar. Trotz Anmerkung in [1] war die geringe Krafteinwirkung überraschend.\\
+\textbf{Suszeptibilität:}\\
+Durch eine defekte B-Feld Sonde konnte die Messung nach Gouy leider nicht durchgeführt werden. Das Ergebnis für das diamagnetika Graphit war mit der Methode nach Faraday gerade noch im Messbereich der Geräte feststellbar. Trotz Anmerkung in [1] war die geringe Krafteinwirkung überraschend. Ein Unterschied bei polykristalinen und monokristalinem Graphit ging in den Ergebnissen hervor.\\
 \\
-
+\textbf{Sättigungskurve}\\
+Die Bestimmung der Sättigungspunkte für verschiedene Spannungen und Ströme wurde durch das Oszilloskop erleichtert. Ein fehlverhalten im Drehregler des Netzgerätes sorgte leider für einen Sprung von 0mA auf 43mA was eine genaue Bestimmung der Steigung am Nullpunkt nicht möglich machte. Durch einfügen eines Punktes in (0,0) konnte jedoch ein Polynomfit 4-ter Ordnung durchgeführt werden. % TODO mu_0 zu literaturwert
 
 
 \section{Quellen}
