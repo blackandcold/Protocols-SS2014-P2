@@ -1,0 +1,19 @@
+Polykristalines Graphit
+
+ magnetic constant / (0.20milliliter 0.6Tesla * 40(Tesla / meter)) * 0.06milliNewton
+= 1.57 E-5
+
+0.5milliNewton * magnetic constant / ((0.20milliliter)^2 0.6Tesla * 40(Tesla / meter)) * 0.05milliliter
+= 3.3 E-5
+
+
+0.5milliNewton * magnetic constant / (0.20milliliter (0.6Tesla)^2 * 40(Tesla / meter)) * 0.1Tesla
+= 2.2E-5
+
+0.5milliNewton * magnetic constant / (0.20milliliter (0.6Tesla) * (40(Tesla / meter))^2) * 1(Tesla / meter)
+=  3.27E-6
+
+sqrt((1.57E-5)^2 + (3.3E-5)^2+ (2.2E-5)^2+ (3.27E-6)^2)
+= 4.27806E-5
+
+Pyrolythisches Graphit
