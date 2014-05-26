@@ -156,10 +156,23 @@
 
 
 \section{Magnetismus}
-In diesem Experiment sollen Materialien auf ihre magnetischen Eigenschaften untersucht werden. Durch die Verwendung von Elektromagneten sollen Dia-, Para- und Ferromagnetika charakterisiert werden.
+In diesem Experiment sollen Materialien auf ihre magnetischen Eigenschaften untersucht werden.\\
+Durch die Verwendung von Elektromagneten sollen Dia-, Para- und Ferromagnetika charakterisiert werden.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Grundlagen und Versuchsaufbau}
+\subsection{Grundlagen und Versuchsaufbau:}
+Die magnetischen Eigenschaften von Stoffen ergeben sich aus quantenmechanischen Eigenschaften ihrer Atome: Es entstehen nämlich aus Bahndrehimpuls und Spin der Elektronen sowie aus dem Kernspin der Atome die magnetischen Momente der Atome.\\
+Je nach Elektronenkonfiguration ergeben sich so verschiedene magnetische Eigenschaften. Besonders Elemente deren Atome nicht-abgeschlossene Elektronenschalen besitzen haben auffällige magnetische Eigenschaften.\\
+
+Man unterscheidet Diamagnetismus, Paramagnetismus, sowie Ferromagnetismus:\\
+Diamagnetismus ist sehr schwach und existiert in Materialien, die selbst keine permanenten magnetischen Eigenschaften besitzen. Durch äußere Magnetfelder werden jedoch Wirbelströme induziert (Lenzsche Regel), die dem B-Feld entgegenwirken. Die daraus entstehende Kraft wirkt abstoßend.\\
+
+Sowohl paramagnetische, als auch ferromagnetische Stoffe haben permanente magnetische Momente.\\
+Die Wirkung in paramagnetischen Materialien ist jedoch eher klein. Ihre magnetischen Momente werden in einem äußeren B-Feld angezogen in Richtung der größten magnetischen Flussdichte. Sie können keine Permanentmagneten sein, da die Teilchenbewegungen durch Wärme die einzelnen magnetischen Momente der Atome in beliebige Richtungen verteilt. Daher sinkt auch ihre Suszeptibilität mit steigender Temperatur.\\
+
+In Metallen tritt Ferromagnetismus auf, wenn ihre magnetischen Dipolmomente miteinander wechselwirken, 
+
+
 
 \textbf{Hysterese}
 Bei der Magnetisierung eines ferromagnetischen Stoffes und dessen Umkehrung durchläuft das Material mehrere Stufen welche in der Hysteresekurve veranschaulicht werden können:
@@ -188,23 +201,29 @@ $V$ \ldots Probevolumen\\
 $B$ \ldots Magnetische Flussdichte\\
 
 \noindent
-\textbf{Berechnung Suzeotibilität von Graphit nach Gouy}
+\textbf{Berechnung Suzeptibilität von Graphit nach Gouy}
 
 $$\chi = \frac{A \cdot B^2(x_2)}{F_x \cdot 2 \cdot \mu_{0}} $$
 Da der Messaufbau eine Rechnung mit dieser Variante nicht zugelassen hat, wird hier nicht näher darauf eingegangen und auf die Herleitung ([1] p.12 Formeln 9-11) verwiesen.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Resultate}
-\textbf{Messung der Suszeptilität}
-Gegebene Werte:\\
+\textbf{Messung der Suszeptilität von Graphit:}\\
+(vom Betreuer angegebene Werte, wegen eines Defekts der Magnetfeldsonde:)\\
 $B = (0.6 \pm 0.1)T$\\
-\\
 $\frac{dB}{dx} = (40 \pm 1) \frac{T}{m}$\\
 \\
 % TODO Fehler (Shorty diesmal PLZ, übung ftw :)
-\textbf{Polykristalines Graphit:}
+\textbf{Polykristalines Graphit:}\\
+$V=(0.35 \pm 0.05) ml$\\
+$F_x=(-0.50 \pm 0.06)mN$
+
+% Vue Spaß ^^
+
 $$\chi_{poly} = (-7.482 \cdot 10^{-5} \pm )$$
-\textbf{Monokristalines Graphit:}
+\textbf{Pyrolythisches Graphit:}\\
+$V=(0.20 \pm 0.01) ml$\\
+$F_x=(-1.24 \pm 0.06)mN$
 $$\chi_{poly} = (-3.247 \cdot 10^{-4} \pm )$$
 \\
 \noindent
@@ -232,7 +251,9 @@ Die Rohdaten und QTI-Auswertungen sind unter [2] zu finden.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Diskussion}
 \textbf{Suszeptibilität:}\\
-Durch eine defekte B-Feld Sonde konnte die Messung nach Gouy leider nicht durchgeführt werden. Das Ergebnis für das diamagnetika Graphit war mit der Methode nach Faraday gerade noch im Messbereich der Geräte feststellbar. Trotz Anmerkung in [1] war die geringe Krafteinwirkung überraschend. Ein Unterschied bei polykristalinen und monokristalinem Graphit ging in den Ergebnissen hervor.\\
+Durch eine defekte B-Feld Sonde konnte die Messung nach Gouy leider nicht durchgeführt werden. Das Ergebnis für das Diamagnetika Graphit war mit der Methode nach Faraday gerade noch im Messbereich der Geräte feststellbar. Trotz Anmerkung in [1] war die geringe Krafteinwirkung überraschend. Ein Unterschied bei polykristalinen und pyrolythischem Graphit ging in den Ergebnissen hervor.\\
+
+Die Abschätzung der Messunsicherheit der Kraftwirkung beruht auf den Fluktuationen der Kraft auf die Probe. Die Auflösung des Sensors selbst wäre deutlich geringer ($\pm 0.01mN$, abgeschätzt wurde auf (\pm 0.06mN$)
 \\
 \textbf{Sättigungskurve}\\
 Die Bestimmung der Sättigungspunkte für verschiedene Spannungen und Ströme wurde durch das Oszilloskop erleichtert. Ein fehlverhalten im Drehregler des Netzgerätes sorgte leider für einen Sprung von 0mA auf 43mA was eine genaue Bestimmung der Steigung am Nullpunkt nicht möglich machte. Durch einfügen eines Punktes in (0,0) konnte jedoch ein Polynomfit 4-ter Ordnung durchgeführt werden. % TODO mu_0 zu literaturwert
