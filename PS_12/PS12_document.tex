@@ -170,12 +170,17 @@ Diamagnetismus ist sehr schwach und existiert in Materialien, die selbst keine p
 Sowohl paramagnetische, als auch ferromagnetische Stoffe haben permanente magnetische Momente.\\
 Die Wirkung in paramagnetischen Materialien ist jedoch eher klein. Ihre magnetischen Momente werden in einem äußeren B-Feld angezogen in Richtung der größten magnetischen Flussdichte. Sie können keine Permanentmagneten sein, da die Teilchenbewegungen durch Wärme die einzelnen magnetischen Momente der Atome in beliebige Richtungen verteilt. Daher sinkt auch ihre Suszeptibilität mit steigender Temperatur.\\
 
-In Metallen tritt Ferromagnetismus auf, wenn ihre magnetischen Dipolmomente miteinander wechselwirken, Richten sie sich in die gleiche Richtung aus, so addieren sie sich und bilden sogenannte Weiss'sche Bezirke, also Regionen mit größeren magnetischen Gesamtmomenten.
+In Metallen tritt Ferromagnetismus auf, wenn ihre magnetischen Dipolmomente miteinander wechselwirken, Richten sie sich in die gleiche Richtung aus, so addieren sie sich und bilden sogenannte Weiss'sche Bezirke, also Regionen mit größeren magnetischen Gesamtmomenten.\\
+In einem äußeren Magnetfeld (Feldstärke $\vec H$) können sich mehrere dieser Gesamtmomente dem Feld entsprechend ausrichten. Auf diese Weise wird das Material magnetisiert.\\
+Sind alle Weiss'schen Bezirke ausgerichtet, erreicht das Magnetfeld $\vec B$ des Stoffes seine Sättigung.\\
+$\vec B$ und $\vec H$ gehen nicht über den gesamten Prozess linear miteinander; daher erhält man über die lokale Ableitung $\frac{dB}{dH}$ $\mu_r$ aus der Gleichung
+$$\vec B = \mu_r \cdot \mu_0 \cdot \vec H$$
 
 
 
-\textbf{Hysterese}
-Bei der Magnetisierung eines ferromagnetischen Stoffes und dessen Umkehrung durchläuft das Material mehrere Stufen welche in der Hysteresekurve veranschaulicht werden können:
+\noindent \textbf{Hysterese}\\
+Bei der Magnetisierung eines ferromagnetischen Stoffes und dessen Umkehrung durchläuft das Material mehrere Stufen, welche in der Hysteresekurve veranschaulicht werden können (Abb. \ref{fig:hysterese}). Ist das Material erst magnetisiert und die Richtung des äußeren Feldes wird umgekehrt, behalten zunächst viele Weiss'sche Bezirke ihre Dipolmomente bei um sich erst mit steigender Feldstärke neu auszurichten. Das führt dazu, dass der Prozess des Magnetisierens im Feld mit abwechselnden Vorzeichen, nicht in beide Richtungen gleich verläuft.\\
+Die verbleibende Magnetisierung $B_r$, nachdem das Material bis zur Sättigung magnetisiert wurde und das äußere Feld anschließend verschwunden ist, nennt man Remanenz. Sie kann dazu verwendet werden, den Stoff permanent zu magnetisieren. Ähnlich ist die Koerzitivfeldstärke $H_c$ die Feldstärke, die das Material entmagnetisiert (also jene, an der $\vec B$ gegen 0 geht).
 
 \begin{figure}[H]
 	\centering
@@ -200,12 +205,20 @@ $F$ \ldots Kraft auf Probe\\
 $V$ \ldots Probevolumen\\
 $B$ \ldots Magnetische Flussdichte\\
 
-\noindent
-\textbf{Berechnung Suzeptibilität von Graphit nach Gouy}
+\noindent \textbf{Berechnung Suzeptibilität von Graphit nach Gouy}
 
 $$\chi = \frac{A \cdot B^2(x_2)}{F_x \cdot 2 \cdot \mu_{0}} $$
-Da der Messaufbau eine Rechnung mit dieser Variante nicht zugelassen hat, wird hier nicht näher darauf eingegangen und auf die Herleitung ([1] p.12 Formeln 9-11) verwiesen.
+Da der Messaufbau eine Rechnung mit dieser Variante nicht zugelassen hat, wird hier nicht näher darauf eingegangen und auf die Herleitung ([1] p.12 Formeln 9-11) verwiesen.\\
 
+\noindent \textbf{Darstellen der Hystereseschleife:}\\
+Eine Wechselspannung wird an einen Transformator mit Eisenkern angelegt. Die Spannungen an der Primär und an der Sekundärspule werden am Oszilloskop dargestellt.\\
+Durch die Funktionsweise eines Transformators ergibt sich im ferromagnetischen Trafo-Kern die Hystereseschleife:\\
+Die Primärspule erzeugt ein äußeres Magnetfeld H. Dieses magnetisiert den Kern. Das B-Feld des Kerns induziert wiederum eine Spannung in der Sekundärspule.\\
+Da diese Induktionsvorgänge von verschiedenen Faktoren, wie Windungszahlen, Spulenlänge, Spulenwiderstand, oder auch Querschnittsfläche und Volumen des Kerns die Spannungen und Magnetfelder in linearen Zusammenhang bringen, lässt sich die Magnetisierung des Kerns direkt aus den Spannungen darstellen (eben mit linearen Umrechnungsfaktoren):
+$$H(t) = \frac{n_1}{L R_v}\cdot U_{primaer}(t)$$
+$$B(t)= \frac{R\cdot C}{n_2 \cdot A} \cdot U_{sekundaer}(t)$$
+Alle Parameter sind in [1] zu finden, die Funktionsweise und Anwendungen des Transformators werden in PW10 erklärt.
+\pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Resultate}
 \textbf{Messung der Suszeptilität von Graphit:}\\
