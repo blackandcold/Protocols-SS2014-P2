@@ -173,8 +173,9 @@ Die Wirkung in paramagnetischen Materialien ist jedoch eher klein. Ihre magnetis
 In Metallen tritt Ferromagnetismus auf, wenn ihre magnetischen Dipolmomente miteinander wechselwirken, Richten sie sich in die gleiche Richtung aus, so addieren sie sich und bilden sogenannte Weiss'sche Bezirke, also Regionen mit größeren magnetischen Gesamtmomenten.\\
 In einem äußeren Magnetfeld (Feldstärke $\vec H$) können sich mehrere dieser Gesamtmomente dem Feld entsprechend ausrichten. Auf diese Weise wird das Material magnetisiert.\\
 Sind alle Weiss'schen Bezirke ausgerichtet, erreicht das Magnetfeld $\vec B$ des Stoffes seine Sättigung.\\
-$\vec B$ und $\vec H$ gehen nicht über den gesamten Prozess linear miteinander; daher erhält man über die lokale Ableitung $\frac{dB}{dH}$ $\mu_r$ aus der Gleichung
+$\vec B$ und $\vec H$ gehen nicht über den gesamten Prozess linear miteinander. Daher erhält man, wird ein entmagnetisierter Stoff erstmals magnetisiert (Neukurve) über die lokale Ableitung $\frac{dB}{dH}$ $\mu_r$ aus der Gleichung
 $$\vec B = \mu_r \cdot \mu_0 \cdot \vec H$$
+Hier wird diese Kurve erzeugt, indem die Hystereseschleife für verschiedene Amplituden der Input-Spannung aufgenommen wird und aus den Sättigungspunkten die Neukurve interpoliert wird.
 
 
 
@@ -240,6 +241,17 @@ $$\chi_{pyro} = (-3.247 \cdot 10^{-4} \pm 1.363 \cdot 10^{-4})$$
 \\
 \noindent
 \textbf{Trafo W}\\
+%TODO Fehler = skalierung im Graphen
+$$B_r = (0.5770 \pm 0.0048)T$$
+$$H_c = (554.4 \pm 1.1)\frac{V}{m}$$
+$$B_S = (1.0358 \pm 0.0048)T$$
+$$H_S = (2728.3 \pm 1.1)\frac{V}{m}$$
+
+$\frac{dB}{dH}(H=0)=(9 \pm 0.5)\times 10^{-4}\frac{Vs}{Am}$\\
+$$\mu_r(H=0) =(715 \pm 40)$$
+
+
+
 
 \end{multicols}
 \begin{figure}[H]
@@ -251,21 +263,17 @@ $$\chi_{pyro} = (-3.247 \cdot 10^{-4} \pm 1.363 \cdot 10^{-4})$$
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.7]{./figures/Trafo_W_saettigung02.png}
-	\caption{Sättigungskurve mit künstlichem Nullpunkt zur Bestimmung von $\mu_r$}
+	\caption{Neukurve mit künstlichem Nullpunkt zur Bestimmung von $\mu_r$}
 	\label{fig:Trafo_W_saettigung}
 \end{figure}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.6]{./figures/Trafo_W_saettigung-steigung.png}
-	\caption{Sättigungskurve mit künstlichem Nullpunkt zur Bestimmung von $\mu_r$}
+	\caption{Erste Ableitung der Neukurve zur Bestimmung von $\mu_r$}
 	\label{fig:Trafo_W_saettigung}
 \end{figure}
 \begin{multicols}{2}
-%TODO Fehler = skalierung im Graphen
-$$B_r = (0.577 \pm 0.00471)T$$
-$$H_c = (554.35 \pm 1.05)\frac{V}{m}$$
-$$B_S = (1.0358 \pm 0.00471)T$$
-$$H_S = (2728.26 \pm 1.05)\frac{V}{m}$$
+
 
 %TODO da war noch was mit integrieren der Kurve?!
 
@@ -275,14 +283,20 @@ Die Rohdaten und QTI-Auswertungen sind unter [2] zu finden.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Diskussion}
 \textbf{Suszeptibilität:}\\
-Durch eine defekte B-Feld Sonde konnte die Messung nach Gouy leider nicht durchgeführt werden. Das Ergebnis für das Diamagnetika Graphit war mit der Methode nach Faraday gerade noch im Messbereich der Geräte feststellbar. Trotz Anmerkung in [1] war die geringe Krafteinwirkung überraschend. Ein Unterschied bei polykristalinen und pyrolythischem Graphit ging in den Ergebnissen hervor.\\
+Durch eine defekte B-Feld Sonde konnte die Messung nach Gouy leider nicht durchgeführt werden. Das Ergebnis für das Diamagnetika Graphit war mit der Methode nach Faraday gerade noch im Messbereich der Geräte feststellbar. Wie in [1] in einer Anmerkung beschrieben, ist die Krafteinwirkung auf die Probe sehr klein im Rahmen des verwendeten Messgerätes. Es ergeben sich daher für beide Ergebnisse der Suszeptibilität  von polykristallinem sowie pyrolytischem Graphit relativ große Unsicherheitsbereiche.\\
+Da bis auf die Kraft selbst nichts gemessen wurde, wurden die Unsicherheiten der Referenzwerten sehr groß abgeschätzt (da diese Werte normalerweise gemessen werden, kann nicht davon ausgegangen werden, dass die gegebenen Referenzwerte präzise mit dem aktuellen AUfbau übereinstimmen würden). Die Abschätzung der Messunsicherheit der Kraftwirkung beruht auf den Fluktuationen der Kraft auf die Probe. Die Auflösung des Sensors selbst wäre deutlich geringer ($\pm 0.01mN$, abgeschätzt wurde auf ($\pm 0.06mN$).\\
+Ohne genauere Kenntnisse der Methodik und der zu verwendenden Instrumente können an dieser Stelle keine Vorteile oder Probleme der Methodik sowie eventuelle Verbesserungsmöglichkeiten der Durchführung besprochen werden.\\
+Beide Ergebnisse liegen jedenfalls im in [1] angegebenen Bereich.\\
 
-Die Abschätzung der Messunsicherheit der Kraftwirkung beruht auf den Fluktuationen der Kraft auf die Probe. Die Auflösung des Sensors selbst wäre deutlich geringer ($\pm 0.01mN$, abgeschätzt wurde auf (\pm 0.06mN$)
-\\
-Ein weiterer Faktor ist der große resultierende Fehler bei den gegebenen Werten, da diese wie der z.B. der Gradient aus einem Plot geschätzt wurde ($\pm 1\frac{t}{m}$).
 
-\textbf{Sättigungskurve}\\
-Die Bestimmung der Sättigungspunkte für verschiedene Spannungen und Ströme wurde durch das Oszilloskop erleichtert. Ein fehlverhalten im Drehregler des Netzgerätes sorgte leider für einen Sprung von 0mA auf 43mA was eine genaue Bestimmung der Steigung am Nullpunkt nicht möglich machte. Durch einfügen eines Punktes in (0,0) konnte jedoch ein Polynomfit 4-ter Ordnung durchgeführt werden. % TODO mu_0 zu literaturwert
+\noindent \textbf{Hysteresekurvekurve:}\\
+Die Bestimmung der Sättigungspunkte für verschiedene Spannungen und Ströme wurde mit dem Oszilloskop durchgeführt und die Messungen an den Spannungen (deren Verlauf linear dem der Magnetisierung entspricht) direkt mit dem Cursor gemacht.\\
+Da diese Messung sehr genau ist, ergeben sich sehr kleine Unsicherheiten. Da der Verlauf der Hysteresekurve sehr stabil war und mit den Werten nicht weitergerechnet wird, werden die Unsicherheiten an dieser Stelle nicht größer abgeschätzt um eventuellen Fehlern und Ungenauigkeiten in Schaltung und Material gerecht zu werden. Das müsste je nach weiterführender Anwendung durchgeführt werden, sowie die verwendete Schaltung genauer untersucht werden.\\
+
+Ein Fehlverhalten im Drehregler des Netzgerätes, das die Wechselspannung liefert, hat  für einen Sprung direkt von 0mA auf 43mA gesorgt. Eine genauere Bestimmung des Verlaufs der Neukurve um den 0-Punkt wurde dadurch unmöglich gemacht (Abb. \ref{fig:Trafo_W_saettigung}). Durch einfügen eines Punktes in (0,0) konnte jedoch durch einen Polynomfit 4-ter Ordnung der Verlauf der Kurve gut interpoliert werden und liefert ein (mit Literaturwerten verglichenes) plausibles Ergebnis.\\
+
+Zuletzt ergibt die Fläche innerhalb der Hysteresekurve die Arbeit, die nötig ist für einen kompletten Magnetisierungszyklus (also eine gesamte Hystereseschleife).\\
+Die Unsicherheit wurde mit 5\% abgeschätzt, da die diskreten Werte, der Integrationsalgorythmus sowie die Symmetrie der Kurve nicht exakt bekannt sind.
 
 
 \section{Quellen}
