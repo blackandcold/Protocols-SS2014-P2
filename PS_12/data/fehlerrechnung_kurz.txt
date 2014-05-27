@@ -1,4 +1,5 @@
 Polykristalines Graphit
+=======================
 
  magnetic constant / (0.35milliliter * 0.6Tesla * 40(Tesla / meter)) * 0.05milliNewton
 = 7.5E-6
@@ -17,6 +18,7 @@ sqrt((7.5E-6)^2 + (1.1E-5)^2+ (1.2E-6)^2+ (1.87E-6)^2)
 = 1.4E-5
 
 Pyrolythisches Graphit
+======================
 
  magnetic constant / (0.20milliliter * 0.6Tesla * 40(Tesla / meter)) * 0.06milliNewton
  =1.34977E-4
@@ -31,4 +33,15 @@ Pyrolythisches Graphit
 = 8.1E-6
 
 sqrt((1.34977E-4)^2+(1.6E-5)^2+(5.4E-6)^2+(8.1E-6)^2)
-=
+=1.36270E-4
+
+Hysterese
+=========
+
+CH1 = Ux = H
+
+dH V/m = 197 / 20mm * 0.01V / 46,4ohm = 1.05V/m
+
+CH2 = Uy = B
+
+dB T = 70700ohm *10.6mufarad /788 / 2,02cm^2 *0.001V = 0.00471T
