@@ -1,0 +1,292 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	5
+<table>
+Aufgabe2_1	30	4	05.06.14 13:36
+geometry	0	595	682	243	minimized	
+header	Periode	t[X]	A	ln(A)[Y]
+ColWidth	100	100	88	112	
+<com>
+<col nr="1">
+(8.91/5)*col("Periode")
+</col>
+<col nr="3">
+ln(col("A"))
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	1	1.782	15	2.708050201102
+1	2	3.564	12.8	2.549445170926
+2	3	5.346	10.4	2.341805806147
+3	4	7.128	8.8	2.174751721484
+4	5	8.91	7.4	2.00148000021
+</data>
+</table>
+<multiLayer>
+Aufgabe2_1_1	1	1	05.06.14 13:40
+geometry	196	595	682	244	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	7	2	661	189
+<PageGeometry>0.0103858	0.0102041	0.980712	0.964286</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Zeit t [s]	Amplitude ln(A)		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	5	75	0	0	0
+ScaleFont0	Sans	4	75	0	0	0
+ScaleFont1	Sans	4	75	0	0	0
+ScaleFont2	Sans	4	75	0	0	0
+ScaleFont3	Sans	4	75	0	0	0
+AxisFont0	Sans	4	50	0	0	0
+AxisFont1	Sans	4	50	0	0	0
+AxisFont2	Sans	4	50	0	0	0
+AxisFont3	Sans	4	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Aufgabe2_1_t	Aufgabe2_1_ln(A)	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	5	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>1.782	8.91</Range>
+<Points>2</Points>
+<Constant>A	-0.100327376612009</Constant>
+<Constant>B	2.8914567353416</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	1.9	2.8	0	10	5	0	0
+scale	1	1.9	2.8	0	10	5	0	0
+scale	2	1	9	0	9	5	0	0
+scale	3	1	9	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>3.3258145363409</x>
+<y>2.7729096989967</y>
+<right>4.88972431077694</right>
+<bottom>2.69464882943144</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	4	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Aufgabe2_4_250mA	31	3	05.06.14 14:00
+geometry	0	0	684	487	
+header	Strich	omega[X]	MaxAmplitude[Y]
+ColWidth	100	133	125	
+<com>
+<col nr="1">
+col("Strich")/600*(2*pi)
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	130	1.361356816556	0.4
+1	175	1.832595714594	0.6
+2	210	2.199114857513	0.8
+3	250	2.617993877991	0.8
+4	300	3.14159265359	2
+5	310	3.246312408709	3.8
+6	315	3.298672286269	4
+7	320	3.351032163829	5.2
+8	325	3.403392041389	7.4
+9	335	3.508111796509	7
+10	340	3.560471674068	4.4
+11	350	3.665191429188	2
+12	360	3.769911184308	2
+13	380	3.979350694547	1.4
+14	400	4.188790204786	0.8
+15	440	4.607669225265	0.6
+16	490	5.131268000863	0.4
+</data>
+</table>
+<table>
+Aufgabe2_4_350mA	30	3	05.06.14 14:19
+geometry	701	1	504	434	active
+header	Strich[X]	omega[Y]	MaxAmplitude[Y]
+ColWidth	100	185	138	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+</data>
+</table>
+<multiLayer>
+Resonanzkurve250mA	1	1	05.06.14 14:33
+geometry	95	5	1155	592	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	1133	526
+<PageGeometry>0.0043592	0.00919118	0.987794	0.966912</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Omega	Maximalamplitude		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	14	75	0	0	0
+ScaleFont0	Sans	12	75	0	0	0
+ScaleFont1	Sans	12	75	0	0	0
+ScaleFont2	Sans	12	75	0	0	0
+ScaleFont3	Sans	12	75	0	0	0
+AxisFont0	Sans	12	50	0	0	0
+AxisFont1	Sans	12	50	0	0	0
+AxisFont2	Sans	12	50	0	0	0
+AxisFont3	Sans	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Aufgabe2_4_250mA_omega	Aufgabe2_4_250mA_MaxAmplitude	7	5	#000000	0	1	7	1	#000000	#000000	0	#000000	14	2	0	0	30	1
+scale	0	0	8	0	9	5	0	0
+scale	1	0	8	0	9	5	0	0
+scale	2	1	5.5	0	10	5	0	0
+scale	3	1	5.5	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<line>	1	5.46958637469586	5.50866217516843	5.46958637469586	1	#000000	SolidLine	0	0	4	45	1	1</line>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.1127819548872</x>
+<y>7.7324414715719</y>
+<right>2.22932330827068</right>
+<bottom>6.95652173913043</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[05.06.14 13:40	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle1_4, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 1,782000000000000e+00 bis x = 8,910000000000000e+00
+B (y-intercept) = 2,891456735341600e+00 +/- 1,296234887583909e-02
+A (slope) = -1,003273766120090e-01 +/- 2,193207204511957e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,527477167081517e-04
+R^2 = 0,998568407246424
+Angepasstes R^2 = 0,997136814492848
+RMSE (Standardabweichung) = 0,0123591147218621
+RSS (Summe der quadrierten Restwerte) = 0,000458243150124448
+---------------------------------------------------------------------------------------
+</log>

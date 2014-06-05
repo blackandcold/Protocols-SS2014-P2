@@ -1,0 +1,429 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	5
+<table>
+DopplereffektwegvonBeob	30	4	05.06.14 16:26
+geometry	684	0	682	244	
+header	sek	T-S	Geschw[X]	1/T-S[Y]
+ColWidth	100	100	132	100	
+<com>
+<col nr="2">
+0.03/col("sek")
+</col>
+<col nr="3">
+1/col("T-S")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	1.39	0.92	0.02158273381295	1.086956521739
+1	1.05	0.67	0.02857142857143	1.492537313433
+2	0.77	0.49	0.03896103896104	2.040816326531
+3	0.65	0.45	0.04615384615385	2.222222222222
+4	0.56	0.36	0.05357142857143	2.777777777778
+5	-0.48	-0.36	-0.0625	-2.777777777778
+6	-0.6	-0.47	-0.05	-2.127659574468
+7	-0.72	-0.49	-0.04166666666667	-2.040816326531
+8	-0.91	-0.59	-0.03296703296703	-1.694915254237
+9	-1.25	-0.79	-0.024	-1.26582278481
+</data>
+</table>
+<multiLayer>
+wegvonBeob	1	1	05.06.14 16:31
+geometry	196	462	519	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	501	398
+<PageGeometry>0.00978474	0.0121065	0.980431	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Geschwindigkeit [m/s]	1/T_S [1/s]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	DopplereffektwegvonBeob_Geschw	DopplereffektwegvonBeob_1/T-S	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.02158273381295	0.05357142857143</Range>
+<Points>2</Points>
+<Constant>A	50.3695667823509</Constant>
+<Constant>B	0.0216994382097875</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-3	3	0	7	5	0	0
+scale	1	-3	3	0	7	5	0	0
+scale	2	-0.08	0.06	0	8	5	0	0
+scale	3	-0.08	0.06	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.020877192982456</x>
+<y>2.933110367893</y>
+<right>0.0295614035087719</right>
+<bottom>2.73913043478261</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+DopplerzumBeob	30	4	05.06.14 16:35
+geometry	684	244	682	242	
+header	s	T-S	Geschw[X]	1/T-S[Y]
+ColWidth	100	100	100	100	
+<com>
+<col nr="2">
+0.03/col("s")
+</col>
+<col nr="3">
+1/col("T-S")
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
+WindowLabel		2
+<data>
+0	0.48	0.36	0.0625	2.777777777778
+1	0.6	0.47	0.05	2.127659574468
+2	0.72	0.49	0.04166666666667	2.040816326531
+3	0.91	0.59	0.03296703296703	1.694915254237
+4	1.25	0.79	0.024	1.26582278481
+</data>
+</table>
+<multiLayer>
+zumBeobachter	1	1	05.06.14 16:38
+geometry	0	462	519	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	501	398
+<PageGeometry>0.00978474	0.0121065	0.980431	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	DopplerzumBeob_Geschw	DopplerzumBeob_1/T-S	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>0.024	0.0625</Range>
+<Points>2</Points>
+<Constant>A	37.028513342672</Constant>
+<Constant>B	0.417804940769968</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	1.2	2.8	0	9	5	0	0
+scale	1	1.2	2.8	0	9	5	0	0
+scale	2	0.02	0.065	0	10	5	0	0
+scale	3	0.02	0.065	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.021127819548872</x>
+<y>2.7464882943144</y>
+<right>0.0322932330827068</right>
+<bottom>2.59130434782609</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Dopplereffekt	1	1	05.06.14 16:54
+geometry	0	0	684	486	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	7	5	663	422
+<PageGeometry>0.010355	0.0114155	0.980769	0.96347</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	0	1	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Geschwindigkeit [m/s]	Frequenz 1/T_S [Hz]		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	12	75	0	0	0
+ScaleFont0	Sans	10	75	0	0	0
+ScaleFont1	Sans	10	75	0	0	0
+ScaleFont2	Sans	10	75	0	0	0
+ScaleFont3	Sans	10	75	0	0	0
+AxisFont0	Sans	10	50	0	0	0
+AxisFont1	Sans	10	50	0	0	0
+AxisFont2	Sans	10	50	0	0	0
+AxisFont3	Sans	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	DopplereffektwegvonBeob_Geschw	DopplereffektwegvonBeob_1/T-S	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>-0.0625	0.05357142857143</Range>
+<Points>2</Points>
+<Constant>A	48.2826691031233</Constant>
+<Constant>B	0.0789694780413281</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-3	3	0	7	5	0	0
+scale	1	-3	3	0	7	5	0	0
+scale	2	-0.08	0.06	0	8	5	0	0
+scale	3	-0.08	0.06	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-0.076491228070175</x>
+<y>2.7993311036789</y>
+<right>-0.0417543859649123</right>
+<bottom>2.21739130434783</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[05.06.14 16:31	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Dopplereffekt_1/T-S, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,158273381295000e-02 bis x = 5,357142857143000e-02
+B (y-intercept) = 2,169943820978748e-02 +/- 1,351263299960912e-01
+A (slope) = 5,036956678235092e+01 +/- 3,421154601278228e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7,818868141983329e-03
+R^2 = 0,986349112663696
+Angepasstes R^2 = 0,972698225327391
+RMSE (Standardabweichung) = 0,0884243639614294
+RSS (Summe der quadrierten Restwerte) = 0,02345660442595
+---------------------------------------------------------------------------------------
+[05.06.14 16:38	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: DopplerzumBeob_1/T-S, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 6,250000000000000e-02 bis x = 2,400000000000000e-02
+B (y-intercept) = 4,178049407699678e-01 +/- 1,566248245895523e-01
+A (slope) = 3,702851334267199e+01 +/- 3,536858402679127e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,112956599661500e-02
+R^2 = 0,973358607364508
+Angepasstes R^2 = 0,946717214729015
+RMSE (Standardabweichung) = 0,10549675822799
+RSS (Summe der quadrierten Restwerte) = 0,0333886979898451
+---------------------------------------------------------------------------------------
+[05.06.14 16:54	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: DopplereffektwegvonBeob_1/T-S, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,158273381295000e-02 bis x = -2,400000000000000e-02
+B (y-intercept) = 7,896947804132812e-02 +/- 4,711487089290927e-02
+A (slope) = 4,828266910312326e+01 +/- 1,122885527879395e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,213544679483335e-02
+R^2 = 0,995691726021115
+Angepasstes R^2 = 0,994460790598576
+RMSE (Standardabweichung) = 0,148779860178834
+RSS (Summe der quadrierten Restwerte) = 0,177083574358667
+---------------------------------------------------------------------------------------
+</log>
