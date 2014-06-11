@@ -156,11 +156,10 @@
 
 
 \section{Schwingungen 1}
-In PS1 werden Mechanische Oszillatoren auf ihre Eigenschaften untersucht.
-Im Detail werden ein Drehpendel, ein gekoppeltes Pendel und die Dopplerverschiebung ausgemessen. Im folgenden Abschnitt werden die dafür benötigten Grundlagen zusammengefasst.
-
+In PS1 werden Mechanische Oszillatoren auf ihre Eigenschaften untersucht.\\
+Im Detail werden ein Drehpendel, ein gekoppeltes Pendel und die Dopplerverschiebung betrachtet. Dabei werden gedämpfte Schwingungen, auch getriebene sowie Schwebungen (Kopplung, Dopplereffekt) untersucht.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Grundlagen:}
+\section{Grundlagen:}
 Grundlage jeder gedämpften harmonischen Schwingung (HS) ist eine ungedämpfte HS. Die kann mit einer Amplitude und einer Winkelfunktion wie folgt beschrieben werden:
 $$f(t) = A \cdot cos(\omega t + \phi)$$
 Hierbei ist \textbf{A} die Amplitude, \textbf{$\omega$} die Kreisfrequenz, \textbf{t} die Zeit und \textbf{$\phi$} die Phase mit der die Schwingung begonnen hat (zu t=0).\\
@@ -171,7 +170,7 @@ Hierbei ist $\delta$ die Dämpfungskonstante welche vom Material (z.B. Luft, Eis
 Eine reale Schwingung ist nie ungedämpft. Würde es eine ungedämpfte Schwingung geben, könnte die so genannte Resonanzkatastrophe auftreten. Hierbei würde bei einer erzwungenen Schwingung mit der Resonanzfrequenz getrieben und immer mehr Energie auf das schwingende System übertragen bis diese über alle Grenzen anwächst.\\
 Um einen Oszillator zu beschreiben wird die \textbf{Eigenfrequenz} verwendet. Diese entspricht der Kreisfrequenz bei einer Schwingung ohne Dämpfung und wird im Weiteren als $\omega_0$ bezeichnet.\\
 
-\textbf{Drehpendel}
+\subsection{Drehpendel}
 Zur Charakterisierung des Drehpendels wird durch das logarithmische Dämpfungsdekrement $\Lambda$ der Dämpfungskoeffizient berechnet:
 $$\Lambda = ln \frac{x(T_1)}{x(T_2)} = \delta T$$
 Dabei wird die Änderung der Amplitude bei aufeinander folgenden Perioden betrachtet ($\frac{x(T_1)}{x(T_2)} = e^{\delta T}$).\\
@@ -181,7 +180,7 @@ Eine zweite Möglichkeit die Eigenfrequenz zu bestimmen ist die Resonanzkurve ei
 Ein weiteres Maß für einen Oszillator ist der Gütefaktor Q. Dieser ist definiert als:
 $$Q = \frac{\omega_0}{2\delta} = \frac{\omega_0}{\Delta \omega}$$
 
-\textbf{Gekoppelte Pendel}
+\subsection{Gekoppelte Pendel}
 Bei einem gekoppelten Pendel beeinflussen sich wechselseitig zwei Pendel welche miteinander verbunden sind. In Abbildung \ref{fig:gekoppelt_skizze} sind die wesentlichen Eigenschaften der Kopplung zu sehen.
 
 \begin{figure}[H]
@@ -201,7 +200,7 @@ Die kopllungslänge \textbf{l} und das Gewicht \textbf{G} beeinflussen die Schwi
 % TODO genauer ausformulieren + formeln
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\textbf{Dopplerverschiebung einer bewegten Schallquelle}
+\subsection{Dopplerverschiebung einer bewegten Schallquelle}
 Bei der Bestimmung der Schallgeschwindigkeit wird der Schwebungsfall des Doppelpendels verwendet. Anhand der Schwebungsdauer von zwei gleichen Schallquellen (eine in Bewegung), der Frequenz und der Relativgeschwindigkeit kann die Schallgeschwindigkeit in Luft wie folgt errechnet werden:
 $$c_{Luft} = \frac{v}{\frac{\nu}{\nu_0}-1}$$
 $\nu_0$ \ldots die Frequenz der Schallquelle\\ 
@@ -211,15 +210,15 @@ $v$ \ldots Bewegungsgeschwindigkeit\\
 Trägt man $\Delta \nu / \nu_0$ gegen v auf, entspricht der Anstieg der Schallgeschwindigkeit.
 
 
-\subsection{Versuchsaufbau:}
+\section{Versuchsaufbau:}
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Resultate}
-\textbf{Drehpendel}
+\section{Resultate}
+\subsection{Drehpendel}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.6]{./figure/Messung1_Daempfung_omega0.png}
+	\includegraphics[scale=1.8]{./figure/Messung1_Daempfung_omega0.png}
 	\caption{Bestimmung des Dämpfungskoeffizienten (Dämpfung mit 250mA)}
 	\label{fig:daempfung_omega0_1}
 \end{figure}
@@ -228,78 +227,131 @@ Trägt man $\Delta \nu / \nu_0$ gegen v auf, entspricht der Anstieg der Schallge
 Periodendauer (Mittel aus 5 Messungen):\\
 $T = (1.7665 \pm 0.013)s$\\
 $\Lambda = (-0.1718 \pm 0.0045)s$
-$$\delta = \frac{ln(A)}{T} = (-0.1003 \pm 0.0024)s^{-1}$$
+$$\delta = \frac{ln(A)}{T} = (0.1003 \pm 0.0024)s^{-1}$$
 
 $$\omega_{0 - 250mA}=(3.558 \pm 0.053)s^{-1}$$
+Halbwertsbreite: 3.540 - 3.358:\\
+$$\delta_{Halbwertsbreite} = (0.091 \pm 0.010)s^{-1}$$
+$$Q_{250mA}=(17.74 \pm 0.50)$$
 
 
-
+\end{multicols}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.3]{./figure/Messung1_Daempfung_omega0-350mA.png}
+	\includegraphics[scale=1.8]{./figure/Messung1_Resonanzkurve_250mA.png}
+	\caption{Resonanzkurve (250mA)}
+	\label{fig:resonanzkurve_250mA}
+\end{figure}
+
+
+\pagebreak
+\begin{multicols}{2}
+
+%\noindent \textbf{Drehpendel - Dämpfung mit 350mA:}\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{./figure/Messung1_Daempfung_omega0-350mA.png}
 	\caption{Bestimmung des Dämpfungskoeffizienten (Dämpfung mit 350mA)}
 	\label{fig:daempfung_omega0_350mA}
 \end{figure}
 
 \noindent \textbf{Drehpendel - Dämpfung mit 350mA:}\\
-Periodendauer (Mittel aus 5 Messungen):\\
+\noindent Periodendauer (Mittel aus 5 Messungen):\\
 $T = (1.7627 \pm 0.0063)s$\\
 $\Lambda = (-0.3203 \pm 0.0048)s$
-$$\delta = \frac{ln(A)}{T} = (-0.1817 \pm 0.0026)s^{-1}$$
+$$\delta = \frac{ln(A)}{T} = (0.1817 \pm 0.0026)s^{-1}$$
 
 $$\omega_{0 - 350mA}=(3.569 \pm 0.026)s^{-1}$$
+Halbwertsbreite: 3.59 - 3.26:\\
+$$\delta_{Halbwertsbreite} = (0.165 \pm 0.010)s^{-1}$$
+$$Q_{350mA}=(9.82 \pm 0.16)$$
 
 % TODO grafik von Pats QTI 
-\begin{figure}[H]
-	\centering
-	%\includegraphics[scale=0.8]{./figure/Messung2_Daempfung_omega0.png}
-	\caption{Bestimmung des Dämpfungskoeffizienten Dämpfung 2 (350mA)}
-	\label{fig:daempfung_omega0_2}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	%\includegraphics[scale=0.8]{./figure/Messung2_Daempfung_omega0.png}
+%	\caption{Bestimmung des Dämpfungskoeffizienten Dämpfung 2 (350mA)}
+%	\label{fig:daempfung_omega0_2}
+%\end{figure}
 
 \end{multicols}
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.5]{./figure/Messung1_Resonanzkurve_250mA.png}
-	\caption{Resonanzkurve (250mA)}
-	\label{fig:resonanzkurve_250mA}
+	\includegraphics[scale=0.78]{./figure/Messung1_Resonanzkurve_350mA.png}
+	\caption{Resonanzkurve (350mA)}
+	\label{fig:resonanzkurve_350mA}
 \end{figure}
-Halbwertsbreite: 3.5404 - 3.3584 = 0.182 \pm 0.001
 
+
+\pagebreak
 \begin{multicols}{2}
 
-\textbf{Gekoppelte Pendel}
 
 
 
-\textbf{Dopplerverschiebung einer bewegten Schallquelle}
-Von Beobachter weg:\\
-B (y-intercept) = 2,169943820978748e-02 +/- 1,351263299960912e-01\\
-A (slope) = 5,036956678235092e+01 +/- 3,421154601278228e+00\\
+\subsection{Gekoppelte Pendel}
 
-Zum Beobachter:\\
-B (y-intercept) = 4,178049407699678e-01 +/- 1,566248245895523e-01\\
-A (slope) = 3,702851334267199e+01 +/- 3,536858402679127e+00\\
+\noindent Kopplungslänge (beide Massen):\\
+$l = (60.5 \pm 0.5 cm)$\\
 
+\noindent Kopplungsmasse 1:\\
+$m_1 = (504.3 \pm 0.1)g$
+
+\noindent $\omega_{gk} = \omega_0 = (3.233 \pm 0.020)s^{-1}$\\
+$\omega_{geg} = \omega_1 = (3.587\pm 0.034)s^{-1}$\\
+$\omega_2 = (3.446 \pm 0.033)s^{-1}$\\
+$\omega_{Schwebung}=\omega_S=(0.3638 \pm 0.0041)s^{-1}$
+
+$$K_{\omega_0,\omega_1}=(0.105 \pm 0.012)$$
+$$K_{\omega_2,\omega_S}=(0.1044 \pm 0.0026)$$
+\\
+\\
+\noindent Kopplungsmasse 2:\\
+$m_2 = (298.0 \pm 0.1)g$
+
+\noindent $\omega_{gk} = \omega_0 = (3.232 \pm 0.018)s^{-1}$\\
+$\omega_{geg} = \omega_1 = (3.466\pm 0.028)s^{-1}$\\
+$\omega_2 = (3.341 \pm 0.019)s^{-1}$\\
+$\omega_{Schwebung}=\omega_S=(0.25335 \pm 0.00013)s^{-1}$
+
+$$K_{\omega_0,\omega_1}=(0.070 \pm 0.011)$$
+$$K_{\omega_2,\omega_S}=(0.07540 \pm 0.00096)$$
+\\
+\\
+\subsection{Dopplerverschiebung einer bewegten Schallquelle:}
+$\nu_0 = (19590 \pm 10 ) Hz$\\
+
+\noindent Vom Beobachter weg:\\
+%B (y-intercept) = 2,169943820978748e-02 +/- 1,351263299960912e-01\\
+%A (slope) = 5,036956678235092e+01 +/- 3,421154601278228e+00\\
+Steigung: $(50.4\pm 3.5) m^{-1}$\\
+
+\noindent Zum Beobachter hin:\\
+%B (y-intercept) = 4,178049407699678e-01 +/- 1,566248245895523e-01\\
+%A (slope) = 3,702851334267199e+01 +/- 3,536858402679127e+00\\
+Steigung: $(37.0 \pm 3.6) m^{-1}$\\
+
+\noindent Gesamt: $(43.7 \pm 2.6)$
+$$c_{Schall} = (448 \pm 27) m/s$$
 % \begin{figure}[H]
 % 	\centering
 % 	\includegraphics[scale=0.8]{./figure/Aufgabe3_weg_von_Beob.png}
 % 	\caption{ Weg von }
 % 	\label{fig:weg_von}
 % \end{figure}
+\end{multicols}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.2]{./figure/Dopplereffekt.png}
+	\includegraphics[scale=2.3]{./figure/Dopplereffekt.png}
 	\caption{Dopplereffekt lin. Regression mit bewegtem Beobachter in beide Richtungen}
 	\label{fig:doppler}
 \end{figure}
-
+\begin{multicols}{2}
 
 
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Diskussion}
+\section{Diskussion}
 \textbf{Drehpendel}
 
 \textbf{Gekoppelte Pendel}
