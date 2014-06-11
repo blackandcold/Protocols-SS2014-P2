@@ -160,19 +160,19 @@ In PS1 werden Mechanische Oszillatoren auf ihre Eigenschaften untersucht.
 Im Detail werden ein Drehpendel, ein gekoppeltes Pendel und die Dopplerverschiebung ausgemessen. Im folgenden Abschnitt werden die dafür benötigten Grundlagen zusammengefasst.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Grundlagen und Versuchsaufbau:}
+\subsection{Grundlagen:}
 Grundlage jeder gedämpften harmonischen Schwingung (HS) ist eine ungedämpfte HS. Die kann mit einer Amplitude und einer Winkelfunktion wie folgt beschrieben werden:
 $$f(t) = A \cdot cos(\omega t + \phi)$$
-Hierbei ist \textbf{A} die Amplitude, \textbf{$\omega$} die Kreisfrequenz, \textbf{t} die Zeit und \textbf{$\phi$} die Phase mit der die Schingung begonnen hat (zu t=0).\\
-Betrachtet man nun eine gedämpfte Schwingung ergibt sich aus der Differentialgelichung [1](2, p.4) ein zusätzlicher zeitabhängiger Dämpfungsterm: 
+Hierbei ist \textbf{A} die Amplitude, \textbf{$\omega$} die Kreisfrequenz, \textbf{t} die Zeit und \textbf{$\phi$} die Phase mit der die Schwingung begonnen hat (zu t=0).\\
+Betrachtet man nun eine gedämpfte Schwingung ergibt sich aus der Differentialgleichung [1](2, p.4) ein zusätzlicher zeitabhängiger Dämpfungsterm: 
 $$f(t) = A \cdot e^{- \delta t} \cdot cos(\omega t + \phi)$$ 
 Hierbei ist $\delta$ die Dämpfungskonstante welche vom Material (z.B. Luft, Eisen) und anderen Bedingungen abhängt (z.B. Kugellager, Reibung etc.).\\
 
 Eine reale Schwingung ist nie ungedämpft. Würde es eine ungedämpfte Schwingung geben, könnte die so genannte Resonanzkatastrophe auftreten. Hierbei würde bei einer erzwungenen Schwingung mit der Resonanzfrequenz getrieben und immer mehr Energie auf das schwingende System übertragen bis diese über alle Grenzen anwächst.\\
-Um einen Oszillator zu beschreiben wird die \textbf{Eigenfrequenz} verwendet. Diese entspricht der Kreisfrequenz bei einer Schwingung ohne dämpfung und wird im Weiteren als $\omega_0$ bezeichnet.\\
+Um einen Oszillator zu beschreiben wird die \textbf{Eigenfrequenz} verwendet. Diese entspricht der Kreisfrequenz bei einer Schwingung ohne Dämpfung und wird im Weiteren als $\omega_0$ bezeichnet.\\
 
 \textbf{Drehpendel}
-Zur charakterisierung des Drehpendels wird durch das logarithmische Dämpfungsdekrement $\Lambda$ der Dämpfungskoeffizient berechnet:
+Zur Charakterisierung des Drehpendels wird durch das logarithmische Dämpfungsdekrement $\Lambda$ der Dämpfungskoeffizient berechnet:
 $$\Lambda = ln \frac{x(T_1)}{x(T_2)} = \delta T$$
 Dabei wird die Änderung der Amplitude bei aufeinander folgenden Perioden betrachtet ($\frac{x(T_1)}{x(T_2)} = e^{\delta T}$).\\
 Die Eigenfrequenz wird wie folgt unter Berücksichtigung von $\delta$ berechnet:
@@ -210,6 +210,8 @@ $v$ \ldots Bewegungsgeschwindigkeit\\
 \\
 Trägt man $\Delta \nu / \nu_0$ gegen v auf, entspricht der Anstieg der Schallgeschwindigkeit.
 
+
+\subsection{Versuchsaufbau:}
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Resultate}
@@ -217,10 +219,35 @@ Trägt man $\Delta \nu / \nu_0$ gegen v auf, entspricht der Anstieg der Schallge
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=2]{./figure/Messung1_Daempfung_omega0.png}
-	\caption{Bestimmung des Dämpfungskoeffizienten Dämpfung 1 (250mA)}
+	\includegraphics[scale=1.6]{./figure/Messung1_Daempfung_omega0.png}
+	\caption{Bestimmung des Dämpfungskoeffizienten (Dämpfung mit 250mA)}
 	\label{fig:daempfung_omega0_1}
 \end{figure}
+
+\noindent \textbf{Drehpendel - Dämpfung mit 250mA:}\\
+Periodendauer (Mittel aus 5 Messungen):\\
+$T = (1.7665 \pm 0.013)s$\\
+$\Lambda = (-0.1718 \pm 0.0045)s$
+$$\delta = \frac{ln(A)}{T} = (-0.1003 \pm 0.0024)s^{-1}$$
+
+$$\omega_{0 - 250mA}=(3.558 \pm 0.053)s^{-1}$$
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{./figure/Messung1_Daempfung_omega0-350mA.png}
+	\caption{Bestimmung des Dämpfungskoeffizienten (Dämpfung mit 350mA)}
+	\label{fig:daempfung_omega0_350mA}
+\end{figure}
+
+\noindent \textbf{Drehpendel - Dämpfung mit 350mA:}\\
+Periodendauer (Mittel aus 5 Messungen):\\
+$T = (1.7627 \pm 0.0063)s$\\
+$\Lambda = (-0.3203 \pm 0.0048)s$
+$$\delta = \frac{ln(A)}{T} = (-0.1817 \pm 0.0026)s^{-1}$$
+
+$$\omega_{0 - 350mA}=(3.569 \pm 0.026)s^{-1}$$
 
 % TODO grafik von Pats QTI 
 \begin{figure}[H]
