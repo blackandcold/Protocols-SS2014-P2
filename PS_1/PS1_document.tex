@@ -182,8 +182,33 @@ Ein weiteres Maß für einen Oszillator ist der Gütefaktor Q. Dieser ist defini
 $$Q = \frac{\omega_0}{2\delta} = \frac{\omega_0}{\Delta \omega}$$
 
 \textbf{Gekoppelte Pendel}
+Bei einem gekoppelten Pendel beeinflussen sich wechselseitig zwei Pendel welche miteinander verbunden sind. In Abbildung \ref{fig:gekoppelt_skizze} sind die wesentlichen Eigenschaften der Kopplung zu sehen.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{./figure/skizze_kopplung.png}
+	\caption{Skizze eines gekoppelten Pendels [1](Abb.7, p.9)}
+	\label{fig:gekoppelt_skizze}
+\end{figure}
+Die kopllungslänge \textbf{l} und das Gewicht \textbf{G} beeinflussen die Schwingung des Gesamtsystems. Je nach Anfangsbedingungen kann man drei Fälle unterscheiden:\\
+\begin{itemize}
+	\item  \textbf{Gleichsinnige Schwingung} \\ beide schwingen mit $\omega_0$
+	\item  \textbf{Gegensinnige Schwingung} \\ kopplungsabhängige höhere Frequenz
+	\item  \textbf{Schwebungsfall} \\ abwechselnd Schwingung und Stillstand
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO genauer ausformulieren + formeln
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \textbf{Dopplerverschiebung einer bewegten Schallquelle}
+Bei der Bestimmung der Schallgeschwindigkeit wird der Schwebungsfall des Doppelpendels verwendet. Anhand der Schwebungsdauer von zwei gleichen Schallquellen (eine in Bewegung), der Frequenz und der Relativgeschwindigkeit kann die Schallgeschwindigkeit in Luft wie folgt errechnet werden:
+$$c_{Luft} = \frac{v}{\frac{\nu}{\nu_0}-1}$$
+$\nu_0$ \ldots die Frequenz der Schallquelle\\ 
+$\nu$ \ldots die durch den Dopplereffekt veränderte Frequenz\\
+$v$ \ldots Bewegungsgeschwindigkeit\\
+\\
+Trägt man $\Delta \nu / \nu_0$ gegen v auf, entspricht der Anstieg der Schallgeschwindigkeit.
 
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -197,13 +222,24 @@ $$Q = \frac{\omega_0}{2\delta} = \frac{\omega_0}{\Delta \omega}$$
 	\label{fig:daempfung_omega0_1}
 \end{figure}
 
-
+% TODO grafik von Pats QTI 
 \begin{figure}[H]
 	\centering
 	%\includegraphics[scale=0.8]{./figure/Messung2_Daempfung_omega0.png}
 	\caption{Bestimmung des Dämpfungskoeffizienten Dämpfung 2 (350mA)}
 	\label{fig:daempfung_omega0_2}
 \end{figure}
+
+\end{multicols}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=4]{./figure/Messung1_Resonanzkurve_250mA.png}
+	\caption{Resonanzkurve (250mA)}
+	\label{fig:resonanzkurve_250mA}
+\end{figure}
+
+\begin{multicols}{2}
 
 \textbf{Gekoppelte Pendel}
 
@@ -217,6 +253,21 @@ A (slope) = 5,036956678235092e+01 +/- 3,421154601278228e+00\\
 Zum Beobachter:\\
 B (y-intercept) = 4,178049407699678e-01 +/- 1,566248245895523e-01\\
 A (slope) = 3,702851334267199e+01 +/- 3,536858402679127e+00\\
+
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[scale=0.8]{./figure/Aufgabe3_weg_von_Beob.png}
+% 	\caption{ Weg von }
+% 	\label{fig:weg_von}
+% \end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.2]{./figure/Dopplereffekt.png}
+	\caption{Dopplereffekt lin. Regression mit bewegtem Beobachter in beide Richtungen}
+	\label{fig:doppler}
+\end{figure}
+
+
 
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
