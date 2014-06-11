@@ -156,12 +156,30 @@
 
 
 \section{Schwingungen 1}
-
+In PS1 werden Mechanische Oszillatoren auf ihre Eigenschaften untersucht.
+Im Detail werden ein Drehpendel, ein gekoppeltes Pendel und die Dopplerverschiebung ausgemessen. Im folgenden Abschnitt werden die dafür benötigten Grundlagen zusammengefasst.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Grundlagen und Versuchsaufbau:}
+Grundlage jeder gedämpften harmonischen Schwingung (HS) ist eine ungedämpfte HS. Die kann mit einer Amplitude und einer Winkelfunktion wie folgt beschrieben werden:
+$$f(t) = A \cdot cos(\omega t + \phi)$$
+Hierbei ist \textbf{A} die Amplitude, \textbf{$\omega$} die Kreisfrequenz, \textbf{t} die Zeit und \textbf{$\phi$} die Phase mit der die Schingung begonnen hat (zu t=0).\\
+Betrachtet man nun eine gedämpfte Schwingung ergibt sich aus der Differentialgelichung [1](2, p.4) ein zusätzlicher zeitabhängiger Dämpfungsterm: 
+$$f(t) = A \cdot e^{- \delta t} \cdot cos(\omega t + \phi)$$ 
+Hierbei ist $\delta$ die Dämpfungskonstante welche vom Material (z.B. Luft, Eisen) und anderen Bedingungen abhängt (z.B. Kugellager, Reibung etc.).\\
+
+Eine reale Schwingung ist nie ungedämpft. Würde es eine ungedämpfte Schwingung geben, könnte die so genannte Resonanzkatastrophe auftreten. Hierbei würde bei einer erzwungenen Schwingung mit der Resonanzfrequenz getrieben und immer mehr Energie auf das schwingende System übertragen bis diese über alle Grenzen anwächst.\\
+Um einen Oszillator zu beschreiben wird die \textbf{Eigenfrequenz} verwendet. Diese entspricht der Kreisfrequenz bei einer Schwingung ohne dämpfung und wird im Weiteren als $\omega_0$ bezeichnet.\\
 
 \textbf{Drehpendel}
+Zur charakterisierung des Drehpendels wird durch das logarithmische Dämpfungsdekrement $\Lambda$ der Dämpfungskoeffizient berechnet:
+$$\Lambda = ln \frac{x(T_1)}{x(T_2)} = \delta T$$
+Dabei wird die Änderung der Amplitude bei aufeinander folgenden Perioden betrachtet ($\frac{x(T_1)}{x(T_2)} = e^{\delta T}$).\\
+Die Eigenfrequenz wird wie folgt unter Berücksichtigung von $\delta$ berechnet:
+$$ \omega_0 = \sqrt{\frac{2\cdot \delta \omega}{tan \phi} + \omega^2 }$$
+Eine zweite Möglichkeit die Eigenfrequenz zu bestimmen ist die Resonanzkurve einer erzwungenen Schwingung zu ermitteln und die Halbwertsbreite bei $\frac{A}{\sqrt{2}}$ zu messen (vgl. [1](9, p.6)).\\
+Ein weiteres Maß für einen Oszillator ist der Gütefaktor Q. Dieser ist definiert als:
+$$Q = \frac{\omega_0}{2\delta} = \frac{\omega_0}{\Delta \omega}$$
 
 \textbf{Gekoppelte Pendel}
 
@@ -182,7 +200,7 @@
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.8]{./figure/Messung2_Daempfung_omega0.png}
+	%\includegraphics[scale=0.8]{./figure/Messung2_Daempfung_omega0.png}
 	\caption{Bestimmung des Dämpfungskoeffizienten Dämpfung 2 (350mA)}
 	\label{fig:daempfung_omega0_2}
 \end{figure}
@@ -196,7 +214,6 @@ Von Beobachter weg:\\
 B (y-intercept) = 2,169943820978748e-02 +/- 1,351263299960912e-01\\
 A (slope) = 5,036956678235092e+01 +/- 3,421154601278228e+00\\
 
-\\
 Zum Beobachter:\\
 B (y-intercept) = 4,178049407699678e-01 +/- 1,566248245895523e-01\\
 A (slope) = 3,702851334267199e+01 +/- 3,536858402679127e+00\\
