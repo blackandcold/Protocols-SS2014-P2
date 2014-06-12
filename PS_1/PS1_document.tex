@@ -243,15 +243,53 @@ Diese lineare Gleichung wird im Versuch benutzt, um aus mehreren Messungen von $
 
 \section{Versuchsaufbau:}
 \subsection{Drehpendel:}
+Als Oszillator, um Dämpfung und Resonanz zu zeigen, wird ein Drehpendel verwendet, hier eine vertikal montierte Kupferscheibe an einer Spiralfeder (Abb. \ref{fig:drehpendel_skizze}).\\
+Am Pendel selbst ist ein Zeiger montiert, außen herum eine Scheibe mit einer Skala angebracht, um die relative Amplitude zu messen.\\
+Die Dämpfung wird als Wirbelstrombremse realisiert. Daher sind die Angaben der 2 verschiedenen betrachten Dämpfungen in (mA). Die Steuerung der Bremsstärke erfolgt über einen regelbaren Widerstand und ein analoges Amperemeter zum genauen Setup der Dämpfung.\\
+Außerdem ist am Versuchsaufbau noch ein Motor montiert, der, zum Messen der Resonanzkurve, als treibende Kraft dient. Seine Drehfrequenz wird durch eine angebrachte Scheibe, mit 10 gleichmäßig verteilten weißen Strichen gemessen, indem mit einem Drehzahlmesser die Zahl ihrer Durchgänge pro Minute bestimmt wird.\\
 
+Zur Messung der Eigenfrequenz und den Werten der Dämpfungskonstanten, werden jeweils Periodendauern mit der Stoppuhr gemessen. Um genauere Ergebnisse zu erhalten wird über mehrere Perioden gemittelt, sowie auch über mehrere Messreihen.\\
+Die Dämpfungskonstante (bei 250mA und 350mA Bremsstrom) wird bestimmt, indem mehrere Amplituden im Logarithmus gegen die Zeit aufgetragen werden. der lineare Anstieg ergibt $\delta$.\\
+Zur Darstellung der Resonanzkurve werden jeweils, für beide Dämpfungen, die Amplituden für verschiedene Triebfrequenzen (Potentiometer am Motor) aufgetragen und ein Kurvenverlauf mit Splines angenähert.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{./figure/drehpendel.png}
+	\caption{Skizze des Aufbaus des Drehpendels [1](Abb.6, p.7)}
+	\label{fig:drehpendel_skizze}
+\end{figure}
 \subsection{Gekoppeltes Pendel:}
 
+Das hier verwendete gekoppelte Pendel besteht aus 2 Schwerkraftpendel, die mit einem Faden verbunden sind, an dem ein Gewicht befestigt wird (Abb.\ref{fig:gekoppelt_skizze}).\\
+
+Sie werden jeweils per Hand in Schwingung versetzt, um Messungen der Periodendauer (wieder mit Stoppuhr) für die 3 verschiedenen Spezialfälle durchzuführen.\\
+Dabei werden jeweils wieder mehrere Periodendauern gemessen und durch ihre Zahldividiert, sowie pro gemessener Eigenfrequenz, Fall und Kopplungsgewicht, mehrere solche Periodendauern bestimmt und über sie gemittelt.\\
+Es ist darauf zu achten, dass die Auslenkungen nicht zu groß sind (da ja die Lösungen für ein Schwerkraftpendel mit der Kleinwinkelnäherung erhalten wurden).\\
+Aus den 4 Kreisfrequenzen $\omega_0$, $\omega_1$, $\omega_2$ und $\omega_S$ kann pro Kopplungsmasse auf 2 verschiedene Arten der Kopplungsgrad berechnet und anschließend verglichen werden.
+
 \subsection{Dopplerverschiebung einer bewegten Schallquelle:}
+
+Der Dopplereffekt wird in diesem Versuch dargestellt, indem 2 kleine Lautsprecher mit der selben Frequenz betrieben werden (knapp 20kHz, also außerhalb der Hörschwelle eines Erwachsenen), auf die ein Richtmikrophon, verbunden mit einem Oszilloskop, gerichtet ist. Einer der beiden Lautspreche wird, gezogen von einem Motor, auf einer Schiene gleichmäßig auf das Mikrophon zu- oder vom Mikrophon wegbewegt (Abb.\ref{fig:dopplereffekt_skizze})\\
+Durch diese Bewegung ergibt sich eine Frequenzverschiebung. In Überlagerung mit dem Signal aus dem stationären Speaker entsteht eine Schwebung, da der Frequenzunterschied nicht sehr groß ist.
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{./figure/dopplereffekt_skizze.png}
+	\caption{Skizze des Aufbaus für den Dopplereffekt [1](Abb.10, p.14)}
+	\label{fig:dopplereffekt_skizze}
+\end{figure}
+
+Die Periodendauer der Schwebung wird am Oszilloskop bestimmt. Trotz Umgebungsgeräuschen, lässt sich die Schwebung, vor allem wenn der bewegte Speaker gerade auf gleicher Höhe mit dem unbewegten ist, gut darstellen.\\
+Die Geschwindigkeit des bewegten wird mit einer Lichtschranke gemessen, die durch ein am Wagen befestigtes Plättchen unterbrochen und wieder durchgelassen wird. Bei bekannter Breite des Plättchens (3cm) lässt sich so die Geschwindigkeit berechnen.\\
+Der Kehrwert der Periodendauer wird gegen die Wagengeschwindigkeiten aufgetragen. Der Lineare Anstieg entspricht der Signalfrequenz $\nu_0$ geteilt durch die Schallgeschwindigkeit in Luft (Raumtemperatur).
+
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Resultate}
 \subsection{Drehpendel}
-
+Bei ausgeschalteter Bremse:\\
+$\omega = (3.54 \pm 0.10)$
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1.8]{./figure/Messung1_Daempfung_omega0.png}
@@ -336,7 +374,7 @@ $m_1 = (504.3 \pm 0.1)g$
 \noindent $\omega_{gk} = \omega_0 = (3.233 \pm 0.020)s^{-1}$\\
 $\omega_{geg} = \omega_1 = (3.587\pm 0.034)s^{-1}$\\
 $\omega_2 = (3.446 \pm 0.033)s^{-1}$\\
-$\omega_{Schwebung}=\omega_S=(0.3638 \pm 0.0041)s^{-1}$
+$\omega_{Schwebung}=\omega_S=(0.7276 \pm 0.0082)s^{-1}$
 
 $$K_{\omega_0,\omega_1}=(0.105 \pm 0.012)$$
 $$K_{\omega_2,\omega_S}=(0.1044 \pm 0.0026)$$
@@ -348,10 +386,10 @@ $m_2 = (298.0 \pm 0.1)g$
 \noindent $\omega_{gk} = \omega_0 = (3.232 \pm 0.018)s^{-1}$\\
 $\omega_{geg} = \omega_1 = (3.466\pm 0.028)s^{-1}$\\
 $\omega_2 = (3.341 \pm 0.019)s^{-1}$\\
-$\omega_{Schwebung}=\omega_S=(0.25335 \pm 0.00013)s^{-1}$
+$\omega_{Schwebung}=\omega_S=(0.5076 \pm 0.0026)s^{-1}$
 
 $$K_{\omega_0,\omega_1}=(0.070 \pm 0.011)$$
-$$K_{\omega_2,\omega_S}=(0.07540 \pm 0.00096)$$
+$$K_{\omega_2,\omega_S}=(0.0754 \pm 0.0096)$$
 \\
 \\
 \subsection{Dopplerverschiebung einer bewegten Schallquelle:}
@@ -388,11 +426,44 @@ $$c_{Schall} = (448 \pm 27) m/s$$
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Diskussion}
-\textbf{Drehpendel}
+\subsection{Drehpendel}
+Die Eigenfrequenz $\omega_0$ unterscheidet sich für beide Dämpfungen kaum von der tatsächlichen Kreisfrequenz $\omega$. Die Dämpfung, die hier einige Perioden zulässt, hat also kaum einen Einfluss auf die Eigenfrequenz.\\
 
-\textbf{Gekoppelte Pendel}
+Für beide Dämpfungen wurde die Dämpfungskonstante $\delta$ auf 2 verschiedene Arten bestimmt, nämlich über das Dämpfungsinkrement $\Lambda$, indem der Logarithmus der Amplituden gegen die Schwingungszeit aufgetragen wurde, und als Hälfte der Halbwertsbreite der Resonanzkurve:\\
+Vor allem für eine Dämpfung bei 250mA liegen beide gmessenen $\delta$ gut und innerhalb der Unsicherheit, beieinander ($\delta = \frac{ln(A)}{T} = (0.1003 \pm 0.0024)s^{-1}$ und $\delta_{Halbwertsbreite} = (0.091 \pm 0.010)s^{-1}$).\\
+Auch für einen Dämpfungsstrom von 350mA ist der Befund plausibel, obwohl hier die Differenz etwas größer ist ($\delta = \frac{ln(A)}{T} = (0.1817 \pm 0.0026)s^{-1}$ und $\delta_{Halbwertsbreite} = (0.165 \pm 0.010)s^{-1}$).\\
+Da in dem Versuchsaufbau jedoch einige Abschätzungen eingehen, müsste eine Unsicherheit für ein definitiv angegebenes $\delta$ aus dieser Methode etwas größer abgeschätzt werden:\\
+Beispielsweise ist in Abb\ref{fig:resonanzkurve_350mA} gut zu erkennen, dass die Spline-Interpolation genau an der Halbwertsbreite einen Knick macht. Das kann leicht zur Verzerrung führen.\\
+Da auch die Frequenzmessung des Motors, sowie seine Einstellmöglichkeit nicht sehr exakt widerholbar sind, ist die mögliche Schrittweite an Anregfrequenzen eher groß.\\
+Wahrscheinlich würde eine gute Wahl der Messpunkte (nicht unbedingt mehr) zu einer besseren Interpolation führen.\\
 
-\textbf{Dopplerverschiebung einer bewegten Schallquelle}
+Auch die Messung der Periodendauer mit Stoppuhr ist natürlich, da menschliche Reaktion der Trigger ist, stark fehleranfällig, wobei hier, durch das Mittel aus mehreren Versuchen, plausible Messergebnisse zu erwarten sind.\\
+
+Die Gütefaktoren $Q_{250mA}=(17.74 \pm 0.50)$ und $Q_{350mA}=(9.82 \pm 0.16)$ unterschieden sich fast um einen Faktor 2. Dies ist schon anschaulich in den Resonanzkurven gut zu erkennen, da die Amplitudenspitze für die stärkere Dämpfung nur etwa die halbe Größe des Peaks bei schwächerer Dämpfung erreicht.\\
+Erwartungsgemäß ist also die Resonanz bei schwächerer Dämpfung stärker ausgeprägt (bis sie eben im theoretischen Grenzfall von keiner Dämpfung unendlich scharf wäre).\\
+
+
+\subsection{Gekoppelte Pendel}
+\noindent Für beide Kopplungsgewichte liegen die verschieden berechneten Kopplungsgrade jeweils gut, im Rahmen der Unsicherheit, beieinander.\\
+Die Methode der Stoppuhrmessung führt natürlich auch hier zu Verzerrungen, wobei die großen Pendel, montiert vor einer weißen Wand und mit realtiv (zum menschlichen timing) großer Periodendauer, einfache Messungen zulassen.\\
+(Die Lichtschranke aus dem Versuch zum Dopplereffekt ließe sich möglicherweise im Weg eines Pendels montieren und würde auch zu noch genaueren Ergebnissen führen, dies ist in diesem Fall jedoch nicht nötig, um die gewünschten Aussagen zu treffen).\\
+
+Der Kopplungsgrad der durch die kleinere Masse erzeugt wird, ist auch geringer.\\
+Die Frequenz der gleichsinnigen Schwingung wird erwartungsgemäß kaum von den Kopplungsmassen beeinflusst (schließlich ist hier der Unterschied zwischen beiden schwingenden Gesamt-Systemen nur ein vergleichsweise geringer Massenunterschied von etwa 200g). Auf die anderen Kreisfrequenzen sowie auf die Schwebung, wirken sich die verschiedenen massen jedoch deutlich aus.\\
+
+
+\subsection{Dopplerverschiebung einer bewegten Schallquelle}
+An einem Literaturwert von etwa 340m/s Schallgeschwindigkeit in Luft (Raumtemperatur), ist das Ergebnis dieser Messung mit $c_{Schall} = (448 \pm 27) m/s$ deutlich vorbei.\\
+Betrachtet man die beiden Bewegungsrichtungen getrennt, liegt zwar die Messung der Bewegung zum Beobachter hin (1. Quadrant, Abb.\ref{fig:doppler}) etwas näher am Literaturwert, aber auch bei etwa 400m/s.\\
+Gut zu erkennen in der Graphik jedenfalls, sind die vom Fit deutlich entfernteren Messpunkte im 3. Quadranten.\\
+Die Schwebung ist am Oszilloskop gut erkennbar, es gibt jedoch einen gewissen Ermessensspielraum ihrer Grenzen aufgrund des Hintergrundgrundrauschens (das in diesem Fall tatsächlich dieHintergrundgeräusche des Praktikumsraumes sind).\\
+Eine Möglichkeit der Verbesserung, die hier nicht benutzt wurde, ist es, über mehrere Schwebungsperioden zu mitteln.\\
+
+Da der Unterschied zwischen beiden Richtungen sehr deutlich ist, wäre es zwar prinzipiell möglich, dass im Antrieb des Wagens ein systematischer Fehler vorliegt. Nachdem aber für beide Richtungen und der Speaker selbst umgedreht wird, und Motor und Wagen, sowie die Lichtschranke gleich bleiben, ist das eher auszuschließen.\\
+
+Da auch die Gruppe am Vortag Schwierigkeiten hatte, Fehler zu finden, und dennoch sehr ungenaue Ergebnisse bekam, erwarten wir mit einer gewissen Spannung die Durchführung der uns nachfolgenden Gruppe.\\
+
+Ansich ist der Messaufbau sehr klar und alle Messungen durch präzise Messgeräte gestützt. Eine Möglichkeit, genaueres zu erfahren, wäre, den Versuch möglichst spät, wenn Ruhe eingekehrt ist, und für verschieden Frequenzen durchzuführen.
 
 
 \section{Quellen}
