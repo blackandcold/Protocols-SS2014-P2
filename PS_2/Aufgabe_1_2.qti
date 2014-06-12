@@ -1,0 +1,58 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+SchwinkreisohneDämpfwiderstand	30	2	12.06.14 14:14
+geometry	0	0	614	499	
+header	Amplitude mV	Zeit ms
+ColWidth	123	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	18	0
+1	17.4	0.19
+2	16.6	0.39
+3	15.6	0.59
+4	14.8	0.79
+5	14.2	0.99
+6	13.2	1.2
+7	12.6	1.39
+8	12	1.6
+9	11.4	1.79
+10	10.8	2
+11	10.2	2.19
+</data>
+</table>
+<table>
+SchwingkreismitDämpfwiderstand	30	2	12.06.14 14:22
+geometry	614	0	456	499	active
+header	Amplitude mV	Zeit ms
+ColWidth	101	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	17.4	0
+1	14	0.2
+2	10.6	0.4
+3	8	0.6
+4	6	0.8
+5	4.6	1
+6	3.4	1.2
+7	2.6	1.4
+8	1.8	1.6
+9	1.6	1.8
+10	1.2	2
+11	0.8	2.2
+</data>
+</table>
+<open>1</open>
