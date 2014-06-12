@@ -2,57 +2,97 @@ QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
 <windows>	2
 <table>
-SchwinkreisohneDämpfwiderstand	30	2	12.06.14 14:14
-geometry	0	0	614	499	
-header	Amplitude mV	Zeit ms
-ColWidth	123	100	
+SchwinkreisohneDämpfwiderstand	30	4	12.06.14 14:14
+geometry	-6	-25	614	499	
+header	Amplitude mV	Zeit ms	ln(A in V)[Y]	2[X]
+ColWidth	123	100	162	100	
 <com>
+<col nr="2">
+ln(col("Amplitude mV")/1000)
+</col>
+<col nr="3">
+(col("Zeit ms")/1000)
+</col>
 </com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
 WindowLabel		2
 <data>
-0	18	0
-1	17.4	0.19
-2	16.6	0.39
-3	15.6	0.59
-4	14.8	0.79
-5	14.2	0.99
-6	13.2	1.2
-7	12.6	1.39
-8	12	1.6
-9	11.4	1.79
-10	10.8	2
-11	10.2	2.19
+0	18	0	-4.017383521086	0
+1	17.4	0.19	-4.051285072762	0.00019
+2	16.6	0.39	-4.09835258362	0.00039
+3	15.6	0.59	-4.160484364727	0.00059
+4	14.8	0.79	-4.213128098212	0.00079
+5	14.2	0.99	-4.254513314375	0.00099
+6	13.2	1.2	-4.32753844939	0.0012
+7	12.6	1.39	-4.374058465025	0.00139
+8	12	1.6	-4.422848629194	0.0016
+9	11.4	1.79	-4.474141923582	0.00179
+10	10.8	2	-4.528209144852	0.002
+11	10.2	2.19	-4.585367558692	0.00219
 </data>
 </table>
 <table>
-SchwingkreismitDämpfwiderstand	30	2	12.06.14 14:22
-geometry	614	0	456	499	active
-header	Amplitude mV	Zeit ms
-ColWidth	101	100	
+SchwingkreismitDämpfwiderstand	30	4	12.06.14 14:22
+geometry	667	-29	519	417	active
+header	Amplitude mV	Zeit ms	1[Y]	2[X]
+ColWidth	101	100	142	100	
 <com>
+<col nr="2">
+ln(col("Amplitude mV")/1000)
+</col>
+<col nr="3">
+col("Zeit ms")/1000
+</col>
 </com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
 WindowLabel		2
 <data>
-0	17.4	0
-1	14	0.2
-2	10.6	0.4
-3	8	0.6
-4	6	0.8
-5	4.6	1
-6	3.4	1.2
-7	2.6	1.4
-8	1.8	1.6
-9	1.6	1.8
-10	1.2	2
-11	0.8	2.2
+0	17.4	0	-4.051285072762	0
+1	14	0.2	-4.268697949367	0.0002
+2	10.6	0.4	-4.546901277864	0.0004
+3	8	0.6	-4.828313737302	0.0006
+4	6	0.8	-5.115995809754	0.0008
+5	4.6	1	-5.381698975487	0.001
+6	3.4	1.2	-5.68397984736	0.0012
+7	2.6	1.4	-5.952243833955	0.0014
+8	1.8	1.6	-6.31996861408	0.0016
+9	1.6	1.8	-6.437751649736	0.0018
+10	1.2	2	-6.725433722188	0.002
+11	0.8	2.2	-7.130898830296	0.0022
 </data>
 </table>
 <open>1</open>
+<log>
+[12.06.14 14:45	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: SchwinkreisohneDämpfwiderstand_ln(A in V), unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 0,0000000000000e+00 bis x = 2,1900000000000e-03
+B (y-intercept) = -4,0050031485092e+00 +/- 3,6949984558462e-03
+A (slope) = -2,6274949263769e+02 +/- 2,8569385915838e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6754674568408e-05
+R^2 = 0,9988191223927
+Angepasstes R^2 = 0,9985567051467
+RMSE (Standardabweichung) = 0,006837738995341
+RSS (Summe der quadrierten Restwerte) = 0,0004675467456841
+---------------------------------------------------------------------------------------
+[12.06.14 14:55	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: SchwingkreismitDämpfwiderstand_1, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 0,0000000000000e+00 bis x = 2,2000000000000e-03
+B (y-intercept) = -4,0082456762998e+00 +/- 2,6649736257936e-02
+A (slope) = -1,3897137276177e+03 +/- 2,0520043839631e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,4085329793117e-03
+R^2 = 0,9978244952562
+Angepasstes R^2 = 0,9973410497576
+RMSE (Standardabweichung) = 0,04907680693884
+RSS (Summe der quadrierten Restwerte) = 0,02408532979312
+---------------------------------------------------------------------------------------
+</log>
