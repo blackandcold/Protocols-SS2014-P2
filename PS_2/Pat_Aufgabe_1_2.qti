@@ -2,10 +2,17 @@ QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
 <windows>	2
 <table>
+<<<<<<< HEAD
 SchwinkreisohneDämpfwiderstand	30	4	12.06.14 14:14
 geometry	-6	-25	614	499	
 header	Amplitude mV	Zeit ms	ln(A in V)[Y]	2[X]
 ColWidth	123	100	162	100	
+=======
+SchwinkreisohneDämpfwiderstand	30	2	12.06.14 14:14
+geometry	0	0	614	499	active
+header	Amplitude mV	Zeit ms
+ColWidth	123	100	
+>>>>>>> b91d68bc7dab61457d1bd033d51e4e5e48187cc7
 <com>
 <col nr="2">
 ln(col("Amplitude mV")/1000)
@@ -35,10 +42,17 @@ WindowLabel		2
 </data>
 </table>
 <table>
+<<<<<<< HEAD
 SchwingkreismitDämpfwiderstand	30	4	12.06.14 14:22
 geometry	667	-29	519	417	active
 header	Amplitude mV	Zeit ms	1[Y]	2[X]
 ColWidth	101	100	142	100	
+=======
+SchwingkreismitDämpfwiderstand	30	2	12.06.14 14:22
+geometry	614	0	456	499	
+header	Amplitude mV	Zeit ms
+ColWidth	101	100	
+>>>>>>> b91d68bc7dab61457d1bd033d51e4e5e48187cc7
 <com>
 <col nr="2">
 ln(col("Amplitude mV")/1000)
