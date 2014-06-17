@@ -299,21 +299,65 @@ Wie in PS1, wird nun wieder der Kopplungsgrad auf 2 verschiedene Arten berechnet
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Resultate}
-\subsection{Schwingkreis ohne Dämpfung}
-$$\delta_{ungedämpft} = -262.7 \pm 2.9$$
-$$T_{Durchschnitt} = 2.19 / 12 = 0.1825 \pm 0.01ms$$ 
-$$\omega_{0d} = 34428.4$$
-$$\omega_{0} = 34429.4$$
+\subsection{freischwingend}
+
+
+
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{./figure/Schwingkreis_ohne-daempfung.png}
+	\caption{freie ungedämpfte Schwingung - ln(A) gegen die Zeit}
+	\label{fig:kopplung_aufbau}
+\end{figure}
+\begin{multicols}{2}
+
+
+
+\noindent \textbf{Schwingkreis ohne Dämpfung:}\\
+
+\noindent Es wurde der Kondensator $C_2$ verwendet.\\
+
+\noindent $L=(1.00 \pm 0.03)mH$\\
+$T_{Durchschnitt}% = 2.19 / 12 
+= (0.183 \pm 0.01)ms$\\
+$\omega_{0d} = (34300 \pm 1900)s^{-1}$\\
+$R_L = R = (0.525 \pm 0.017)\Omega$
+
+$$\delta_{ungedaempft} = (262.7 \pm 2.9)s^{-1}$$
+$$C = (8.50 \pm 0.98)\mu F$$
+$$\omega_{0} = (34300\pm 1900)s^{-1}$$
+
 % sqrt((34428.4)^2 + (262.7)^2)
 
-\subsection{Schwingkreis mit Dämpfung}
-$$R = 2.2\Omega$$
-$$\delta = 1390 \pm 21$$
-$$T_{Durchschnitt} = 2.2 / 12 = 0.1833  \pm 0.01 ms$$
-$$\omega_{0d} = 34278.2$$
-$$\omega_{0} = 34306.4$$
+
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.7]{./figure/Schwingkreis_mit2-2ohm-daempfung.png}
+	\caption{gedaempft: R = 2.2$\Omega$ - ln(A) gegen die Zeit}
+	\label{fig:kopplung_aufbau}
+\end{figure}
+\begin{multicols}{2}
+
+
+\noindent \textbf{Schwingkreis mit Dämpfung}\\
+
+\noindent $R_D = (2.20\pm 0.22)\Omega$\\
+$L=(1.00 \pm 0.03)mH$\\
+$T_{Durchschnitt}% = 2.2 / 12 
+= (0.183  \pm 0.01) ms$\\
+$\omega_{0d} = (34300 \pm 1900)s^{-1}$\\
+$R_L = R-R_D = (0.58 \pm 0.24)\Omega$ 
+$$\delta_{gedaempft} = (1390 \pm 21)s^{-1}$$
+$$C = (8.50 \pm 0.98)\mu F$$
+$$\omega_{0} = 34328 \pm 1900)s^{-1}$$
 % sqrt((34278.2)^2 + (1390)^2)
 
+
+\noindent \textbf{aperiodischer Grenzfall:}
+$$R_{apGrenz-gemessen} = (57\pm 3)\Omega$$
+$$R_{apGrenz-berechnet}=(68.6 \pm 4.4)\Omega$$
 
 \subsection{Doppel-Schwingkreis}
 $$K = 2*2341*35903 /((2341)^2+(35903.9)^2)$$
@@ -321,6 +365,9 @@ $$K = 2*2341*35903 /((2341)^2+(35903.9)^2)$$
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Diskussion}
+
+%R_L: der R_D bringt a riesenunsicherheit hinein (etwa faktor 3), ansonsten passts
+
 \subsection{Schwingkreis ohne Dämpfung}
 
 
