@@ -1,0 +1,63 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+ResonanzKurveOhne	30	2	12.06.14 15:34
+geometry	0	0	469	603	
+header	Amplitude mV	Frequenz kHz
+ColWidth	132	130	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	4.6	2.7
+1	6	3.4
+2	10.2	4
+3	29.2	4.6
+4	40.8	4.7
+5	64	4.8
+6	120	4.9
+7	292	5
+8	120	5.1
+9	68	5.2
+10	31.2	5.5
+11	17.2	5.99
+12	13.6	6.5
+13	10.4	7.5
+14	8.4	9
+</data>
+</table>
+<table>
+ResonanzkurzveMit2_2ohm	30	2	12.06.14 15:46
+geometry	469	0	486	604	active
+header	Amplitude mV * 2	Frequenz kHz
+ColWidth	112	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	14	2.7
+1	20	3.4
+2	28	4
+3	63	4.6
+4	76	4.7
+5	92	4.8
+6	114	4.9
+7	130	5
+8	120	5.1
+9	100	5.2
+10	64	5.5
+11	42	5.99
+12	34	6.5
+13	28	7.5
+</data>
+</table>
+<open>1</open>
