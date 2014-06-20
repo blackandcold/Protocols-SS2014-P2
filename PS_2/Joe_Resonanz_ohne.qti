@@ -1,63 +1,248 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	2
+<windows>	4
 <table>
-ResonanzKurveOhne	30	2	12.06.14 15:34
-geometry	0	0	469	603	
-header	Amplitude mV	Frequenz kHz
-ColWidth	132	130	
+ResonanzKurveOhne	30	3	12.06.14 15:34
+geometry	0	3	469	603	
+header	Amplitude mV[Y]	Frequenz kHz	Kreisfrequenz[X]
+ColWidth	132	130	114	
 <com>
+<col nr="2">
+col("Frequenz kHz") *2*pi
+</col>
 </com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
 WindowLabel		2
 <data>
-0	4.6	2.7
-1	6	3.4
-2	10.2	4
-3	29.2	4.6
-4	40.8	4.7
-5	64	4.8
-6	120	4.9
-7	292	5
-8	120	5.1
-9	68	5.2
-10	31.2	5.5
-11	17.2	5.99
-12	13.6	6.5
-13	10.4	7.5
-14	8.4	9
+0	4.6	2.7	16.96460032938
+1	6	3.4	21.36283004441
+2	10.2	4	25.13274122872
+3	29.2	4.6	28.90265241303
+4	40.8	4.7	29.53097094374
+5	64	4.8	30.15928947446
+6	120	4.9	30.78760800518
+7	292	5	31.4159265359
+8	120	5.1	32.04424506662
+9	68	5.2	32.67256359733
+10	31.2	5.5	34.55751918949
+11	17.2	5.99	37.63627999001
+12	13.6	6.5	40.84070449667
+13	10.4	7.5	47.12388980385
+14	8.4	9	56.54866776462
 </data>
 </table>
 <table>
-ResonanzkurzveMit2_2ohm	30	2	12.06.14 15:46
-geometry	469	0	486	604	active
-header	Amplitude mV * 2	Frequenz kHz
-ColWidth	112	100	
+ResonanzkurzveMit2_2ohm	30	4	12.06.14 15:46
+geometry	469	0	486	604	
+header	Amplitude mV * 2	Frequenz kHz	Kreisfrequenz[X]	Amplitude[Y]
+ColWidth	132	166	123	100	
 <com>
+<col nr="2">
+col("Frequenz kHz")*pi*2
+</col>
+<col nr="3">
+col("Amplitude mV * 2")/2
+</col>
 </com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
+ColType	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0
+HiddenColumn	0	0	0	0
+Comments					
 WindowLabel		2
 <data>
-0	14	2.7
-1	20	3.4
-2	28	4
-3	63	4.6
-4	76	4.7
-5	92	4.8
-6	114	4.9
-7	130	5
-8	120	5.1
-9	100	5.2
-10	64	5.5
-11	42	5.99
-12	34	6.5
-13	28	7.5
+0	14	2.7	16.96460032938	7
+1	20	3.4	21.36283004441	10
+2	28	4	25.13274122872	14
+3	63	4.6	28.90265241303	31.5
+4	76	4.7	29.53097094374	38
+5	92	4.8	30.15928947446	46
+6	114	4.9	30.78760800518	57
+7	130	5	31.4159265359	65
+8	120	5.1	32.04424506662	60
+9	100	5.2	32.67256359733	50
+10	64	5.5	34.55751918949	32
+11	42	5.99	37.63627999001	21
+12	34	6.5	40.84070449667	17
+13	28	7.5	47.12388980385	14
 </data>
 </table>
+<multiLayer>
+Grafik1	1	1	20.06.14 10:21
+geometry	0	595	1227	584	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	7	5	1204	520
+<PageGeometry>0.00574241	0.00932836	0.987695	0.970149</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Kreisfrequenz Omega	Amplitude [mV]		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	14	75	0	0	0
+ScaleFont0	Sans	12	75	0	0	0
+ScaleFont1	Sans	12	75	0	0	0
+ScaleFont2	Sans	12	75	0	0	0
+ScaleFont3	Sans	12	75	0	0	0
+AxisFont0	Sans	12	50	0	0	0
+AxisFont1	Sans	12	50	0	0	0
+AxisFont2	Sans	12	50	0	0	0
+AxisFont3	Sans	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ResonanzKurveOhne_Kreisfrequenz	ResonanzKurveOhne_Amplitude mV	7	5	#000000	0	1	7	1	#000000	#000000	0	#000000	14	2	0	0	29	1
+scale	0	0	300	0	7	5	0	0
+scale	1	0	300	0	7	5	0	0
+scale	2	10	60	0	6	5	0	0
+scale	3	10	60	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<line>	10	204.444444444444	60.0931098696462	204.444444444444	1	#000000	SolidLine	0	0	4	45	1	1</line>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>11.25313283208</x>
+<y>289.96655518395</y>
+<right>23.6591478696742</right>
+<bottom>260.869565217391</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik2	1	1	20.06.14 10:25
+geometry	79	9	1225	573	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	8	6	1197	505
+<PageGeometry>0.00657354	0.0114286	0.983566	0.961905</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Kreisfrequenz Omega	Amplitude [mV]		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	14	75	0	0	0
+ScaleFont0	Sans	11	75	0	0	0
+ScaleFont1	Sans	11	75	0	0	0
+ScaleFont2	Sans	11	75	0	0	0
+ScaleFont3	Sans	11	75	0	0	0
+AxisFont0	Sans	11	50	0	0	0
+AxisFont1	Sans	11	50	0	0	0
+AxisFont2	Sans	11	50	0	0	0
+AxisFont3	Sans	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#000000	#000000	#000000	#000000
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	ResonanzkurzveMit2_2ohm_Kreisfrequenz	ResonanzkurzveMit2_2ohm_Amplitude	7	5	#000000	0	1	7	1	#000000	#000000	0	#000000	14	2	0	0	29	1
+scale	0	0	70	0	8	5	0	0
+scale	1	0	70	0	8	5	0	0
+scale	2	15	50	0	8	5	0	0
+scale	3	15	50	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<line>	15.0321987120515	45.5897435897436	50.064397424103	45.5897435897436	1	#000000	SolidLine	0	0	4	45	1	1</line>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>15.877192982456</x>
+<y>67.658862876254</y>
+<right>24.5614035087719</right>
+<bottom>60.8695652173913</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
 <open>1</open>
