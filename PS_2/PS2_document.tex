@@ -230,7 +230,7 @@ Die Kopplung kann über Strom oder Spannung erzeugt werden; hier bewirkt ein zus
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1.1]{./figure/kopplung_skizze.png}
-	\caption{Schaltbild zweier gekoppelter Schwingkreise geschlossener Schwingkreis}
+	\caption{Schaltbild zweier gekoppelter Schwingkreise}
 	\label{fig:kopplung_skizze}
 \end{figure}
 
@@ -299,7 +299,7 @@ Wie in PS1, wird nun wieder der Kopplungsgrad auf 2 verschiedene Arten berechnet
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Resultate}
-\subsection{freischwingend}
+\subsection{Freie Schwingung}
 
 
 
@@ -308,7 +308,7 @@ Wie in PS1, wird nun wieder der Kopplungsgrad auf 2 verschiedene Arten berechnet
 	\centering
 	\includegraphics[scale=0.7]{./figure/Schwingkreis_ohne-daempfung.png}
 	\caption{freie ungedämpfte Schwingung - ln(A) gegen die Zeit}
-	\label{fig:kopplung_aufbau}
+	\label{fig:swingkreis_ohnedaempfung}
 \end{figure}
 \begin{multicols}{2}
 
@@ -336,7 +336,7 @@ $$\omega_{0} = (34300\pm 1900)s^{-1}$$
 	\centering
 	\includegraphics[scale=0.7]{./figure/Schwingkreis_mit2-2ohm-daempfung.png}
 	\caption{gedaempft: R = 2.2$\Omega$ - ln(A) gegen die Zeit}
-	\label{fig:kopplung_aufbau}
+	\label{fig:schwingkreis_2ohmdaempfung}
 \end{figure}
 \begin{multicols}{2}
 
@@ -362,11 +362,49 @@ $$R_{apGrenz-berechnet}=(68.6 \pm 4.4)\Omega$$
 \subsection{Doppel-Schwingkreis}
 $$K = 2*2341*35903 /((2341)^2+(35903.9)^2)$$
 
+\subsection{Resonanzkurven mit und ohne Dämpfung}
+\textbf{Ohne Dämpfung:}\\
+$$\omega_{0d} = (31.42 \pm 0.01) Hz$$
+$\omega_{0d}$ bei 292mV\\
+$292mV / \sqrt{2} ~ 206mV$\\
+$$\delta_{0 \Omega} = (31.78 - 31.05)/2 = (0.37 \pm 0.01)  \frac{1}{s}$$
+$$Q = $$ %todo
+
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.2]{./figure/resonanz_ohne_ext_daempf.png}
+	\caption{Resonanzkurve ohne externe Dämpfung}
+	\label{fig:resonanz_ohne}
+\end{figure}
+\begin{multicols}{2}
+
+
+\textbf{Mit Dämpfung:}\\
+$$\omega_{0d} = (31.42 \pm 0.01) Hz$$
+$\omega_{0d}$ bei 65mV\\
+$65 / \sqrt{2} ~ 46mV$\\
+$$\delta_{2 \Omega} = (32.97 - 30.13)/2 = (1.42 \pm 0.01)  \frac{1}{s}$$
+$$Q = $$ %todo
+
+\end{multicols}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.2]{./figure/resonanz_mit_ext_daempf.png}
+	\caption{Resonanzkurve mit externer Dämpfung}
+	\label{fig:resonanz_mit}
+\end{figure}
+\begin{multicols}{2}
+
+%und für die kopplung gibts halt basically: K aus w_S und w_m berechnen w_geg und w_gl aus w_S und w_m berechnen vergleichen mit den gemessenen w_S und w_m (diskussion) aus den gemessenen w_gl und w_geg auch K berechnen
+
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Diskussion}
 
 %R_L: der R_D bringt a riesenunsicherheit hinein (etwa faktor 3), ansonsten passts
+
+%
 
 \subsection{Schwingkreis ohne Dämpfung}
 
