@@ -71,7 +71,7 @@ WindowLabel		2
 </table>
 <multiLayer>
 Grafik1	1	1	20.06.14 10:21
-geometry	0	595	1227	584	minimized	
+geometry	0	0	1227	584	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -93,7 +93,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	Kreisfrequenz Omega	Amplitude [mV]		 	
+AxesTitles	Kreisfrequenz Omega [kHz]	Amplitude [mV]		 	
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
@@ -137,8 +137,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>11.25313283208</x>
 <y>289.96655518395</y>
-<right>23.6591478696742</right>
-<bottom>260.869565217391</bottom>
+<right>15.0982226379794</right>
+<bottom>271.039603960396</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -159,7 +159,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik2	1	1	20.06.14 10:25
-geometry	79	9	1225	573	active
+geometry	79	9	1225	573	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -181,7 +181,7 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	Kreisfrequenz Omega	Amplitude [mV]		 	
+AxesTitles	Kreisfrequenz Omega [kHz]	Amplitude [mV]		 	
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
@@ -225,8 +225,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>15.877192982456</x>
 <y>67.658862876254</y>
-<right>24.5614035087719</right>
-<bottom>60.8695652173913</bottom>
+<right>18.5064338235294</right>
+<bottom>63.0357142857143</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
