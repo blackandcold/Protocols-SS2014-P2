@@ -325,7 +325,7 @@ $\omega_{0d} = (34300 \pm 1900)s^{-1}$\\
 $R_L = R = (0.525 \pm 0.017)\Omega$
 
 $$\delta_{ungedaempft} = (262.7 \pm 2.9)s^{-1}$$
-$$C = (8.50 \pm 0.98)\mu F$$
+$$C = (0.850 \pm 0.098)\mu F$$
 $$\omega_{0} = (34300\pm 1900)s^{-1}$$
 
 % sqrt((34428.4)^2 + (262.7)^2)
@@ -350,8 +350,8 @@ $T_{Durchschnitt}% = 2.2 / 12
 $\omega_{0d} = (34300 \pm 1900)s^{-1}$\\
 $R_L = R-R_D = (0.58 \pm 0.24)\Omega$ 
 $$\delta_{gedaempft} = (1390 \pm 21)s^{-1}$$
-$$C = (8.50 \pm 0.98)\mu F$$
-$$\omega_{0} = 34328 \pm 1900)s^{-1}$$
+$$C = (0.850 \pm 0.098)\mu F$$
+$$\omega_{0} = 34300 \pm 1900)s^{-1}$$
 % sqrt((34278.2)^2 + (1390)^2)
 
 
@@ -420,7 +420,6 @@ $$Q = (42.46 \pm 0.58)$$
 \end{figure}
 \begin{multicols}{2}
 
-
 \noindent \textbf{Mit Dämpfung:}\\
 $$\omega_{0d} = (31.42 \pm 0.01) kHz$$
 Amplitude bei $\omega_{0d}$: $U=(65 \pm 1)mV$\\
@@ -430,9 +429,12 @@ $$Q = (11.060 \pm 0.040)$$
 
 \subsection{Gekoppelter Schwingkreis}
 Kopplungskondensator:\\
-$C_K = 6nF$\\
+$C_K = 6\mu F$\\
 $T_S = (1.336 \pm 0.020)ms$\\
 $T_m = (0.175 \pm 0.010)ms$
+
+
+
 
 $$\omega_S = (2351 \pm 36)s^{-1}$$
 $$\omega_m = (35900 \pm 2100)s^{-1}$$
@@ -441,7 +443,7 @@ $$\omega_{geg} = (38300  \pm 2200)s^{-1}$$
 $$\omega_{gleich} = (33500 \pm 2200)s^{-1}$$
 
 \noindent Frequenzen berechnet:\\
-$f_{geg}= ( 6100 \pm 350)Hz$\\
+$f_{geg}= (6100 \pm 350)Hz$\\
 $f_{gl } = (5300 \pm 350)Hz$\\
 
 \noindent Frequenzen gemessen:\\
@@ -449,31 +451,69 @@ $f_{geg} = (5800 \pm 200) Hz$\\
 $f_{gl} = (5000 \pm 200) Hz$\\
 
 \noindent gemessen:
-$$\omega_{geg} = (38300  \pm 1300)s^{-1}$$
-$$\omega_{gleich} = (33500 \pm 1300)s^{-1}$$
+$$\omega_{geg} = (36400  \pm 1300)s^{-1}$$
+$$\omega_{gleich} = (31400 \pm 1300)s^{-1}$$
 
 \noindent \textbf{Kopplungsgrad K:}\\
 $$K_{Sm} = (0.130 \pm 0.018)$$
+$$K_{gl-geg}=(0.146 \pm 0.055)$$
+$$K_{Kond}=(0.124 \pm 0.015)$$
 
-$$K = 2*2341*35903 /((2341)^2+(35903.9)^2)$$
 
-%und für die kopplung gibts halt basically: K aus w_S und w_m berechnen w_geg und w_gl aus w_S und w_m berechnen vergleichen mit den gemessenen w_S und w_m (diskussion) aus den gemessenen w_gl und w_geg auch K berechnen
+%$C = C_2 = 0.9 \mu F$\\
+%$C_K = 6\mu F$\\
+%berechnet:\\
+%$$K = 0.13$$
+%
+%$$K = 2*2341*35903 /((2341)^2+(35903.9)^2) = 0.1298 \approx 0.13$$
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Diskussion}
 
 %R_L: der R_D bringt a riesenunsicherheit hinein (etwa faktor 3), ansonsten passts
-Der Aufbau des Schwinkreises bereitete keine größeren Probleme. Durch die Vorkenntnisse aus PS1 war auch bei diesem Abstrakten Schwingkreisen nachvollziehbar was geschah. Probleme gab es mit der Schaltung zwischen Taktgeber uns Oszilloskop, da das Gerät hierzu noch nicht genügend bekannt und die Beschriftung wenig hilfreich war.
+%Der Aufbau des Schwinkreises bereitete keine größeren Probleme. Durch die Vorkenntnisse aus PS1 sind auch bei diesem abstrakten Oszillator die Zusammenhänge zwischen Eigenschwingung, Dämpfung und Trieb nachvollziehbar und am Oszilloskop gut zu erkennen. 
+%
+%
+%\subsection{Freie Schwingung}
+%Bei der freien Schwingung stellte sich heraus das bei der Messung des $R_L$ durch den Widerstand $R_D$ eine dreifach höhere Unsicherheit entstanden ist. Darüber hinaus war der Versuchsablauf in Ordnung. 
 
-\subsection{Freie Schwingung}
-Bei der freien Schwingung stellte sich heraus das bei der Messung des $R_L$ durch den Widerstand $R_D$ eine dreifach höhere Unsicherheit entstanden ist. Darüber hinaus war der Versuchsablauf in Ordnung. 
+
+\subsection{Schwingkreis ohne Dämpfung}
+
+Nach der Rundung auf die zweite signifikante Stelle der Unsicherheit, sind beide Werte von $\omega_0$ (mit und ohne Dämpfung) gleich, mit $(34300 \pm 1900)s^{-1}$. Sie sind aber auch gleich der gemessenen Eigenschwingungen $\omega_{0d}$. Die Dämpfungskonstante $\delta$ spielt also, wie im mechanischen Fall, kaum eine Rolle für die Eigenschwingung und verändert diese nur leicht, jedenfalls um weniger als den Betrag der Unsicherheit.\\
+
+\noindent Auch die beiden Werte für den Spulenwiderstand $R_L$ liegen gut beieinander (einmal direkt berechnet, einmal, im Dämpfungsfall, durch Abziehen des ohmschen Widerstandes $R_D$). \\
+Hier ist der Befund jedoch nicht sehr aussagekräftig, da die relativ Unsicherheit des WIderstandes $R_D$ sich stark auswirkt und im Dämpfungsfall eine Unsicherheit von fast 50\% des Ergebnisses erzeugt.\\
+
+\noindent Die beiden Ergebnisse für den Widerstand, an dem der aperiodische Grenzfall eintritt, liegen zwar plausibel nahe beieinander, jedoch nicht gedeckt von ihren jeweiligen Unsicherheiten.\\
+Möglicherweise ist die Abschätzung aus der graphischen Methode zu klein, da diese Methode im relevanten Bereich durchaus der Erfahrung und der Einschätzung unterworfen ist.\\
+Ansich lässt sich mit dem Oszilloskop der gewünschte Punkt sehr genau einstellen, wo dieser jedoch liegt, war ein Diskussionspunkt unter beiden Gruppenmitgliedern.\\
+Außerdem gehen in die Berechnung 2 gemessene Größen ein, die ihrerseits auch systematischen Fehlern unterworfen sein können.\\
+
+\noindent Generell liegt hier die Schwierigkeit in dem Versuch:\\
+Nach PS1 ist die Physik der Oszillatoren zwar gut nachvollziehbar und verstanden, im Schwingkreis fehlt jedoch die Intuition, Erfahrung und Anschauung, um genauer beurteilen zu können, ob die Ergebnisse denn stimmen können, bzw. ob systematische Fehler vorliegen. Während beim mechanischen Pendel eine direkte Anschauung hilft, würde hier wahrscheinlich ein wenig mehr Erfahrung mit Elektrotechnik und Schaltungen, helfen, zu sichereren Abschätzungen von Unsicherheiten zu kommen.
 
 \subsection{Erzwungene Schwingung}
+Wie in PS1 wurden die Resonanzkurven aus einzelnen Messpunkten und Spline-Interpolation erzeugt.\\
+In Abb. \ref{fig:resonanz_ohne} lässt sich abseits des Resonanzpeaks ein Bruch in der Kurve, bedingt durch einen Messpunkt, der leicht außerhalb des erwarteten Verlaufs liegt erkennen. Das ist aufgrund der wenigen Messpunkte außerhalb des Resonanzbereichs jedoch zu erwarten.\\
+Die beiden Maxima und ihre Steigung/ Abfall sind gut zu erkennen und annähernd symmetrisch.\\
+
+\noindent Vor allem im gedämpften Fall liegt das Ergebnis für $\delta$ aus der Halbwertsbreite nahe bei dem aus der Regression in Aufgabe 1. Die Unsicherheiten decken sich.\\
+Im ungedämpften Fall sollten möglicherweise die Unsicherheiten doch gröber als die Messgenauigkeit abgeschätzt werden. Jedoch liegen auch die ermittelten Dämpfungskonstanten weiter auseinander.\\
+Sie befinden sich zwar in der gleichen Größenordnung und unterstützen die Theorie, das Ergebnis ist aber bei weitem nicht so klar wie im gedämpften Fall.\\
+Möglicherweise wirkt sich der unsaubere Interpolationsverlauf hier aus. Auch hier macht sich die fehlende Routine in der Einschätzung der Messgrößen und erwartbaren Unsicherheiten bemerkbar, da die Messgeräte (also vor allem das Oszilloskop) eine deutlich bessere Auflösung haben, als die Bauteile und die Schaltung selbst rechtfertigen.\\
+
+\noindent Die Tabelle \ref{tab:phasenversatz} zeigt, dass hier Parallelresonanz vorliegt (positive Phasenverschiebung). Der Theorie entsprechend beginnt der Phasenversatz bei etwa $1 \pi$ und verschwindet oberhalb der Resonanzfrequenz.
 %TODO
-\subsection{Schwingkreis ohne Dämpfung}
+
 %TODO
-\subsection{Schwingkreis mit Dämpfung}
+\subsection{Gekoppelter Schwingkreis:}
+Alle 3 Methoden, den Kopplungsgrad zu berechnen, liefern ähnliche Ergebnisse. Diese liegen auch innerhalb ihrer Unsicherheiten. Es kann angenommen werden, dass die Ergebnisse der Kreisfrequenzen also in guter Näherung stimmen (sowie auch die Kapazität des Kondensators in Aufgabe 1).\\
+Hier zeigt sich die Flexibilität und Auflösung der Oszilloskop-Messung, die Bereiche unterschiedlicher Größenordnung ausreichend genau abdeckt, um letztendlich gute Übereinstimmungen zu erhalten.\\
+
+
 %TODO vergleich werte, 10% etc
 
 
