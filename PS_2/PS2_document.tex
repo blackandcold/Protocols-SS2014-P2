@@ -359,16 +359,14 @@ $$\omega_{0} = 34328 \pm 1900)s^{-1}$$
 $$R_{apGrenz-gemessen} = (57\pm 3)\Omega$$
 $$R_{apGrenz-berechnet}=(68.6 \pm 4.4)\Omega$$
 
-\subsection{Doppel-Schwingkreis}
-$$K = 2*2341*35903 /((2341)^2+(35903.9)^2)$$
 
+
+
+
+
+\pagebreak
 \subsection{Resonanzkurven mit und ohne Dämpfung}
-\textbf{Ohne Dämpfung:}\\
-$$\omega_{0d} = (31.42 \pm 0.01) kHz$$
-$\omega_{0d}$ bei 292mV\\
-$292mV / \sqrt{2} ~ 206mV$\\
-$$\delta_{0 \Omega} = (31.78 - 31.05)/2 = (370 \pm 1)  \frac{1}{s}$$
-$$Q = (42.46 \pm 0.01)$$ 
+
 
 \end{multicols}
 \begin{figure}[H]
@@ -379,45 +377,86 @@ $$Q = (42.46 \pm 0.01)$$
 \end{figure}
 \begin{multicols}{2}
 
-
-\textbf{Mit Dämpfung:}\\
+\noindent \textbf{Ohne Dämpfung:}\\
 $$\omega_{0d} = (31.42 \pm 0.01) kHz$$
-$\omega_{0d}$ bei 65mV\\
-$65 / \sqrt{2} ~ 46mV$\\
-$$\delta_{2 \Omega} = (32.97 - 30.13)/2 = (1420 \pm 1)  \frac{1}{s}$$
-$$Q = (11.06 \pm 0.01)$$
+Amplitude bei $\omega_{0d}$: $U=(292\pm 1)mV$\\
+%$292mV / \sqrt{2} ~ 206mV$\\
+$$\delta_{0 \Omega} = (31780 - 31050)/2 s^{-1}= (370 \pm 5)s^{-1}$$
+$$Q = (42.46 \pm 0.58)$$ 
+
+\noindent \textbf{Phasenverschiebung ohne Dämpfung:}\\
+
+
+\begin{figure}[H]
+	\centering
+	\pgfplotstabletypeset[
+			columns={frequenz, phase, pi},
+			col sep=&,
+			columns/frequenz/.style={precision=2, zerofill, column name=\makecell{$Frequenz$\\$(kHz)$}}, 
+			columns/phase/.style={column name=\makecell{$Periodenversatz$\\$\mu s$}, precision=0},
+			columns/pi/.style={column name=\makecell{$Phasen$\\$\pi$ }, precision=2},
+			every head row/.style={before row=\hline,after row=\hline\hline},
+			every last row/.style={after row=\hline},
+			every first column/.style={column type/.add={|}{} },
+			every last column/.style={column type/.add={}{|} }
+			]{
+			frequenz & phase & pi
+			4.43 & 114 & 1
+			5 & 50  & 0.5
+			6 & 0 & 0			
+			}
+	\caption{Phasenversatz, frequenzabhängig}
+	\label{tab:phasenversatz}
+\end{figure}
+
+
 
 \end{multicols}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=1.2]{./figure/resonanz_mit_ext_daempf.png}
+	\includegraphics[scale=1.1]{./figure/resonanz_mit_ext_daempf.png}
 	\caption{Resonanzkurve mit externer Dämpfung}
 	\label{fig:resonanz_mit}
 \end{figure}
 \begin{multicols}{2}
 
-\subsection{Erzwungene Schwingung}
+\noindent \textbf{Mit Dämpfung:}\\
+$$\omega_{0d} = (31.42 \pm 0.01) kHz$$
+Amplitude bei $\omega_{0d}$: $U=(65 \pm 1)mV$\\
+%$65 / \sqrt{2} ~ 46mV$\\
+$$\delta_{2 \Omega} = (32970 - 30130)/2 s^{-1} = (1420 \pm 5) s^{-1}$$
+$$Q = (11.060 \pm 0.040)$$
 
-
-
-$C_K = 6 \mu F$\\
+\subsection{Gekoppelter Schwingkreis}
+Kopplungskondensator:\\
 $C = C_2 = 0.9 \mu F$\\
-$$K_{Kondensator} = 0.13 $$
+$C_K = 6\mu F$\\
+berechnet:\\
+$$K = 0.13$$
+$T_S = (1.336 \pm 0.020)ms$\\
+$T_m = (0.175 \pm 0.010)ms$\\
 
-\noindent
-$T_s = (1.34 \pm 0.01)ms$\\
-$\omega_s = (2341 \pm 1) Hz$\\
-$T_m = (1.75 \pm 0.01)ms$\\
-$\omega_m = (35904 \pm 1) Hz$\\
+$$\omega_S = (2351 \pm 36)s^{-1}$$
+$$\omega_m = (35900 \pm 2100)s^{-1}$$
+berechnet:\\
+$$\omega_{geg} = (38300  \pm 2200)s^{-1}$$
+$$\omega_{gleich} = (33500 \pm 2200)s^{-1}$$
 
-$$K_{Eigenfrequenzen} = 0.1298$$
+\noindent Frequenzen berechnet:\\
+$f_{geg}= (6100 \pm 350)Hz$\\
+$f_{gl } = (5300 \pm 350)Hz$\\
 
-\noindent
-$\omega_{gleich} = $
-$\omega_{gegen} = $
+\noindent Frequenzen gemessen:\\
+$f_{geg} = (5800 \pm 200) Hz$\\
+$f_{gl} = (5000 \pm 200) Hz$\\
 
-%TODO tatsächliche eigenfrequenzen (nix Mitschrift), glaub bei 5000 und rund 7000 woa des
-% vergleichen mit den gemessenen w_S und w_m (diskussion) aus den gemessenen w_gl und w_geg auch K berechnen
+\noindent gemessen:
+$$\omega_{geg} = (38300  \pm 1300)s^{-1}$$
+$$\omega_{gleich} = (33500 \pm 1300)s^{-1}$$
+
+
+$$K = 2*2341*35903 /((2341)^2+(35903.9)^2) = 0.1298 \approx 0.13$$
+
 
 \pagebreak
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
