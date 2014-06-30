@@ -4488,9 +4488,9 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <table>
 FitIntegralergebnisse	30	5	30.06.14 21:15
-geometry	115	85	598	220	
+geometry	115	85	623	256	active
 header	Abstand [m][X]	Counts Peak 1	Counts Peak 2	ln(Counts1)[Y]	ln(Counts2)[Y]
-ColWidth	100	124	126	100	100	
+ColWidth	100	124	126	124	100	
 <com>
 <col nr="3">
 ln(col("Counts Peak 1"))
@@ -6827,7 +6827,7 @@ WindowLabel	 von GaußFit1	2
 </table>
 <multiLayer>
 Endergebniss	1	1	30.06.14 21:45
-geometry	757	1	533	461	active
+geometry	757	1	533	461	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
