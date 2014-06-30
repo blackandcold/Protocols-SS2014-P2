@@ -201,6 +201,43 @@ $$\frac{dN(t)}{dt} = -\lambda N(t)$$
 
 \subsection{Abstandsgesetz für punktförmige Strahler}
 
+Peak 1: 1117keV bis 1256keV\\
+Peak 2: 1260keV bis 1409keV\\
+Abstände: 5.5cm, 6cm, 7cm, 9cm, 13cm\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1.5]{./figures/Endergebniss_Abstand_mitFits.png}
+	\caption{Verhältnis von Abstand ($r^2$) zu Ereignisanzahl (ln von Summe über Bereich)}
+	\label{fig:abstandsgesetz_erg}
+\end{figure}
+% TODO lambda? für echte Countes vom intercept e^intercept ;)
+
+% [30.06.14 21:45	Diagramm: ''Grafik1'']
+% Lineare Regression von Datensatz: FitIntegralergebnisse_ln(Counts1), unter Verwendung der Funktion: A*x+B
+% Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+% Von x = 5,500000000000000e-02 bis x = 1,300000000000000e-01
+% B (y-intercept) = 1,144194727689966e+01 +/- 8,079573075641884e-02
+% A (slope) = -1,570157544300322e+01 +/- 9,453188177227960e-01
+% --------------------------------------------------------------------------------------
+% Chi^2/doF = 3,324294921763869e-03
+% R^2 = 0,989242921157287
+% Angepasstes R^2 = 0,978485842314573
+% RMSE (Standardabweichung) = 0,0576566988455274
+% RSS (Summe der quadrierten Restwerte) = 0,00997288476529153
+% ---------------------------------------------------------------------------------------
+% [30.06.14 21:45	Diagramm: ''Grafik1'']
+% Lineare Regression von Datensatz: FitIntegralergebnisse_ln(Counts2), unter Verwendung der Funktion: A*x+B
+% Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+% Von x = 5,500000000000000e-02 bis x = 1,300000000000000e-01
+% B (y-intercept) = 1,122650811491831e+01 +/- 6,738920842337341e-02
+% A (slope) = -1,613655635448036e+01 +/- 7,884610515636363e-01
+% --------------------------------------------------------------------------------------
+% Chi^2/doF = 2,312615486978147e-03
+% R^2 = 0,992888511500226
+% Angepasstes R^2 = 0,985777023000453
+% RMSE (Standardabweichung) = 0,048089660915608
+% RSS (Summe der quadrierten Restwerte) = 0,00693784646093448
+% ---------------------------------------------------------------------------------------
 \subsection{Reichweite von Alpha-Strahlen in Luft}
 
 
