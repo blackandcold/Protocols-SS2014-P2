@@ -271,13 +271,27 @@ Verglichen wird das Ergebnis mit dem Ergebnis der Näherungsformel.
 \end{figure}
 \begin{multicols}{2}
 % $\lambda$ = (-1.591120669338278 \pm 0.2686603661676406) E-05
-\noindent
- $\lambda = (1.6 \pm 0.3)\times10^{-5}s^{-1}$\\
+\noindent Hintergrundstrahlung:\\
+$(12.0 \pm 2.4) counts/ 100s$\\
+
+ \noindent aus dem Fit:\\
+$\lambda = (1.6 \pm 0.3)\times10^{-5}s^{-1}$\\
  $\tau = (17.46 \pm 2.43)h$\\
  %(ln(2)/0.00001591120669338278)/60/60
  $$T_{1/2} = (12.1 \pm 2.1)h$$
-(Literaturwert: $T_{1/2} ({64}^Cu) = 12.701(2) h$)
- Quelle: [3]
+(Literaturwert: $T_{1/2} ({64}^{Cu}) = 12.701(2) h$)
+ Quelle: [3]\\
+
+\noindent \textbf{Körpereigene Radioaktivität:}\\
+Kalium in 70kg Mensch: $\sim 140g$\\
+K-40 Anteil in natürlichem K: $\sim 0.0117\%$\\
+a) K-40 im Menschen (70kg): $\sim 0.01638$g\\
+b) K-40 Atome im Körper: $\sim 2.468 \times 10^{20}$\\
+c) $T_{1/2} = 1.248 \times 10^9$ Jahre\\
+$\lambda = 1.761 \times 10^{-17}s^{-1}$\\
+
+\noindent d) Einsetzen in die Aktivität (bei ungefährt konstantem Kaliumanteil im Körper, bedingt durch den Stoffwechsel):\\
+$$A = \lambda \cdot N_0 = (4350 \pm 435) Bq$$
 
 
 
@@ -356,6 +370,17 @@ $$R_max = (4.8 \pm 0.5)cm$$
 \section{Diskussion}
 
 \subsection{Radioaktiver Zerfall von Kupfer}
+Die Abschätzung der Körpereigenen Aktivität ist aufgrund der Ausgangsannahmen sehr groß. Da alle verwendeten Werte aus der Angabe stammen oder Literaturwerte sind, wird für das Ergebnis eine Unsicherheit von $10\%$ abgeschätzt. Verglichen mit einer Abschätzung von 5000Bq (Wikipedia; Körpergewicht unbekannt) ist der ermittelte Wert von $(4350 \pm 435) Bq$ plausibel.\\
+
+\noindent Die Messung der Zerfälle der Kupferprobe wurde über die Gesamte Dauer des Praktikums durchgeführt.\\
+Daher ist anzunehmen, dass die anderen Versuche (und das Einbringen und entfernen diverser radioaktiver Proben während dieser, sowie die teilweise verwendeten hohen Spannungen) die Zählung verfälschen. Ein einheitlicher systematischer Fehler entsteht dadurch jedoch nicht.\\
+
+\noindent In Abb.\ref{fig:kupferzerfall_erg} ist die große Streuung der gemessenen Zerfälle gut zu erkennen (schon bereinigt durch die anfangs gemessene Hintergrundstrahlung und logarithmiert). Diese entsteht auch durch die statistische Natur des Zerfallsprozesses und der, im Vergleich zur Messdauer von 10 min, nicht riesigen mittleren Lebensdauer von etwa 17.5h.\\
+
+\noindent Im Mittel zeigt sich jedoch, aufgrund der ausreichend langen Messdauer, eine gute Übereinstimmung der gemessenen Halbwertszeit $T_{1/2} = (12.1 \pm 2.1)h$ mit dem
+Literaturwert für Cu-64: $T_{1/2} ({64}^{Cu}) = 12.701(2) h$\\
+
+\noindent Gegen Ende des Versuchs wurde gleichzeitig und in der Nähe Aufgabe 4 (Alpha-Teilchen in der Nebelkammer) durchgeführt. Bevor die Kupfermessung mit zusätzlichem Blei abgeschirmt wurde, ergab sich ein deutlicher Ausreisser bei Minute 220, der aus dem Ergebnis entfernt wurde.
 
 \subsection{Beta- und Gammaspektroskopie}
 
