@@ -208,7 +208,9 @@ Dieses Gesetz ergibt sich einfach aus der Geometrie des Problems, dass sich näm
 \subsection{Reichweite von Alpha-Strahlen in Luft}
 
 $\alpha$-Strahlung besteht aus doppelt positiv geladenen Heliumkernen. Sie geben ihre hohe Energie in einem Medium nicht auf einmal ab (wie Photonen) sondern verlieren sie laufend aufgrund von Stoßionisation mit den Teilchen.\\
-In Luft verlieren sie ihre Energie in etwa $10^5$ bis $10^6$ Stößen. Da sie eine in etwa gleiche Anfangsenergie haben ergibt sich auch eine maximale Reichweite der $\alpha$-Teilchen
+In Luft verlieren sie ihre Energie in etwa $10^5$ bis $10^6$ Stößen. Da sie eine in etwa gleiche Anfangsenergie haben ergibt sich auch eine maximale Reichweite der $\alpha$-Teilchen.\\
+In diesem Beispiel wird die Reichweite zum einen in der Nebelkammer gemessen, und zum anderen, näherungsweise berechnet mit der Formel:
+$$R_m / mm = 3.1(E_{\alpha} / MeV)^{3/2}$$
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -248,6 +250,13 @@ Auf diese Weise werden die statistischen Schwankungen der Zerfälle geglättet u
 
 \subsection{Reichweite von Alpha-Strahlen in Luft}
 
+Eine radioaktive Probe (Ra 226) wird in eine Nebelkammer eingebracht. Darin sorgt eine hohe Saugspannung für eine Beschleunigung der $\alpha$-Teilchen in eine bestimmte Richtung (zur leichteren Beobachtbarkeit). Die $\alpha$-Teilchen ionisieren Teilchen des Nebels, die dann als Kondensationskeime wirken und somit als Nebelspur den Weg der Strahlung nachzeichnen.\\
+Als Nebel wird Ethanol-Dampf verwendet, der entsteht, indem Ethanol, mit flüssigem Stickstoff stark heruntergekühlt, am Boden der Kammer, und sich weiter oben in der Kammer, Ethanol bei Raumtemperatur befindet.\\
+Durch das Temperaturgefälle entsteht nahe des Bodens übersättigter Ethanol-Dampf.\\
+
+\noindent Von den Nebelspuren wird anschließend ein Photo gemacht, und die maximale Reichweite der Teilchen (in Relation zum bekannten Durchmesser der Probe - 1cm) gemessen.\\
+Verglichen wird das Ergebnis mit dem Ergebnis der Näherungsformel.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagebreak
@@ -260,11 +269,11 @@ Auf diese Weise werden die statistischen Schwankungen der Zerfälle geglättet u
 	\label{fig:kupferzerfall_erg}
 \end{figure}
 % $\lambda$ = (-1.591120669338278 \pm 0.2686603661676406) E-05
- $\lambda = (-1.6 \pm 0.3) E-5$\\
+ $\lambda = (1.6 \pm 0.3)\times10^{-5}s^{-1}$\\
  $\tau = (17.46 \pm 2.43)h$\\
  %(ln(2)/0.00001591120669338278)/60/60
  $$T_{1/2} = (12.1 \pm 2.1)h$$
- $$T_{1/2} ({64}^Cu) = 12.701(2) h$$
+(Literaturwert: $T_{1/2} ({64}^Cu) = 12.701(2) h$)
  Quelle: [3]
 
 \begin{figure}[H]
@@ -284,10 +293,16 @@ Auf diese Weise werden die statistischen Schwankungen der Zerfälle geglättet u
 \subsection{Beta- und Gammaspektroskopie}
 
 \subsection{Abstandsgesetz für punktförmige Strahler}
+verwendete Energieintervalle:\\
+Peak 1: 1117keV - 1256keV\\
+Peak 2: 1260keV - 1409keV\\
 
-Peak 1: 1117keV bis 1256keV\\
-Peak 2: 1260keV bis 1409keV\\
-Abstände: 5.5cm, 6cm, 7cm, 9cm, 13cm\\
+\noindent Abstände der Probe vom Kristall:\\ 
+$(5.59 \pm 0.01)cm$\\
+$(6.09 \pm 0.01)cm$\\ 
+$(7.05 \pm 0.01)cm$\\
+$(8.99 \pm 0.01)cm$\\
+$(13.00 \pm 0.01)cm$\\
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1.5]{./figures/Endergebniss_Abstand_mitFits.png}
@@ -324,7 +339,12 @@ Abstände: 5.5cm, 6cm, 7cm, 9cm, 13cm\\
 % ---------------------------------------------------------------------------------------
 \subsection{Reichweite von Alpha-Strahlen in Luft}
 
-
+Zerfallsenergie von Ra226: \\
+$ZE = (4.870 \pm 0.020)$MeV\\
+Reichweite nach der Näherungsformel:
+$$R_max =(3.333 \pm 0.021)cm$$
+Aus der Messung:
+$$R_max = (4.8 \pm 0.5)cm$$
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagebreak
