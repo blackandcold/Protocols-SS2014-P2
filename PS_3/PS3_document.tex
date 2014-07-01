@@ -162,19 +162,53 @@
 \section{Grundlagen}
 Es werden drei Arten von Strahlung unteschieden ([1] p.2):
 \begin{itemize}
-	\item $\alpha-Strahlung$: 2-fach positiv geladene Helliumkerne
-	\item $\beta-Strahlung$: Elektronen oder Positronen; hauptsächlich künstliche Radioaktive Elemente; weitere Zerfälle
-	\item $\gamma-Strahlung$ hochenergetische Photonen (entstehen bei $\alpha-$ und $\beta-Zerfällen$)
+	\item $\alpha-Strahlung$: 2-fach positiv geladene Helliumkerne; sie haben aufgrund ihrer Masse die höchste Strahlungsenergie der 3 Arten.
+	\item $\beta-Strahlung$: Elektronen oder Positronen; hauptsächlich entstehen sie beim Zerfall künstlicher radioaktiver Elemente;
+	\item $\gamma-Strahlung$: hochenergetische Photonen; Sie entstehen bei $\alpha-$ und $\beta$-Zerfällen, wenn der angeregte Kern seine Energie wieder abgibt.
 \end{itemize}
-Der Zerfall ist für gleiche Elemente gleich wahrscheinlich. 
-Daher kann ein einfachs Zerfallsgesetzt abhängig von der Gesamtanzahl der betrachteten Atome formuliert werden.
+
+\noindent Radioaktive Strahlung hat eine ionisierende Wirkung und kann organisches Gewebe schwer beschädigen. Während $\alpha$-Strahlung nur eine sehr kurze Reichweite hat (wie im 4. Experiment gezeigt wird) und gut abgeschirmt werden kann, richten die $\alpha$-Teilchen im Körper aufgrund ihrer hohen Energie und der großen Wahrscheinlichkeit, andere Atome zu treffen, großen Schaden an. Jede Wechselwirkung regt außerdem wiederum Kerne an und führt so zu zusätzlicher $\gamma$-Strahlung und somit zu einer Kettenreaktion.\\
+Auch $\beta$- und $\gamma$-Strahlung schädigt ZellenVor allem ein Großteil der $\gamma$-Strahlen geht zwar ungehindert durch den Körper, genauso lässt sich die Strahlung jedoch nur schwer abschirmen!\\
+
+\noindent Daher ist in diesem Praktikums-Beispiel Sicherheit von großer Bedeutung.
+
+
 \subsection{Radioaktiver Zerfall von Kupfer}
+Der Zerfall einzelner Atome ist ein statistischer Prozess und für Atome gleicher Elemente gleich wahrscheinlich.  Pro Zeiteinheit zerfällt also eine gewisse Anzahl Kerne proportional zu ihrer Gesamtzahl. Daher kann ein einfaches Zerfallsgesetzt abhängig von der Gesamtanzahl der betrachteten Atome formuliert werden:
 $$\frac{dN(t)}{dt} = -\lambda N(t)$$
+oder als Lösung der Differentialgleichung:
+$$N(t) = N_0 \cdot e^{-\lambda t}$$
+Die Zerfallskonstante $\lambda$ ist abhängig vom Material. Außerdem ist die mittlere Lebensdauer $\tau = \frac{1}{\lambda}$ definiert. \\
+Die Aktivität ist gegeben durch
+$$A = \mid \frac{dN(t)}{dt} \mid = \lambda N(t) $$
+Die Halbwertszeit, erhalten durch $N(t)/N_0 = 1/2$ ist:
+$$T_{1/2} = \tau \cdot \ln 2 = \frac{\ln 2}{\lambda}$$
+
+
 \subsection{Beta- und Gammaspektroskopie}
 
+Nach einem $\beta$-Zerfall haben die Elektronen/ Positronen eine gewisse Energie, die teilweise an die anderen, am Zerfall beteiligten Teilchen abgegeben wird. Da dieser Prozess ein statistischer ist, ergibt sich ein kontinuierlich verteiltes Energiespektrum mit einer wahrscheinlichsten Energie $E_w$ und einer maximalen Energie $E_max$. Dieses $\beta$-Spektrum ist jedoch überlagert von $\gamma$-Strahlung, die beim $\beta$-Zerfall entsteht durch die angeregten Kerne.\\
+
+\noindent Das $\gamma$-Spektrum überlagert das $\beta$-Spektrum und hat einen charakteristischen Verlauf aufgrund von Photoeffekt, Comptoneffekt und Paarbildung. Diese Effekte werden bei der Messung der Spektrums mittels Szintillationskristall benutzt:\\
+\begin{itemize}
+	\item Photoeffekt:\\
+	Ein Photon trifft auf ein Elektron im Atom und überträgt seine Energie. Das Elektron wird aus dem Atom geschlagen (äußerer Photoeffekt) oder in einen höher-energetischen Zustand angeregt.
+	\item Compton-Effekt:\\
+	Ein relativ hochenergetisches Photon "streut" an einem freie Elektron; es gibt also seine Energie ab und es wird ein Photon mit anderer Wellenlänge (bedingt durch Impuls und Energieerhaltung abhängig vom Streuwinkel) erzeugt.
+	\item Paarbildung:\\
+	Hat ein Photon mehr Energie als die Summe der Ruheenergien eines Teilchen/Antiteilchen-Paares kann ein solches erzeugt werden. Die überschüssige Energie geht in die kinetische Energie der Teilchen ein.
+
+\end{itemize}
+
 \subsection{Abstandsgesetz für punktförmige Strahler}
+Da jede Strahlungsquelle mit endlichen Abmessungen in ausreichender Entfernung als punktförmig angenommen werden kann, sollte das Abstandsgesetz für punktförmige Strahler auch für die Probe aus Aufgabe 2 gelten:
+$$I(r) \propto \frac{1}{r^2}$$
+Dieses Gesetz ergibt sich einfach aus der Geometrie des Problems, dass sich nämlich die Strahlung mit steigendem Abstand auf einer immer größer werdende Fläche verteilt.
 
 \subsection{Reichweite von Alpha-Strahlen in Luft}
+
+$\alpha$-Strahlung besteht aus doppelt positiv geladenen Heliumkernen. Sie geben ihre hohe Energie in einem Medium nicht auf einmal ab (wie Photonen) sondern verlieren sie laufend aufgrund von Stoßionisation mit den Teilchen.\\
+In Luft verlieren sie ihre Energie in etwa $10^5$ bis $10^6$ Stößen. Da sie eine in etwa gleiche Anfangsenergie haben ergibt sich auch eine maximale Reichweite der $\alpha$-Teilchen
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -185,9 +219,32 @@ $$\frac{dN(t)}{dt} = -\lambda N(t)$$
 
 \subsection{Radioaktiver Zerfall von Kupfer}
 
+Im ersten Teil der Aufgabe soll die Radioaktivität im menschlichen Körper (verursacht durch Kalium-40) abgeschätzt werden. Dazu wird zuerst die Gesamtmenge an Kalium im Körper abgeschätzt und aus einer Nuklidkarte der Anteil an radioaktivem K-40 bestimmt. Ebenso aus der Karte kann die Halbwertszeit abgelesen werden und daraus die Zerfallskonstante berechnet werden und damit auch die Aktivität.\\
+
+\noindent Der Hauptteil der Aufgabe ist es, die Halbwertszeit $T_{1/2}$, mittlere Lebensdauer $\tau$ und Zerfallskonstante $\lambda$ einer radioaktiven Kupferprobe zu bestimmen.\\
+Die Zerfälle werden mit einem \emph{Geiger-Müller-Zählrohr} gemessen: Im GM-Zählrohr herrscht ein elektrisches Feld. Durch die ionisierende Strahlung entstehen positive und negative Ionen, die im E-Feld zur jeweiligen Elektrode hingezogen werden. Ist das Feld hinreichend stark, werden die Elektronen stark beschleunigt und ionisieren weitere Teilchen, die ebenfalls von den Elektroden eingefangen werden. So wird das Signal verstärkt (Gasverstärkung).\\
+Die Ladungen an den Elektroden erzeugen eine Spannung, die gemessen werden kann. Mit einem Impulszähler wird jeder solcher Spannungsimpuls registriert und somit die Anzahl der Zerfälle gezählt.\\
+
+\noindent Die Cu-Probe und das Zählrohr sind zur Abschirmung in einem Blei-Behälter. Da diese Abschirmung jedoch auch nicht 100\%-ig sein kann, wird, vor einbringen der Probe, die Strahlung im leeren Bleibehälter gemessen (Mittelwert aus 10 Messungen mit einer Messzeit von jeweils 100s). Diese Hintergrundstrahlung muss danach von der Cu-Messung abgezogen werden.\\
+Die Messung der Zerfälle der Cu-Probe erfolgt computergestützt mit jeweils einem Messpunkt, alle 10 Minuten für etwa 4 Stunden.\\
+Nach Bereinigung der Daten von der Hintergrundstrahlung werden die gesuchten Größen durch einen Fit ermittelt.
+
 \subsection{Beta- und Gammaspektroskopie}
 
+Zur Messung des Strahlungs-Spektrums einer unbekannten Proben wird ein Szintillationszähler verwendet:\\
+Die zu messende Strahlung trifft auf einen Szintillationskristall und regt dort Elektronen an. Diese geben bei der Rückkehr in den Grundzustand wieder Strahlung ab.\\
+Der Kristall ist ein NaI-Kristall, dotiert mit Thallium. Wird ein Thallium-Atom angeregt, reicht die abgegebene Strahlung nicht mehr aus, für weitere Anregungen und verlässt den Kristall.\\
+Das Photon trifft auf eine Photokathode und löst dort eine gewisse, direkt zur Photonenenergie proportionale Anzahl an Elektronen aus. Diese werden wieder in einem anschließenden Verstärker vervielfacht und die so entstehende Spannung kann gemessen werden.\\
+Aufgrund der Proportionalität der Energie zur Anzahl der Elektronen und damit zur Spannung, kann der Szintillationszähler, im Gegensatz zum GM-Zähler, ein Spektrum aufnehmen.\\
+
+\noindent Anhand des charakteristischen $\gamma$-Spektrums kann die unbekannte Probe identifiziert werden.
+
 \subsection{Abstandsgesetz für punktförmige Strahler}
+
+Zum Nachweis des Strahlungsgesetzes wird die Probe aus Aufgabe 2 im Szintillationszähler belassen und mehrere Spektren bei verschiedenen Abständen vom Kristall genommen.\\
+Um den Zusammenhang deutlich zu zeigen, werden die Abstände quadratisch ansteigend gewählt und die Strahlung gegen die reziproken Abstandsquadrate aufgetragen.\\
+Um die Intensität quantitativ gut zu erfassen, werden beide charakteristischen Strahlungspeaks der Probe verwendet: pro Abstand werden beide Peaks mit einer Gausskurve gefittet (nach Bereinigung der Hintergrundstrahlung, die zuvor gemessen wurde) und diese integriert.\\
+Auf diese Weise werden die statistischen Schwankungen der Zerfälle geglättet und "summiert". Dies ist ein Maß für die Intensität, die für den Nachweise des Abstandsgesetzes nur in relativen Werten benötigt wird.
 
 \subsection{Reichweite von Alpha-Strahlen in Luft}
 
