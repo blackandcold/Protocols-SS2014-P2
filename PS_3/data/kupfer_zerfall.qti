@@ -1,0 +1,231 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	4
+<table>
+Tabelle1	30	2	01.07.14 11:09
+geometry	2	4	413	404	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	14	
+1	15	
+2	10	
+3	11	
+4	10	
+</data>
+</table>
+<table>
+Tabelle2	21	5	01.07.14 11:12
+geometry	28	1	766	488	
+header	time-s-since-removal	time-s-since-start[X]	Counts	CountsBereinigt	ln(Counts per 600s)[Y]
+ColWidth	178	158	135	146	163	
+<com>
+<col nr="3">
+col("Counts") - (72)
+</col>
+<col nr="4">
+ln(col("CountsBereinigt"))
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments	time_s_since_removal	time_s_since_start	Counts			
+WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/Cu-2014-06-26.txt	2
+<data>
+0	2348.18	600.01	1059	987	6.894670039433
+1	2948.19	1200.02	1070	998	6.905753276311
+2	3548.21	1800.03	1023	951	6.857514062545
+3	4148.22	2400.04	1030	958	6.864847777971
+4	4748.23	3000.05	1034	962	6.869014450666
+5	5348.24	3600.06	999	927	6.831953565566
+6	5948.25	4200.07	1058	986	6.893656354603
+7	6548.26	4800.09	930	858	6.754604099488
+8	7148.27	5400.1	976	904	6.806829360392
+9	7748.28	6000.11	969	897	6.799055862059
+10	8348.3	6600.12	980	908	6.811244378601
+11	8948.31	7200.13	895	823	6.712956200677
+12	9548.32	7800.14	985	913	6.816735880595
+13	10148.33	8400.15	909	837	6.729824070489
+14	10748.34	9000.16	903	831	6.722629794855
+15	11348.35	9600.17	955	883	6.783325200604
+16	11948.36	10200.19	864	792	6.674561391814
+17	12548.37	10800.2	911	839	6.732210706467
+18	13148.38	11400.21	875	803	6.688354713947
+19	13748.39	12000.22	988	916	6.820016364674
+20	14348.4	12600.23	875	803	6.688354713947
+</data>
+</table>
+<TableStatistics>
+Tabelle4	Tabelle1	col	01.07.14 11:14
+Targets	0
+ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
+geometry	64	379	945	90	
+header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
+ColWidth	100	100	100	148	135	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	1;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
+WindowLabel	Spaltenstatistik von Tabelle1	2
+</TableStatistics>
+<multiLayer>
+Cudecay	1	1	01.07.14 11:48
+geometry	774	10	533	461	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	515	398
+<PageGeometry>0.00952381	0.0121065	0.980952	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Time since start [s]	ln(Counts-BackgroundCounts)		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabelle2_time-s-since-start	Tabelle2_ln(Counts per 600s)	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	20	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>600.01	12600.23</Range>
+<Points>2</Points>
+<Constant>A	-1.59112066933828e-05</Constant>
+<Constant>B	6.8982592995916</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	6.65	6.95	0	7	5	0	0
+scale	1	6.65	6.95	0	7	5	0	0
+scale	2	0	14000	0	8	5	0	0
+scale	3	0	14000	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>5087.7192982456</x>
+<y>6.9359531772575</y>
+<right>11719.298245614</right>
+<bottom>6.89481605351171</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[01.07.14 11:36	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle2_Counts Aufaddiert, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 0,000000000000000e+00 bis x = 2,000036666667000e+01
+B (y-intercept) = 6,888712416463492e+00 +/- 1,884491120869847e-02
+A (slope) = -9,546724016028550e-03 +/- 1,611962197005935e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,000859438103509e-03
+R^2 = 0,6486368622167
+Angepasstes R^2 = 0,609596513574111
+RMSE (Standardabweichung) = 0,0447309673280548
+RSS (Summe der quadrierten Restwerte) = 0,0380163293239666
+---------------------------------------------------------------------------------------
+[01.07.14 11:40	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle2_ln(Counts per 600s), unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 0,000000000000000e+00 bis x = 2,000036666667000e+01
+B (y-intercept) = 6,888712416463492e+00 +/- 1,884491120869847e-02
+A (slope) = -9,546724016028550e-03 +/- 1,611962197005935e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,000859438103509e-03
+R^2 = 0,6486368622167
+Angepasstes R^2 = 0,609596513574111
+RMSE (Standardabweichung) = 0,0447309673280548
+RSS (Summe der quadrierten Restwerte) = 0,0380163293239666
+---------------------------------------------------------------------------------------
+[01.07.14 11:48	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: Tabelle2_ln(Counts per 600s), unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 6,000100000000000e+02 bis x = 1,260023000000000e+04
+B (y-intercept) = 6,898259299591598e+00 +/- 2,024103357926236e-02
+A (slope) = -1,591120669338278e-05 +/- 2,686603661676406e-06
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,000859438103057e-03
+R^2 = 0,64863686221678
+Angepasstes R^2 = 0,609596513574199
+RMSE (Standardabweichung) = 0,0447309673280498
+RSS (Summe der quadrierten Restwerte) = 0,0380163293239581
+---------------------------------------------------------------------------------------
+</log>
