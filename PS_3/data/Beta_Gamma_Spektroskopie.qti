@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	35
+<windows>	36
 <table>
 BekannteProbe	512	3	26.06.14 16:31
-geometry	980	416	-1	-1	minimized	
+geometry	392	356	855	299	minimized	
 header	EreignisseN-A[Y]	Kanaln-A[Y]	EnergieE-AkeV[Y]
 ColWidth	138	107	161	
 <com>
@@ -529,10 +529,10 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/PS3_Kurz_Braun_Bekannt
 </data>
 </table>
 <table>
-PS3_Kurz_Braun_Hintergrund	512	5	26.06.14 16:41
-geometry	784	416	-1	-1	minimized	
+PS3_Kurz_Braun_Hintergrund	511	5	26.06.14 16:41
+geometry	196	356	882	303	minimized	
 header	DEFZeitts	EreignisseN-A[Y]	Kanaln-A	EnergieE-AkeV[X]	SpannungU-AV
-ColWidth	100	100	100	166	100	
+ColWidth	100	127	100	166	100	
 <com>
 </com>
 ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
@@ -1052,12 +1052,11 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/PS3_Kurz_Braun_Hinterg
 508		1	508	1855.490196078	
 509		1	509	1859.235294118	
 510		1	510	1862.980392157	
-511		153	511	1866.725490196	
 </data>
 </table>
 <table>
 PS3_Kurz_Braun_Co60_Abstand_13cm	512	6	26.06.14 16:42
-geometry	588	416	-1	-1	minimized	
+geometry	0	380	-1	-1	minimized	
 header	EreignisseN-A	Kanaln-A	SpannungU-AV	HintergrundEreignisse	EnergieE-AkeV[X]	BereinigtEreignisse[Y]
 ColWidth	100	100	100	100	152	100	
 <com>
@@ -1587,7 +1586,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/PS3_Kurz_Braun_Co60_Ab
 </table>
 <table>
 PS3_Kurz_Braun_Co60_Abstand_5_5cm	512	6	26.06.14 16:42
-geometry	392	416	-1	-1	minimized	
+geometry	980	380	445	220	minimized	
 header	BereinigtEreignisse[Y]	EnergieE-AkeV[X]	Kanaln-A	EreignisseN-A	SpannungU-AV	HintergrundEreignisse
 ColWidth	155	132	100	100	100	100	
 <com>
@@ -2117,7 +2116,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/PS3_Kurz_Braun_Co60_Ab
 </table>
 <table>
 PS3_Kurz_Braun_Co60_Abstand_6cm	512	6	26.06.14 16:42
-geometry	196	416	-1	-1	minimized	
+geometry	980	404	-1	-1	minimized	
 header	EreignisseN-A	Kanaln-A	SpannungU-AV	HintergrundEreignisse	EnergieE-AkeV[X]	BereinigteEreignisse[Y]
 ColWidth	100	100	100	146	129	186	
 <com>
@@ -2647,7 +2646,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/PS3_Kurz_Braun_Co60_Ab
 </table>
 <table>
 PS3_Kurz_Braun_Co60_Abstand_7cm	512	6	26.06.14 16:42
-geometry	0	416	-1	-1	minimized	
+geometry	784	380	445	220	minimized	
 header	EreignisseN-A	Kanaln-A	SpannungU-AV	HintergrundEreignisse	EnergieE-AkeV[X]	BereinigteEreignisse[Y]
 ColWidth	100	100	100	100	135	100	
 <com>
@@ -3177,7 +3176,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/PS3_Kurz_Braun_Co60_Ab
 </table>
 <table>
 PS3_Kurz_Braun_Co60_Abstand_9cm	512	6	26.06.14 16:42
-geometry	980	440	-1	-1	minimized	
+geometry	784	404	-1	-1	minimized	
 header	EreignisseN-A	Kanaln-A	SpannungU-AV	HintergrundEreignisse	EnergieE-AkeV[X]	BereinigteEreignisse[Y]
 ColWidth	100	100	100	100	134	100	
 <com>
@@ -3707,7 +3706,7 @@ WindowLabel	/home/x126/Code/Protocols-SS2014-P2/PS_3/data/PS3_Kurz_Braun_Co60_Ab
 </table>
 <table>
 PS3_Kurz_Braun_unbekannte_Probe_Co60	512	5	26.06.14 16:42
-geometry	784	440	-1	-1	minimized	
+geometry	588	404	-1	-1	minimized	
 header	DEFZeitts	EreignisseN-A[Y]	Kanaln-A	EnergieE-AkeV[X]	SpannungU-AV
 ColWidth	100	138	100	133	100	
 <com>
@@ -4401,7 +4400,7 @@ WindowLabel	 von GaußFit1	2
 </table>
 <table>
 FitIntegralergebnisse	30	4	30.06.14 21:15
-geometry	21	16	682	303	
+geometry	588	380	682	303	minimized	
 header	Abstand [m]	Counts Peak 1[Y]	Counts Peak 2[Y]	1[X]
 ColWidth	100	124	126	130	
 <com>
@@ -5625,1336 +5624,6 @@ WindowLabel	 von GaußFit1	2
 99	1409.823529412	9513.710665883
 </data>
 </table>
-<multiLayer>
-UnbekannteProbeSpektrum	1	1	30.06.14 21:01
-geometry	588	440	545	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	527	398
-<PageGeometry>0.00980392	0.0121951	1.03333	0.970732</PageGeometry>
-PlotTitle	 	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	Energie	Ereignisse		 	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_unbekannte_Probe_Co60_EnergieE-AkeV	PS3_Kurz_Braun_unbekannte_Probe_Co60_EreignisseN-A	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
-scale	0	-100	500	0	7	5	0	0
-scale	1	-100	500	0	7	5	0	0
-scale	2	-500	2000	0	6	5	0	0
-scale	3	-500	2000	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>-437.34335839599</x>
-<y>479.93311036789</y>
-<right>167.574931880109</right>
-<bottom>417.808219178082</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-5_5cm_Peak1	1	1	30.06.14 21:27
-geometry	392	440	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_5_5cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_5_5cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1117.705882353	1256.274509804</Range>
-<Points>100</Points>
-<Constant>A	37864.1663076934</Constant>
-<Constant>w	58.5950999946574</Constant>
-<Constant>xc	1169.69914763259</Constant>
-<Constant>y0	32.5264111139754</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	700	0	8	5	0	0
-scale	1	0	700	0	8	5	0	0
-scale	2	1100	1260	0	9	5	0	0
-scale	3	1100	1260	0	9	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1104.0100250627</x>
-<y>676.58862876254</y>
-<right>1144.85549132948</right>
-<bottom>604.109589041096</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-5_5cm_Peak2	1	1	30.06.14 21:28
-geometry	196	440	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_5_5cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_5_5cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1260.019607843	1409.823529412</Range>
-<Points>100</Points>
-<Constant>A	33528.6479438502</Constant>
-<Constant>w	63.9390854585357</Constant>
-<Constant>xc	1324.22930301462</Constant>
-<Constant>y0	-4.56319146674625</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	500	0	6	5	0	0
-scale	1	0	500	0	6	5	0	0
-scale	2	1240	1420	0	10	5	0	0
-scale	3	1240	1420	0	10	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1244.5112781955</x>
-<y>483.27759197324</y>
-<right>1290.46242774566</right>
-<bottom>431.506849315069</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-6cm_Peak1	1	1	30.06.14 21:32
-geometry	0	440	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	4	507	398
-<PageGeometry>0.00980392	0.0097561	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_6cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_6cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1117.705882353	1256.274509804</Range>
-<Points>100</Points>
-<Constant>A	35107.5087632383</Constant>
-<Constant>w	61.2073599377313</Constant>
-<Constant>xc	1168.87618824121</Constant>
-<Constant>y0	25.2528983662152</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	600	0	7	5	0	0
-scale	1	0	600	0	7	5	0	0
-scale	2	1100	1260	0	9	5	0	0
-scale	3	1100	1260	0	9	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1104.0100250627</x>
-<y>579.93311036789</y>
-<right>1144.85549132948</right>
-<bottom>517.808219178082</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-6cm_Peak2	1	1	30.06.14 21:33
-geometry	0	392	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_6cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_6cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1260.019607843	1409.823529412</Range>
-<Points>100</Points>
-<Constant>A	29112.1993693276</Constant>
-<Constant>w	60.7671399680469</Constant>
-<Constant>xc	1324.93653803301</Constant>
-<Constant>y0	4.10681880572472</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	500	0	6	5	0	0
-scale	1	0	500	0	6	5	0	0
-scale	2	1240	1420	0	10	5	0	0
-scale	3	1240	1420	0	10	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1244.5112781955</x>
-<y>483.27759197324</y>
-<right>1290.46242774566</right>
-<bottom>431.506849315069</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-7cm_Peak1	1	1	30.06.14 21:35
-geometry	980	464	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_7cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_7cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1117.705882353	1256.274509804</Range>
-<Points>100</Points>
-<Constant>A	27959.1897760661</Constant>
-<Constant>w	57.4155205946779</Constant>
-<Constant>xc	1169.15306847905</Constant>
-<Constant>y0	26.6336946528185</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	500	0	6	5	0	0
-scale	1	0	500	0	6	5	0	0
-scale	2	1100	1260	0	9	5	0	0
-scale	3	1100	1260	0	9	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1104.0100250627</x>
-<y>483.27759197324</y>
-<right>1144.85549132948</right>
-<bottom>431.506849315069</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-7cm_Peak2	1	1	30.06.14 21:36
-geometry	784	464	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_7cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_7cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1260.019607843	1409.823529412</Range>
-<Points>100</Points>
-<Constant>A	25326.5877490327</Constant>
-<Constant>w	64.3244743301578</Constant>
-<Constant>xc	1324.04277877667</Constant>
-<Constant>y0	-7.20727645369204</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	-50	350	0	9	5	0	0
-scale	1	0	350	0	8	5	0	0
-scale	2	1240	1420	0	10	5	0	0
-scale	3	1240	1420	0	10	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1244.5112781955</x>
-<y>338.29431438127</y>
-<right>1290.46242774566</right>
-<bottom>295.205479452055</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-9cm_Peak1	1	1	30.06.14 21:37
-geometry	588	464	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_9cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_9cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1117.705882353	1256.274509804</Range>
-<Points>100</Points>
-<Constant>A	19598.3129094991</Constant>
-<Constant>w	59.9832479979192</Constant>
-<Constant>xc	1169.41193341736</Constant>
-<Constant>y0	15.8467599923444</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	300	0	7	5	0	0
-scale	1	0	300	0	7	5	0	0
-scale	2	1100	1260	0	9	5	0	0
-scale	3	1100	1260	0	9	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1104.0100250627</x>
-<y>289.96655518395</y>
-<right>1144.85549132948</right>
-<bottom>258.904109589041</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-9cm_Peak2	1	1	30.06.14 21:38
-geometry	392	464	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_9cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_9cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1260.019607843	1409.823529412</Range>
-<Points>100</Points>
-<Constant>A	16907.2142862803</Constant>
-<Constant>w	61.7961446719367</Constant>
-<Constant>xc	1324.62936315846</Constant>
-<Constant>y0	0.196560964669646</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	250	0	6	5	0	0
-scale	1	0	250	0	6	5	0	0
-scale	2	1240	1420	0	10	5	0	0
-scale	3	1240	1420	0	10	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1244.5112781955</x>
-<y>241.63879598662</y>
-<right>1290.46242774566</right>
-<bottom>215.753424657534</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-13cm_Peak1	1	1	30.06.14 21:40
-geometry	196	464	525	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	398
-<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_13cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_13cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1117.705882353	1256.274509804</Range>
-<Points>100</Points>
-<Constant>A	11439.5965787371</Constant>
-<Constant>w	58.2016038980995</Constant>
-<Constant>xc	1168.91338173263</Constant>
-<Constant>y0	11.5928666325888</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	0	200	0	5	5	0	0
-scale	1	0	200	0	5	5	0	0
-scale	2	1100	1260	0	9	5	0	0
-scale	3	1100	1260	0	9	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1104.0100250627</x>
-<y>193.3110367893</y>
-<right>1144.85549132948</right>
-<bottom>172.602739726027</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-13cm_Peak2	1	1	30.06.14 21:41
-geometry	0	464	531	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	513	398
-<PageGeometry>0.00980392	0.0121951	1.00588	0.970732</PageGeometry>
-PlotTitle	Titel	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	PS3_Kurz_Braun_Co60_Abstand_13cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_13cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
-<Function>
-<Type>0</Type>
-<Title>GaußFit1</Title>
-<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
-<Variable>x</Variable>
-<Range>1260.019607843	1409.823529412</Range>
-<Points>100</Points>
-<Constant>A	9470.80168916685</Constant>
-<Constant>w	62.2631112622539</Constant>
-<Constant>xc	1325.03023513384</Constant>
-<Constant>y0	1.65447148565689</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	-20	160	0	10	5	0	0
-scale	1	-20	160	0	10	5	0	0
-scale	2	1240	1420	0	10	5	0	0
-scale	3	1240	1420	0	10	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1244.5112781955</x>
-<y>153.97993311037</y>
-<right>1289.60227272727</right>
-<bottom>135.342465753425</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Abstandsgesetz	1	1	01.07.14 11:04
-geometry	762	0	563	461	active
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	545	398
-<PageGeometry>0.00900901	0.0121065	0.981982	0.96368</PageGeometry>
-PlotTitle	 	#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	1/r^2	Counts		 	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Sans	11	75	0	0	0
-ScaleFont0	Sans	9	75	0	0	0
-ScaleFont1	Sans	9	75	0	0	0
-ScaleFont2	Sans	9	75	0	0	0
-ScaleFont3	Sans	9	75	0	0	0
-AxisFont0	Sans	9	50	0	0	0
-AxisFont1	Sans	9	50	0	0	0
-AxisFont2	Sans	9	50	0	0	0
-AxisFont3	Sans	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	FitIntegralergebnisse_1	FitIntegralergebnisse_Counts Peak 2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
-curve	FitIntegralergebnisse_1	FitIntegralergebnisse_Counts Peak 1	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
-<Function>
-<Type>0</Type>
-<Title>LinearFit1</Title>
-<Expression>A*x+B</Expression>
-<Variable>x</Variable>
-<Range>7.692307692308	18.18181818182</Range>
-<Points>2</Points>
-<Constant>A	2168.31523243236</Constant>
-<Constant>B	-7302.43436586138</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-<Function>
-<Type>0</Type>
-<Title>LinearFit2</Title>
-<Expression>A*x+B</Expression>
-<Variable>x</Variable>
-<Range>7.692307692308	18.18181818182</Range>
-<Points>2</Points>
-<Constant>A	2733.09296501399</Constant>
-<Constant>B	-8767.36512902243</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#ff0000</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	5000	45000	0	9	5	0	0
-scale	1	5000	45000	0	9	5	0	0
-scale	2	6	20	0	8	5	0	0
-scale	3	6	20	0	8	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>6.3508771929825</x>
-<y>43662.20735786</y>
-<right>9.82456140350877</right>
-<bottom>39782.6086956522</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1)
-\l(2)%(2)
-\l(3)%(3)
-\l(4)%(4)
-</Text>
-<Font>Sans	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
 <table>
 Integration14	100	2	01.07.14 11:08
 geometry	525	268	445	220	hidden
@@ -7070,6 +5739,1471 @@ WindowLabel	 von GaußFit1	2
 99	1409.823529412	29175.94528329
 </data>
 </table>
+<multiLayer>
+UnbekannteProbeSpektrum	1	1	30.06.14 21:01
+geometry	392	380	545	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	527	398
+<PageGeometry>0.00931099	0.0121065	0.981378	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Energie [keV]	Ereignisse		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_unbekannte_Probe_Co60_EnergieE-AkeV	PS3_Kurz_Braun_unbekannte_Probe_Co60_EreignisseN-A	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
+scale	0	-100	500	0	7	5	0	0
+scale	1	-100	500	0	7	5	0	0
+scale	2	-500	2000	0	6	5	0	0
+scale	3	-500	2000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<line>	966.292134831461	284.375	1151.68539325843	183.125	1	#000000	SolidLine	1	0	4	45	1	1</line>
+<line>	1511.23595505618	280.625	1359.55056179775	147.5	1	#000000	SolidLine	1	0	4	45	1	1</line>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>-437.34335839599</x>
+<y>479.93311036789</y>
+<right>167.574931880109</right>
+<bottom>417.808219178082</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>758.42696629213</x>
+<y>344.375</y>
+<right>1151.68539325843</right>
+<bottom>295.625</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+E=1170
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#ff0000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1353.9325842697</x>
+<y>336.875</y>
+<right>1910.11235955056</right>
+<bottom>282.5</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+E=1334
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#ff0000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>0</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+5_5cm_Peak1	1	1	30.06.14 21:27
+geometry	392	404	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_5_5cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_5_5cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1117.705882353	1256.274509804</Range>
+<Points>100</Points>
+<Constant>A	37864.1663076934</Constant>
+<Constant>w	58.5950999946574</Constant>
+<Constant>xc	1169.69914763259</Constant>
+<Constant>y0	32.5264111139754</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	700	0	8	5	0	0
+scale	1	0	700	0	8	5	0	0
+scale	2	1100	1260	0	9	5	0	0
+scale	3	1100	1260	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1104.0100250627</x>
+<y>676.58862876254</y>
+<right>1144.85549132948</right>
+<bottom>604.109589041096</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+5_5cm_Peak2	1	1	30.06.14 21:28
+geometry	588	356	525	461	minimized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00967118	0.0121065	0.980658	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Energie	Ereignisse		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_5_5cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_5_5cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1260.019607843	1409.823529412</Range>
+<Points>100</Points>
+<Constant>A	33528.6479438502</Constant>
+<Constant>w	63.9390854585357</Constant>
+<Constant>xc	1324.22930301462</Constant>
+<Constant>y0	-4.56319146674625</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	500	0	6	5	0	0
+scale	1	0	500	0	6	5	0	0
+scale	2	1240	1420	0	10	5	0	0
+scale	3	1240	1420	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1345.1034482759</x>
+<y>487.5</y>
+<right>1420</right>
+<bottom>423.4375</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+6cm_Peak1	1	1	30.06.14 21:32
+geometry	196	404	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	4	507	398
+<PageGeometry>0.00980392	0.0097561	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_6cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_6cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1117.705882353	1256.274509804</Range>
+<Points>100</Points>
+<Constant>A	35107.5087632383</Constant>
+<Constant>w	61.2073599377313</Constant>
+<Constant>xc	1168.87618824121</Constant>
+<Constant>y0	25.2528983662152</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	600	0	7	5	0	0
+scale	1	0	600	0	7	5	0	0
+scale	2	1100	1260	0	9	5	0	0
+scale	3	1100	1260	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1104.0100250627</x>
+<y>579.93311036789</y>
+<right>1144.85549132948</right>
+<bottom>517.808219178082</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+6cm_Peak2	1	1	30.06.14 21:33
+geometry	0	404	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_6cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_6cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1260.019607843	1409.823529412</Range>
+<Points>100</Points>
+<Constant>A	29112.1993693276</Constant>
+<Constant>w	60.7671399680469</Constant>
+<Constant>xc	1324.93653803301</Constant>
+<Constant>y0	4.10681880572472</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	500	0	6	5	0	0
+scale	1	0	500	0	6	5	0	0
+scale	2	1240	1420	0	10	5	0	0
+scale	3	1240	1420	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1244.5112781955</x>
+<y>483.27759197324</y>
+<right>1290.46242774566</right>
+<bottom>431.506849315069</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+7cm_Peak1	1	1	30.06.14 21:35
+geometry	980	428	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_7cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_7cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1117.705882353	1256.274509804</Range>
+<Points>100</Points>
+<Constant>A	27959.1897760661</Constant>
+<Constant>w	57.4155205946779</Constant>
+<Constant>xc	1169.15306847905</Constant>
+<Constant>y0	26.6336946528185</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	500	0	6	5	0	0
+scale	1	0	500	0	6	5	0	0
+scale	2	1100	1260	0	9	5	0	0
+scale	3	1100	1260	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1104.0100250627</x>
+<y>483.27759197324</y>
+<right>1144.85549132948</right>
+<bottom>431.506849315069</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+7cm_Peak2	1	1	30.06.14 21:36
+geometry	784	428	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_7cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_7cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1260.019607843	1409.823529412</Range>
+<Points>100</Points>
+<Constant>A	25326.5877490327</Constant>
+<Constant>w	64.3244743301578</Constant>
+<Constant>xc	1324.04277877667</Constant>
+<Constant>y0	-7.20727645369204</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-50	350	0	9	5	0	0
+scale	1	0	350	0	8	5	0	0
+scale	2	1240	1420	0	10	5	0	0
+scale	3	1240	1420	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1244.5112781955</x>
+<y>338.29431438127</y>
+<right>1290.46242774566</right>
+<bottom>295.205479452055</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+9cm_Peak1	1	1	30.06.14 21:37
+geometry	588	428	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_9cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_9cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1117.705882353	1256.274509804</Range>
+<Points>100</Points>
+<Constant>A	19598.3129094991</Constant>
+<Constant>w	59.9832479979192</Constant>
+<Constant>xc	1169.41193341736</Constant>
+<Constant>y0	15.8467599923444</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	300	0	7	5	0	0
+scale	1	0	300	0	7	5	0	0
+scale	2	1100	1260	0	9	5	0	0
+scale	3	1100	1260	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1104.0100250627</x>
+<y>289.96655518395</y>
+<right>1144.85549132948</right>
+<bottom>258.904109589041</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+9cm_Peak2	1	1	30.06.14 21:38
+geometry	392	428	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_9cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_9cm_BereinigteEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1260.019607843	1409.823529412</Range>
+<Points>100</Points>
+<Constant>A	16907.2142862803</Constant>
+<Constant>w	61.7961446719367</Constant>
+<Constant>xc	1324.62936315846</Constant>
+<Constant>y0	0.196560964669646</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	250	0	6	5	0	0
+scale	1	0	250	0	6	5	0	0
+scale	2	1240	1420	0	10	5	0	0
+scale	3	1240	1420	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1244.5112781955</x>
+<y>241.63879598662</y>
+<right>1290.46242774566</right>
+<bottom>215.753424657534</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+13cm_Peak1	1	1	30.06.14 21:40
+geometry	196	428	525	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	398
+<PageGeometry>0.00980392	0.0121951	0.994118	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_13cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_13cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	311	348	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1117.705882353	1256.274509804</Range>
+<Points>100</Points>
+<Constant>A	11439.5965787371</Constant>
+<Constant>w	58.2016038980995</Constant>
+<Constant>xc	1168.91338173263</Constant>
+<Constant>y0	11.5928666325888</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	200	0	5	5	0	0
+scale	1	0	200	0	5	5	0	0
+scale	2	1100	1260	0	9	5	0	0
+scale	3	1100	1260	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1104.0100250627</x>
+<y>193.3110367893</y>
+<right>1144.85549132948</right>
+<bottom>172.602739726027</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+13cm_Peak2	1	1	30.06.14 21:41
+geometry	0	428	531	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	513	398
+<PageGeometry>0.00980392	0.0121951	1.00588	0.970732</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Co60_Abstand_13cm_EnergieE-AkeV	PS3_Kurz_Braun_Co60_Abstand_13cm_BereinigtEreignisse	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	349	389	1
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>1260.019607843	1409.823529412</Range>
+<Points>100</Points>
+<Constant>A	9470.80168916685</Constant>
+<Constant>w	62.2631112622539</Constant>
+<Constant>xc	1325.03023513384</Constant>
+<Constant>y0	1.65447148565689</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-20	160	0	10	5	0	0
+scale	1	-20	160	0	10	5	0	0
+scale	2	1240	1420	0	10	5	0	0
+scale	3	1240	1420	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1244.5112781955</x>
+<y>153.97993311037</y>
+<right>1289.60227272727</right>
+<bottom>135.342465753425</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Abstandsgesetz	1	1	01.07.14 11:04
+geometry	196	380	563	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	545	398
+<PageGeometry>0.00900901	0.0121065	0.981982	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	1/r^2	Counts		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	FitIntegralergebnisse_1	FitIntegralergebnisse_Counts Peak 2	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	FitIntegralergebnisse_1	FitIntegralergebnisse_Counts Peak 1	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>7.692307692308	18.18181818182</Range>
+<Points>2</Points>
+<Constant>A	2168.31523243236</Constant>
+<Constant>B	-7302.43436586138</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>LinearFit2</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>7.692307692308	18.18181818182</Range>
+<Points>2</Points>
+<Constant>A	2733.09296501399</Constant>
+<Constant>B	-8767.36512902243</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	5000	45000	0	9	5	0	0
+scale	1	5000	45000	0	9	5	0	0
+scale	2	6	20	0	8	5	0	0
+scale	3	6	20	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>6.3508771929825</x>
+<y>43662.20735786</y>
+<right>9.78378378378378</right>
+<bottom>39520.5479452055</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+GammaBettaHintergrundStrahlung	1	1	01.07.14 13:05
+geometry	0	356	531	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	513	398
+<PageGeometry>0.00956023	0.0121065	0.98088	0.96368</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	0	1	0	
+AxesTitles	Energie [keV]	Ereignisse		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	4	5124	4
+AxesTitleDistance	2	-1	2	-1
+InvertedTitle	0	0	0	0
+TitleFont	Sans	11	75	0	0	0
+ScaleFont0	Sans	9	75	0	0	0
+ScaleFont1	Sans	9	75	0	0	0
+ScaleFont2	Sans	9	75	0	0	0
+ScaleFont3	Sans	9	75	0	0	0
+AxisFont0	Sans	9	50	0	0	0
+AxisFont1	Sans	9	50	0	0	0
+AxisFont2	Sans	9	50	0	0	0
+AxisFont3	Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#1a1a1a	#1a1a1a	#1a1a1a	#1a1a1a
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	PS3_Kurz_Braun_Hintergrund_EnergieE-AkeV	PS3_Kurz_Braun_Hintergrund_EreignisseN-A	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
+scale	0	-20	140	0	9	5	0	0
+scale	1	-20	140	0	9	5	0	0
+scale	2	-500	2000	0	6	5	0	0
+scale	3	-500	2000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>439.84962406015</x>
+<y>119.13043478261</y>
+<right>1473.68421052632</right>
+<bottom>105.217391304348</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
 <open>1</open>
 <log>
 [30.06.14 13:26	Diagramm: ''Grafik1'']
@@ -7502,4 +7636,5 @@ Punkte: 100 von x = 1.260,019607843 bis x = 1.409,823529412
 Peak bei x = 1.325,085957615	y = 386,3511294745
 Fläche = 29.175,94528329
 -------------------------------------------------------------
+
 </log>
